@@ -28,6 +28,10 @@ const config: Config = {
         gMedium: ['gmarketMedium'],
         gLight: ['gmarketLight'],
       },
+      backgroundImage: {
+        texture: 'url(/images/texture.svg)',
+        tile: 'url(/images/tile.svg)',
+      },
     },
   },
   plugins: [],
