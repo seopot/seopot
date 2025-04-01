@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Globe, Menu, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 import CornerPattern from './ConerPattern';
+import useOutsideClick from '@/hooks/useOutsideClick';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,6 +16,8 @@ const Header = () => {
   const handleCloseMenu = () => {
     setIsMenuOpen(false);
   };
+
+  const menuRef = useOutsideClick(() => setIsMenuOpen(false));
 
   return (
     <>
@@ -64,7 +67,10 @@ const Header = () => {
         {isMenuOpen && (
           <>
             <div className="md:hidden fixed top-0 left-0 w-screen h-screen bg-black opacity-20 z-40" />
-            <div className="fixed top-0 right-0 w-[80%] h-full p-8 border-2 border-darkerBrown bg-darkBrown transform md:hidden z-50">
+            <div
+              ref={menuRef}
+              className="fixed top-0 right-0 w-[80%] h-full p-8 border-2 border-darkerBrown bg-darkBrown transform md:hidden z-50"
+            >
               <button tabIndex={0} onClick={handleCloseMenu} className="absolute top-1/2 left-0 ">
                 <ChevronRight className="w-8 h-8 text-navy" />
               </button>
