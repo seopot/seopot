@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { Globe, Menu, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
-import CornerPattern from './ConerPattern';
+import CornerPattern from './CornerPattern';
 import useOutsideClick from '@/hooks/useOutsideClick';
 
 const Header = () => {
