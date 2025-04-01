@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { Globe, Menu, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
+import CornerPattern from './ConerPattern';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,67 +64,7 @@ const Header = () => {
               <div className="fixed top-0 left-0 z-50 w-screen h-screen bg-texture bg-cover bg-no-repeat opacity-10 pointer-events-none" />
               <div className="flex flex-col gap-8 w-full h-full">
                 <div className="relative h-full p-4 border-2 border-lightBrown bg-lighterBrown">
-                  {/* 모서리 문양 */}
-                  <div className="absolute -top-0.5 -left-0.5">
-                    <div className="flex">
-                      <div className="w-5 h-5 border-2 border-lightBrown" />
-                      <div className="w-4 h-4" />
-                      <div className="w-5 h-5 border-2 border-lightBrown" />
-                    </div>
-                    <div className="flex">
-                      <div className="w-5 h-[18px] border-2 border-t-0 border-lightBrown" />
-                      <div className="w-[18px] h-[18px] border-2 border-t-0 border-l-0 border-lightBrown" />
-                    </div>
-                    <div className="flex">
-                      <div className="w-5 h-[18px] border-2 border-t-0 border-lightBrown" />
-                    </div>
-                  </div>
-
-                  <div className="absolute -top-0.5 -right-0.5">
-                    <div className="flex">
-                      <div className="w-5 h-5 border-2 border-lightBrown" />
-                      <div className="w-4 h-4" />
-                      <div className="w-5 h-5 border-2 border-lightBrown" />
-                    </div>
-                    <div className="flex justify-end">
-                      <div className="w-5 h-[18px] border-2 border-t-0 border-lightBrown" />
-                      <div className="w-[18px] h-[18px] border-2 border-t-0 border-l-0 border-lightBrown" />
-                    </div>
-                    <div className="flex justify-end">
-                      <div className="w-5 h-[18px] border-2 border-t-0 border-lightBrown" />
-                    </div>
-                  </div>
-
-                  <div className="absolute -bottom-0.5 -left-0.5">
-                    <div className="flex">
-                      <div className="w-5 h-[18px] border-2 border-b-0 border-lightBrown" />
-                    </div>
-                    <div className="flex ">
-                      <div className="w-5 h-[18px] border-2 border-b-0  border-lightBrown" />
-                      <div className="w-[18px] h-[18px] border-2 border-b-0 border-l-0 border-lightBrown" />
-                    </div>
-                    <div className="flex">
-                      <div className="w-5 h-5 border-2 border-lightBrown" />
-                      <div className="w-4 h-4" />
-                      <div className="w-5 h-5 border-2 border-lightBrown" />
-                    </div>
-                  </div>
-
-                  <div className="absolute -bottom-0.5 -right-0.5">
-                    <div className="flex justify-end">
-                      <div className="w-5 h-[18px] border-2 border-b-0 border-lightBrown" />
-                    </div>
-                    <div className="flex justify-end">
-                      <div className="w-5 h-[18px] border-2 border-b-0  border-lightBrown" />
-                      <div className="w-[18px] h-[18px] border-2 border-b-0 border-l-0 border-lightBrown" />
-                    </div>
-                    <div className="flex">
-                      <div className="w-5 h-5 border-2 border-lightBrown" />
-                      <div className="w-4 h-4" />
-                      <div className="w-5 h-5 border-2 border-lightBrown" />
-                    </div>
-                  </div>
-
+                  <CornerPattern borderColor="border-lightBrown" />
                   <nav className="flex flex-col justify-center items-center gap-8 h-full text-base p-4 border-2 border-lightBrown bg-lighterBrown text-navy">
                     <Link href="/map" className="py-2">
                       지도
