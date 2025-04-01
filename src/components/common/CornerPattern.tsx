@@ -1,8 +1,8 @@
-type ConerPatternProps = {
+type CornerPatternProps = {
   borderColor: string;
 };
 
-const CornerPattern = ({ borderColor }: ConerPatternProps) => {
+const CornerPattern = ({ borderColor }: CornerPatternProps) => {
   return (
     <>
       <div className="absolute -top-0.5 -left-0.5">
