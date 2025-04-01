@@ -22,7 +22,7 @@ const Header = () => {
       <header className="flex flex-row justify-between items-center gap-20 px-4 md:px-8 pb-4 md:pb-8 text-lg md:text-xl">
         <Link href="/">프로젝트 이름</Link>
 
-        <nav className="hidden lg:flex flex-row gap-16 text-sm md:text-base">
+        <nav className="hidden lg:flex flex-row gap-16 text-lg">
           <Link href="/map" className="group relative">
             지도
             <span className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-1 bg-red group-hover:w-full transition-all duration-300"></span>
@@ -50,22 +50,25 @@ const Header = () => {
             <Globe />
             한국어
           </div>
-          <Menu className="lg:hidden flex items-center justify-center" onClick={handleOpenMenu} />
+          <Menu
+            className="lg:hidden flex items-center justify-center cursor-pointer"
+            onClick={handleOpenMenu}
+          />
         </div>
 
         {isMenuOpen && (
           <>
-            <div className="fixed top-0 left-0 w-screen h-screen bg-black opacity-20 z-40" />
+            <div className="md:hidden fixed top-0 left-0 w-screen h-screen bg-black opacity-20 z-40" />
             <div className="fixed top-0 right-0 w-[80%] h-full p-8 border-2 border-darkerBrown bg-darkBrown transform md:hidden z-50">
               <ChevronRight
-                className="absolute top-1/2 left-0 w-8 h-8 text-navy"
+                className="absolute top-1/2 left-0 w-8 h-8 text-navy cursor-pointer"
                 onClick={handleCloseMenu}
               />
               <div className="fixed top-0 left-0 z-50 w-screen h-screen bg-texture bg-cover bg-no-repeat opacity-10 pointer-events-none" />
               <div className="flex flex-col gap-8 w-full h-full">
                 <div className="relative h-full p-4 border-2 border-lightBrown bg-lighterBrown">
                   <CornerPattern borderColor="border-lightBrown" />
-                  <nav className="flex flex-col justify-center items-center gap-8 h-full text-base p-4 border-2 border-lightBrown bg-lighterBrown text-navy">
+                  <nav className="flex flex-col justify-center items-center gap-8 h-full p-4 border-2 border-lightBrown bg-lighterBrown text-base text-navy">
                     <Link href="/map" className="py-2">
                       지도
                     </Link>
