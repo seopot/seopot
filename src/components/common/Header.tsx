@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="w-full h-24 md:h-0 pt-0 md:pt-[8%] bg-tile bg-cover" />
+      <div className="w-full h-24 lg:h-0 pt-0 lg:pt-[8%] bg-tile bg-cover drop-shadow-[0px_4px_12px_rgba(248,252,255,0.8)]" />
       <header className="flex flex-row justify-between items-center gap-20 px-4 md:px-8 pb-4 md:pb-8 text-lg md:text-xl">
         <Link href="/" tabIndex={0}>
           프로젝트 이름
@@ -66,10 +66,10 @@ const Header = () => {
 
         {isMenuOpen && (
           <>
-            <div className="md:hidden fixed top-0 left-0 w-screen h-screen bg-black opacity-20 z-40" />
+            <div className="lg:hidden fixed top-0 left-0 w-screen h-screen bg-black opacity-20 z-40" />
             <div
               ref={menuRef}
-              className="fixed top-0 right-0 w-[80%] h-full p-8 border-2 border-darkerBrown bg-darkBrown transform md:hidden z-50"
+              className="fixed top-0 right-0 w-[80%] max-w-96 h-full p-8 border-2 border-darkerBrown bg-darkBrown transform lg:hidden z-50"
             >
               <button tabIndex={0} onClick={handleCloseMenu} className="absolute top-1/2 left-0 ">
                 <ChevronRight className="w-8 h-8 text-navy" />
