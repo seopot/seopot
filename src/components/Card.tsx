@@ -1,4 +1,4 @@
-function Card({ marker }: { marker: Marker }) {
+const Card = ({ marker }: { marker: Marker }) => {
   return (
     <div className="flex flex-col justify-center border-darkBeige-1 rounded-2xl p-6 gap-6">
       <strong className="text-4xl font-gMedium">{marker.title}</strong>
@@ -13,6 +13,6 @@ function Card({ marker }: { marker: Marker }) {
       </div>
     </div>
   );
-}
+};
 
 export default Card;
