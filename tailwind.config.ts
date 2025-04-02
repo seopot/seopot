@@ -79,8 +79,13 @@ const config: Config = {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+      backgroundImage: {
+        texture: 'url(/images/texture.svg)',
+        tile: 'url(/images/tile.svg)',
+      },
   	}
+
   },
   plugins: [require("tailwindcss-animate")],
 };
