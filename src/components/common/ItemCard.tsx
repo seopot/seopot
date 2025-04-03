@@ -8,9 +8,9 @@ const ItemCard = () => {
 
   return (
     <article className="relative w-full sm:w-[18.75rem] h-[6.875rem] sm:h-[17.8125rem] bg-lightBeige group">
-      <article className="absolute inset-0 flex items-center justify-center m-auto w-[95%] md:w-[17.5rem] h-[90%] md:h-[16.25rem] bg-lightBeige overflow-hidden">
+      <article className="absolute inset-0 flex items-center justify-center m-auto w-[95%] md:w-[17.5rem] h-[90%] md:h-[16.25rem] overflow-hidden">
         <Image
-          src="/images/n.png"
+          src="/images/texture.svg"
           alt="temporary_img"
           fill
           className="object-cover sm:transition-all sm:duration-300 sm:group-hover:brightness-50"
