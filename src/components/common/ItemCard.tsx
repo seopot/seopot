@@ -15,7 +15,7 @@ const ItemCard = () => {
           fill
           className="object-cover sm:transition-all sm:duration-300 sm:group-hover:brightness-50"
         />
-        <span className="absolute bottom-0 sm:bottom-4 right-4 text-lightBeige sm:opacity-0 sm:group-hover:opacity-100 sm:transition-opacity sm:duration-300 text-[1.6875rem] font-bold">
+        <span className="absolute bottom-0 sm:bottom-4 right-4 text-lightBeige sm:opacity-0 sm:group-hover:opacity-100 sm:transition-opacity sm:duration-300 text-[1.125rem] sm:text-[1.6875rem] font-bold">
           {TEMPORARY_WORD}
         </span>
       </div>
