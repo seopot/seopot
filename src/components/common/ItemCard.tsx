@@ -7,8 +7,8 @@ const ItemCard = () => {
   // 현재 임시 이미지 사용
 
   return (
-    <div className="relative w-full sm:w-[18.75rem] h-[6.875rem] sm:h-[17.8125rem] bg-lightBeige group">
-      <div className="absolute inset-0 flex items-center justify-center m-auto w-[95%] md:w-[17.5rem] h-[90%] md:h-[16.25rem] bg-lightBeige overflow-hidden">
+    <article className="relative w-full sm:w-[18.75rem] h-[6.875rem] sm:h-[17.8125rem] bg-lightBeige group">
+      <article className="absolute inset-0 flex items-center justify-center m-auto w-[95%] md:w-[17.5rem] h-[90%] md:h-[16.25rem] bg-lightBeige overflow-hidden">
         <Image
           src="/images/n.png"
           alt="temporary_img"
@@ -18,8 +18,8 @@ const ItemCard = () => {
         <span className="absolute bottom-0 sm:bottom-4 right-4 text-lightBeige sm:opacity-0 sm:group-hover:opacity-100 sm:transition-opacity sm:duration-300 text-[1.125rem] sm:text-[1.6875rem] font-bold">
           {TEMPORARY_WORD}
         </span>
-      </div>
-    </div>
+      </article>
+    </article>
   );
 };
 
