@@ -13,7 +13,7 @@ type DrawerMobileProps = {
   marker: Marker;
 };
 
-function DrawerMobile({ marker }: DrawerMobileProps) {
+const DrawerMobile = ({ marker }: DrawerMobileProps) => {
   return (
     <Drawer>
       <DrawerTrigger>Open</DrawerTrigger>
@@ -37,6 +37,6 @@ function DrawerMobile({ marker }: DrawerMobileProps) {
       </DrawerContent>
     </Drawer>
   );
-}
+};
 
 export default DrawerMobile;
