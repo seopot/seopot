@@ -61,8 +61,6 @@ a {
   }
 } */
 
-
-
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -119,13 +117,22 @@ a {
   }
 }
 
-
-
 @layer base {
   * {
     @apply border-border;
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* 크롬, 사파리, 오페라에서 스크롤바 숨기기 */
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none; /* Internet Explorer 10+에서 스크롤바 숨기기 */
+    scrollbar-width: none; /* Firefox에서 스크롤바 숨기기 */
   }
 }
