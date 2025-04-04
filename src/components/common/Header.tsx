@@ -76,7 +76,7 @@ const Header = () => {
               </button>
               <div className="fixed top-0 left-0 z-50 w-screen h-screen bg-texture bg-cover bg-no-repeat opacity-10 pointer-events-none" />
               <div className="flex flex-col gap-8 w-full h-full">
-                <div className="relative h-full p-4 border-2 border-lightBrown bg-lighterBrown">
+                <div className="relative h-full p-3 sm:p-4 border-2 border-lightBrown bg-lighterBrown">
                   <CornerPattern borderColor="border-lightBrown" />
                   <nav className="flex flex-col justify-center items-center gap-12 h-full p-4 border-2 border-lightBrown bg-lighterBrown text-base text-navy">
                     <Link href="/map" tabIndex={0}>
@@ -96,7 +96,7 @@ const Header = () => {
                     </Link>
                   </nav>
                 </div>
-                <div className="w-full p-4 bg-brown">
+                <div className="w-full p-4 sm:p-5 bg-brown">
                   <div className="w-full p-20 bg-lightBrown" />
                 </div>
               </div>
