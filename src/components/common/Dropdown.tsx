@@ -29,19 +29,22 @@ const Dropdown: React.FC<DropdownProps> = ({ options, defaultOption = '한국어
   };
 
   return (
-    <article className="relative z-30" ref={dropdownRef}>
+    <article className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-        className="flex items-center gap-2"
+        className="flex items-center gap-2 w-[4.5rem] justify-between"
       >
-        {selectedOption}
+        <span className="truncate">{selectedOption}</span>
       </button>
 
       {isDropdownOpen && (
-        <ul className="absolute top-full -left-4 lg:-left-8 mt-1 bg-lightBeige text-navy py-1 min-w-[6rem]">
+        <ul className="absolute top-full -left-4 lg:-left-8 mt-1 bg-lightBeige text-navy py-1 w-[6rem] z-30">
           {options.map(option => (
             <li key={option}>
-              <button onClick={() => handleSelect(option)} className="w-full px-4 py-2 text-left">
+              <button
+                onClick={() => handleSelect(option)}
+                className="w-full px-4 py-2 text-left hover:bg-opacity-10 hover:bg-navy"
+              >
                 {option}
               </button>
             </li>
