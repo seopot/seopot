@@ -2,12 +2,19 @@ import { useEffect, useRef, useState } from 'react';
 
 type DropdownProps = {
   options: string[];
+  defaultOption?: string;
 };
 
-const Dropdown: React.FC<DropdownProps> = ({ options }) => {
+const Dropdown: React.FC<DropdownProps> = ({ options, defaultOption = '한국어' }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [selectedOption, setSelectedOption] = useState(options[0]);
+  const [selectedOption, setSelectedOption] = useState(defaultOption);
   const dropdownRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!localStorage.getItem('language')) {
+      localStorage.setItem('language', 'ko');
+    }
+  }, []);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -22,6 +29,11 @@ const Dropdown: React.FC<DropdownProps> = ({ options }) => {
 
   const handleSelect = (option: string) => {
     setSelectedOption(option);
+
+    if (option === '한국어') localStorage.setItem('language', 'ko');
+    else if (option === 'English') localStorage.setItem('language', 'en');
+    else if (option === '中文') localStorage.setItem('language', 'zh');
+
     setIsOpen(false);
   };
 
