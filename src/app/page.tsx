@@ -22,24 +22,6 @@ export default function Home() {
         <button onClick={openModal}>
           <ItemCard />
         </button>
-        <button onClick={openModal}>
-          <ItemCard />
-        </button>
-        <button onClick={openModal}>
-          <ItemCard />
-        </button>
-        <button onClick={openModal}>
-          <ItemCard />
-        </button>
-        <button onClick={openModal}>
-          <ItemCard />
-        </button>
-        <button onClick={openModal}>
-          <ItemCard />
-        </button>
-        <button onClick={openModal}>
-          <ItemCard />
-        </button>
       </div>
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <ModalContent />
