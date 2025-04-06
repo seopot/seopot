@@ -1,10 +1,10 @@
 type Marker = {
   id: string;
   title: string;
-  location: string;
-  phone: string;
+  addr: string;
+  tel_no: string;
   src: string;
-  time: string;
-  price: string;
-  homepage: string;
+  operating_time: string;
+  entr_fee: string;
+  url: string;
 };
