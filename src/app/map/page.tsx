@@ -36,19 +36,6 @@ export default function BasicMap() {
     };
   }, []);
 
-  // TODO: test 데이터 실제 데이터로 변경
-
-  const test = {
-    id: '1',
-    title: '테스트 제목',
-    addr: '테스트 위치',
-    tel_no: '010-1234-5678',
-    operating_time: '09:00 - 18:00',
-    entr_fee: '무료',
-    url: 'https://example.com',
-    src: 'https://i.namu.wiki/i/IDtrMOMYZpFfzTynAAEK2nVQhsQD0XJIz21EJf9n6eMP1B2ig7Ln4dDK9mvTnOdZrrKvOHVRp4pr_kNpzz8H8Oo0nabqo77SkcpsuWslJ22VKKBrMmnBBgEWwE6MrMrfDAIiT_ZIVO7Fw0E4DeLG3Q.webp',
-  };
-
   // TODO: 마커 커스텀
 
   return (

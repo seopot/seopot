@@ -7,6 +7,8 @@ import {
   DrawerTitle,
 } from '@/components/ui/drawer';
 
+import { Marker } from '@/types/marker';
+
 type DrawerMobileProps = {
   marker: Marker;
   src: string;

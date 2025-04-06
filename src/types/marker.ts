@@ -1,4 +1,4 @@
-type Marker = {
+export type Marker = {
   id: string;
   title: string;
   addr: string;
