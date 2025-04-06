@@ -6,7 +6,6 @@ import Card from '@/components/map/Card';
 import DrawerMobile from '@/components/map/DrawerMobile';
 import data from '@/data/night.json';
 import { useEffect, useState } from 'react';
-import { title } from 'process';
 
 export default function BasicMap() {
   const [selectedMarker, setSelectedMarker] = useState({
@@ -16,11 +15,9 @@ export default function BasicMap() {
     tel_no: '',
     operating_time: '',
     entr_fee: '',
-    homepage: '',
     url: '',
-    src: '',
   });
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   useKakaoLoader();
@@ -59,7 +56,7 @@ export default function BasicMap() {
       <section className="flex w-full h-[calc(92vh-80px)] p-8 pt-0 gap-8">
         <h2 className="sr-only">지도</h2>
         <div className="hidden md:block min-w-[25vw]">
-          <Card marker={selectedMarker} />
+          <Card marker={selectedMarker} src="dsaf" />
         </div>
 
         <Map
@@ -82,10 +79,18 @@ export default function BasicMap() {
               position={{ lat: parseFloat(item.la), lng: parseFloat(item.lo) }}
               onClick={() => {
                 console.log(item.title);
-                setSelectedMarker(item);
+                setSelectedMarker({
+                  id: item.num.toString() || '',
+                  title: item.title || '',
+                  addr: item.addr || '',
+                  tel_no: item.tel_no || '',
+                  operating_time: item.operating_time || '',
+                  entr_fee: item.entr_fee || '',
+                  url: item.url || '',
+                });
 
                 if (isMobile) {
-                  setOpen(true);
+                  setIsOpen(true);
                 }
               }}
             />
@@ -93,7 +98,7 @@ export default function BasicMap() {
         </Map>
       </section>
       <div className="block md:hidden">
-        <DrawerMobile marker={selectedMarker} open={isOpen} setOpen={setOpen} />
+        <DrawerMobile marker={selectedMarker} src="" open={isOpen} setOpen={setIsOpen} />
       </div>{' '}
     </>
   );
