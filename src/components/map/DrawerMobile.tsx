@@ -9,11 +9,12 @@ import {
 
 type DrawerMobileProps = {
   marker: Marker;
+  src: string;
   open: boolean;
   setOpen: (open: boolean) => void;
 };
 
-const DrawerMobile = ({ marker, open, setOpen }: DrawerMobileProps) => {
+const DrawerMobile = ({ marker, src, open, setOpen }: DrawerMobileProps) => {
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerContent>
@@ -21,7 +22,7 @@ const DrawerMobile = ({ marker, open, setOpen }: DrawerMobileProps) => {
           <DrawerTitle>{marker.title}</DrawerTitle>
         </DrawerHeader>
         <div className="px-4 py-2">
-          <img src={`${marker.src}`} alt={`${marker.title}`} className="rounded-xl mb-4" />
+          <img src={`${src}`} alt={`${marker.title}`} className="rounded-xl mb-4" />
           <div className="flex flex-col justify-center gap-3">
             <p>주소: {marker.addr}</p>
             <p>전화번호: {marker.tel_no}</p>
