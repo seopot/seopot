@@ -1,10 +1,9 @@
-type Marker = {
+export type Marker = {
   id: string;
   title: string;
-  location: string;
-  phone: string;
-  src: string;
-  time: string;
-  price: string;
-  homepage: string;
+  addr: string;
+  tel_no: string;
+  operating_time: string;
+  entr_fee: string;
+  url: string;
 };
