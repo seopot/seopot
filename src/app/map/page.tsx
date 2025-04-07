@@ -7,7 +7,7 @@ import DrawerMobile from '@/components/map/DrawerMobile';
 import data from '@/data/night.json';
 import { useEffect, useState } from 'react';
 
-export default function BasicMap() {
+const BasicMap = () => {
   const [selectedMarker, setSelectedMarker] = useState({
     id: '',
     title: '',
@@ -89,4 +89,6 @@ export default function BasicMap() {
       </div>{' '}
     </>
   );
-}
+};
+
+export default BasicMap;
