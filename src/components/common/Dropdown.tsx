@@ -13,6 +13,11 @@ const Dropdown: React.FC<DropdownProps> = ({ options, defaultOption = '한국어
   useEffect(() => {
     if (!localStorage.getItem('language')) {
       localStorage.setItem('language', 'ko');
+    } else {
+      const storedLanguage = localStorage.getItem('language');
+      if (storedLanguage === 'ko') setSelectedOption('한국어');
+      else if (storedLanguage === 'en') setSelectedOption('English');
+      else if (storedLanguage === 'zh') setSelectedOption('中文');
     }
   }, []);
 
