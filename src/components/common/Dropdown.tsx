@@ -1,35 +1,21 @@
 import useOutsideClick from '@/hooks/useOutsideClick';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 type DropdownProps = {
   options: string[];
   defaultOption?: string;
+  onSelect?: (option: string) => void;
 };
 
-const Dropdown: React.FC<DropdownProps> = ({ options, defaultOption = '한국어' }) => {
+const Dropdown: React.FC<DropdownProps> = ({ options, defaultOption, onSelect }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
-  const [selectedOption, setSelectedOption] = useState(defaultOption);
-
-  useEffect(() => {
-    if (!localStorage.getItem('language')) {
-      localStorage.setItem('language', 'ko');
-    } else {
-      const storedLanguage = localStorage.getItem('language');
-      if (storedLanguage === 'ko') setSelectedOption('한국어');
-      else if (storedLanguage === 'en') setSelectedOption('English');
-      else if (storedLanguage === 'zh') setSelectedOption('中文');
-    }
-  }, []);
+  const [selectedOption, setSelectedOption] = useState(defaultOption || options[0]);
 
   const dropdownRef = useOutsideClick(() => setIsDropdownOpen(false));
 
   const handleSelect = (option: string) => {
     setSelectedOption(option);
-
-    if (option === '한국어') localStorage.setItem('language', 'ko');
-    else if (option === 'English') localStorage.setItem('language', 'en');
-    else if (option === '中文') localStorage.setItem('language', 'zh');
-
+    if (onSelect) onSelect(option);
     setIsDropdownOpen(false);
   };
 

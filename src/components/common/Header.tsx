@@ -6,6 +6,7 @@ import { useState } from 'react';
 import CornerPattern from './CornerPattern';
 import useOutsideClick from '@/hooks/useOutsideClick';
 import Dropdown from './Dropdown';
+import LanguageDropdown from '../LanguageDropdown';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,8 +55,7 @@ const Header = () => {
         <div className="flex gap-4 text-sm md:text-base">
           <div className="flex items-center gap-2" tabIndex={0}>
             <Globe />
-            {/* 한국어 */}
-            <Dropdown options={['한국어', 'English', '中文']} />
+            <LanguageDropdown />
           </div>
           <button
             tabIndex={0}
