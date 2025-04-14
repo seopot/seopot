@@ -35,13 +35,13 @@ const ModalContent = () => {
             </div>
             <span className="flex-1">연중무휴 *타워내 개별시설 운영시간 상이</span>
           </div>
-          <address className="flex items-start gap-2">
+          <div className="flex items-start gap-2">
             <div className="flex items-center gap-2">
               <Phone />
               <span>문의처: </span>
             </div>
             <span className="flex-1">02-345509277, 9288</span>
-          </address>
+          </div>
           <div className="flex items-start gap-2">
             <div className="flex items-center gap-2">
               <CircleDollarSign />
@@ -143,13 +143,13 @@ const ModalContent = () => {
               </div>
               <span className="flex-1">연중무휴 *타워내 개별시설 운영시간 상이</span>
             </div>
-            <address className="flex items-start gap-2">
+            <div className="flex items-start gap-2">
               <div className="flex items-center gap-2">
                 <Phone />
                 <span>문의처: </span>
               </div>
               <span className="flex-1">02-345509277, 9288</span>
-            </address>
+            </div>
             <div className="flex items-start gap-2">
               <div className="flex items-center gap-2">
                 <CircleDollarSign />
