@@ -5,6 +5,7 @@ import { getNightViewSpots } from '@/services/getNightViewSpots';
 import ItemCard from '@/components/common/ItemCard';
 import Input from '@/components/common/Input';
 import { useSearch } from '@/hooks/useSearch';
+import SkeletonGrid from '@/components/common/SkeletonGrid';
 
 type SpotData = {
   NUM: number;
@@ -41,7 +42,6 @@ const NightViewSpot = () => {
     fetchData();
   }, [setFilteredItems]);
 
-  if (isLoading) return <div>Loading...</div>;
   if (error) return <div>에러 : {error}</div>;
 
   return (
@@ -49,11 +49,15 @@ const NightViewSpot = () => {
       <div className="flex m-auto justify-center pb-4">
         <Input onSearch={handleSearch} />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {filteredItems.map(spot => (
-          <ItemCard key={spot.NUM} imgSrc={spot.img_src || undefined} text={spot.TITLE || ' '} />
-        ))}
-      </div>
+      {isLoading ? (
+        <SkeletonGrid count={12} />
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {filteredItems.map(spot => (
+            <ItemCard key={spot.NUM} imgSrc={spot.img_src || undefined} text={spot.TITLE || ' '} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
