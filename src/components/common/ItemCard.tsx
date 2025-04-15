@@ -3,14 +3,18 @@ import Image from 'next/image';
 type ItemCardProps = {
   imgSrc?: string;
   text: string;
+  onClick?: () => void;
 };
 
-const ItemCard = ({ imgSrc, text }: ItemCardProps) => {
+const ItemCard = ({ imgSrc, text, onClick }: ItemCardProps) => {
   const imageSource = imgSrc || '/images/seoul_logo.png';
 
   return (
-    <article className="relative w-full sm:w-[18.75rem] h-[6.875rem] sm:h-[17.8125rem] bg-lightBeige group">
-      <article className="absolute inset-0 flex items-center justify-center m-auto w-[95%] md:w-[17.5rem] h-[90%] md:h-[16.25rem] overflow-hidden">
+    <article
+      onClick={onClick}
+      className="relative w-full h-[6.875rem] sm:h-[12.5rem] bg-lightBeige group cursor-pointer"
+    >
+      <article className="absolute inset-0 flex items-center justify-center m-auto w-[95%] h-[95%]  overflow-hidden">
         <Image
           src={imageSource}
           alt={`${text} 이미지`}
