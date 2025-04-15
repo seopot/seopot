@@ -6,6 +6,8 @@ import ItemCard from '@/components/common/ItemCard';
 import Input from '@/components/common/Input';
 import { useSearch } from '@/hooks/useSearch';
 import SkeletonGrid from '@/components/common/SkeletonGrid';
+import Modal from '@/components/common/Modal';
+import ModalContent from '@/components/ModalContent';
 
 type SpotData = {
   NUM: number;
@@ -17,6 +19,10 @@ const NightViewSpot = () => {
   const [spots, setSpots] = useState<SpotData[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
 
   const { filteredItems, handleSearch, setFilteredItems } = useSearch({
     items: spots,
@@ -54,10 +60,15 @@ const NightViewSpot = () => {
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {filteredItems.map(spot => (
-            <ItemCard key={spot.NUM} imgSrc={spot.img_src || undefined} text={spot.TITLE || ' '} />
+            <button key={spot.NUM} onClick={openModal}>
+              <ItemCard imgSrc={spot.img_src || undefined} text={spot.TITLE || ' '} />
+            </button>
           ))}
         </div>
       )}
+      <Modal isOpen={isModalOpen} onClose={closeModal}>
+        <ModalContent />
+      </Modal>
     </div>
   );
 };
