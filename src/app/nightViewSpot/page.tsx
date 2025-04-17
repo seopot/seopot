@@ -19,7 +19,7 @@ const NightViewSpot = () => {
   const [spots, setSpots] = useState<SpotData[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
@@ -49,6 +49,7 @@ const NightViewSpot = () => {
   }, [setFilteredItems]);
 
   if (error) return <div>에러 : {error}</div>;
+  // if (spots.length === 0) return <div>등록된 장소가 없습니다</div>;
 
   return (
     <div className="container mx-auto px-4 py-8">
