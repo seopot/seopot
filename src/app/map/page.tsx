@@ -6,7 +6,7 @@ import Card from '@/components/map/Card';
 import DrawerMobile from '@/components/map/DrawerMobile';
 import { useEffect, useState } from 'react';
 import Dropdown from '@/components/common/Dropdown';
-import nightData from '@/data/night.json';
+import nightData from '@/data/viewNightSpot_ko.json';
 import historicData from '@/data/historic.json';
 import marketData from '@/data/marketData.json';
 
