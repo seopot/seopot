@@ -23,7 +23,7 @@ const Dropdown: React.FC<DropdownProps> = ({ options, defaultOption, onSelect })
     <article className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-        className="flex items-center gap-2 w-[4.5rem] justify-between"
+        className="flex items-center gap-2 w-[4.5rem] justify-center"
       >
         <span className="truncate">{selectedOption}</span>
       </button>
