@@ -1,0 +1,85 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import ItemCard from '@/components/common/ItemCard';
+import Input from '@/components/common/Input';
+import { useSearch } from '@/hooks/useSearch';
+import Modal from '@/components/common/Modal';
+import ModalContent from '@/components/ModalContent';
+import { useTranslations } from 'next-intl';
+import { useParams } from 'next/navigation';
+
+const NightViewSpot = () => {
+  const t = useTranslations('nightViewSpot');
+  const { locale } = useParams();
+
+  const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
+
+  const [data, setData] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadData = async () => {
+      setIsLoading(true);
+      try {
+        const response = await import(`@/data/viewNightSpot_${locale}.json`);
+        const responseData = response.default.DATA;
+        setData(responseData);
+      } catch (error) {
+        console.error('Failed to load data:', error);
+        setData([]);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    loadData();
+  }, [locale]);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
+  const { filteredItems, handleSearch } = useSearch({
+    items: data,
+    searchField: 'title',
+    initialSearchTerm: '',
+  });
+
+  const displayItems = filteredItems.length > 0 || data.length === 0 ? filteredItems : data;
+
+  return (
+    <div className="container mx-auto px-4 py-8">
+      <div className="flex m-auto justify-center pb-4">
+        <Input onSearch={handleSearch} />
+      </div>
+
+      {isLoading ? (
+        <div className="text-center py-8">데이터를 불러오는 중...</div>
+      ) : displayItems.length > 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          {displayItems.map(spot => (
+            <button
+              key={spot.num}
+              onClick={() => openModal()}
+              className="transition-transform hover:scale-105 focus:outline-none"
+            >
+              <ItemCard imgSrc={spot.image_url || undefined} text={spot.title || ' '} />
+            </button>
+          ))}
+        </div>
+      ) : (
+        <div className="text-center py-8 text-gray-500">검색 결과가 없습니다</div>
+      )}
+
+      <Modal isOpen={isModalOpen} onClose={closeModal}>
+        <ModalContent />
+      </Modal>
+    </div>
+  );
+};
+
+export default NightViewSpot;
