@@ -6,27 +6,38 @@ import Input from '@/components/common/Input';
 import { useSearch } from '@/hooks/useSearch';
 import Modal from '@/components/common/Modal';
 import ModalContent from '@/components/ModalContent';
-// import { useTranslations } from 'next-intl';
+import SkeletonGrid from '@/components/common/SkeletonGrid';
+import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 
-const NightViewSpot = () => {
-  // const t = useTranslations('nightViewSpot');
+type SpotData = {
+  num: number;
+  title: string;
+  contents?: string;
+  la?: string;
+  lo?: string;
+};
+
+const HistoricSite = () => {
   const { locale } = useParams();
 
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
-  const [data, setData] = useState<any[]>([]);
+  const [data, setData] = useState<SpotData[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadData = async () => {
       setIsLoading(true);
       try {
-        const response = await import(`@/data/viewNightSpot_${locale}.json`);
+        const response = await import(`@/data/historic_${locale}.json`);
         const responseData = response.default.DATA;
+        console.log(responseData);
         setData(responseData);
       } catch (error) {
         console.error('Failed to load data:', error);
+        setError('데이터를 불러오는데 실패했습니다');
         setData([]);
       } finally {
         setIsLoading(false);
@@ -51,6 +62,8 @@ const NightViewSpot = () => {
 
   const displayItems = filteredItems.length > 0 || data.length === 0 ? filteredItems : data;
 
+  if (error) return <div className="text-center py-8 text-red-500">{error}</div>;
+
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex m-auto justify-center pb-4">
@@ -58,7 +71,7 @@ const NightViewSpot = () => {
       </div>
 
       {isLoading ? (
-        <div className="text-center py-8">데이터를 불러오는 중...</div>
+        <SkeletonGrid count={12} />
       ) : displayItems.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {displayItems.map(spot => (
@@ -67,7 +80,7 @@ const NightViewSpot = () => {
               onClick={() => openModal()}
               className="transition-transform hover:scale-105 focus:outline-none"
             >
-              <ItemCard imgSrc={spot.image_url || undefined} text={spot.title || ' '} />
+              <ItemCard text={spot.title || ' '} />
             </button>
           ))}
         </div>
@@ -82,4 +95,4 @@ const NightViewSpot = () => {
   );
 };
 
-export default NightViewSpot;
+export default HistoricSite;
