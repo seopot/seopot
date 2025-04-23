@@ -1,4 +1,6 @@
 {
+  "fetchError": "加载数据失败.",
+  "noSearchResults": "没有搜索结果",
   "nightViewSpot": [
     {
       "lo": "126.987867837993",

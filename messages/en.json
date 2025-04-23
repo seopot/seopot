@@ -1,4 +1,6 @@
 {
+  "fetchError": "Failed to fetch data.",
+  "noSearchResults": "No search results found",
   "nightViewSpot": [
     {
       "lo": "126.987867837993",
