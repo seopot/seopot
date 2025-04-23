@@ -6,11 +6,12 @@ import Input from '@/components/common/Input';
 import { useSearch } from '@/hooks/useSearch';
 import Modal from '@/components/common/Modal';
 import ModalContent from '@/components/ModalContent';
-// import { useTranslations } from 'next-intl';
+import SkeletonGrid from '@/components/common/SkeletonGrid';
+import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 
 const NightViewSpot = () => {
-  // const t = useTranslations('nightViewSpot');
+  const t = useTranslations('nightViewSpot');
   const { locale } = useParams();
 
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -58,7 +59,7 @@ const NightViewSpot = () => {
       </div>
 
       {isLoading ? (
-        <div className="text-center py-8">데이터를 불러오는 중...</div>
+        <SkeletonGrid count={12} />
       ) : displayItems.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {displayItems.map(spot => (
@@ -72,7 +73,7 @@ const NightViewSpot = () => {
           ))}
         </div>
       ) : (
-        <div className="text-center py-8 text-gray-500">검색 결과가 없습니다</div>
+        <div className="text-center py-8 text-gray-500">{t('noSearchResults')}</div>
       )}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>

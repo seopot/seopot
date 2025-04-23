@@ -19,6 +19,7 @@ type SpotData = {
 };
 
 const HistoricSite = () => {
+  const t = useTranslations();
   const { locale } = useParams();
 
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -36,8 +37,8 @@ const HistoricSite = () => {
         console.log(responseData);
         setData(responseData);
       } catch (error) {
-        console.error('Failed to load data:', error);
-        setError('데이터를 불러오는데 실패했습니다');
+        // console.error('Failed to load data:', error);
+        setError(t('fetchError'));
         setData([]);
       } finally {
         setIsLoading(false);
@@ -85,7 +86,7 @@ const HistoricSite = () => {
           ))}
         </div>
       ) : (
-        <div className="text-center py-8 text-gray-500">검색 결과가 없습니다</div>
+        <div className="text-center py-8 text-gray-500">{t('noSearchResults')}</div>
       )}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
