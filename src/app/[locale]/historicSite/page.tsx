@@ -16,6 +16,7 @@ type SpotData = {
   contents?: string;
   la?: string;
   lo?: string;
+  src?: string;
 };
 
 const HistoricSite = () => {
@@ -88,7 +89,7 @@ const HistoricSite = () => {
               onClick={() => openModal()}
               className="transition-transform hover:scale-105 focus:outline-none"
             >
-              <ItemCard text={spot.title || ' '} />
+              <ItemCard text={spot.title || ' '} imgSrc={spot.src} />
             </button>
           ))}
         </div>
