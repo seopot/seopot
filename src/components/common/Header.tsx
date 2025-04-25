@@ -23,7 +23,8 @@ const Header = () => {
   const menuRef = useOutsideClick(() => setIsMenuOpen(false));
 
   const isActive = (path: string) => {
-    return pathname === path;
+    const pathSegments = pathname.split('/');
+    return pathSegments[pathSegments.length - 1] === path.replace('/', '');
   };
 
   return (
