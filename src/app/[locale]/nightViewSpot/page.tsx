@@ -11,7 +11,8 @@ import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
 
 const NightViewSpot = () => {
-  const t = useTranslations('nightViewSpot');
+  const t = useTranslations('view');
+  const tc = useTranslations('common');
   const { locale } = useParams();
 
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -73,7 +74,7 @@ const NightViewSpot = () => {
           ))}
         </div>
       ) : (
-        <div className="text-center py-8 text-gray-500">{t('noSearchResults')}</div>
+        <div className="text-center py-8 text-gray-500">{tc('noSearchResults')}</div>
       )}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>

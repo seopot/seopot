@@ -7,8 +7,18 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   const locale = hasLocale(routing.locales, requested) ? requested : routing.defaultLocale;
 
+  const viewNightSpots = (await import(`../../messages/nightViewSpot/${locale}.json`)).default;
+  const historicSites = (await import(`../../messages/historicSite/${locale}.json`)).default;
+  const common = (await import(`../../messages/common/${locale}.json`)).default;
+
+  const messages = {
+    view: viewNightSpots,
+    historic: historicSites,
+    common: common,
+  };
+
   return {
     locale,
-    messages: (await import(`../../messages/${locale}.json`)).default,
+    messages,
   };
 });

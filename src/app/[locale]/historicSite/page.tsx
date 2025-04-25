@@ -19,7 +19,8 @@ type SpotData = {
 };
 
 const HistoricSite = () => {
-  const t = useTranslations();
+  const t = useTranslations('historic');
+  const tc = useTranslations('common');
   const { locale } = useParams();
 
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
@@ -86,7 +87,7 @@ const HistoricSite = () => {
           ))}
         </div>
       ) : (
-        <div className="text-center py-8 text-gray-500">{t('noSearchResults')}</div>
+        <div className="text-center py-8 text-gray-500">{tc('noSearchResults')}</div>
       )}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
