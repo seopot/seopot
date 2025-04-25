@@ -19,16 +19,25 @@ const NightViewSpot = () => {
 
   const [data, setData] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const loadData = async () => {
       setIsLoading(true);
       try {
-        const response = await import(`@/data/viewNightSpot_${locale}.json`);
-        const responseData = response.default.DATA;
-        setData(responseData);
+        let localeData;
+        if (locale === 'ko') {
+          localeData = (await import('../../../../messages/nightViewSpot/ko.json')).default;
+        } else if (locale === 'en') {
+          localeData = (await import('../../../../messages/nightViewSpot/en.json')).default;
+        } else if (locale === 'zh') {
+          localeData = (await import('../../../../messages/nightViewSpot/zh.json')).default;
+        } else {
+          localeData = (await import('../../../../messages/nightViewSpot/ko.json')).default;
+        }
+        setData(localeData.nightViewSpot);
       } catch (error) {
-        console.error('Failed to load data:', error);
+        setError(t('fetchError'));
         setData([]);
       } finally {
         setIsLoading(false);
@@ -52,6 +61,8 @@ const NightViewSpot = () => {
   });
 
   const displayItems = filteredItems.length > 0 || data.length === 0 ? filteredItems : data;
+
+  if (error) return <div className="text-center py-8 text-red-500">{error}</div>;
 
   return (
     <div className="container mx-auto px-4 py-8">

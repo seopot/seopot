@@ -33,12 +33,18 @@ const HistoricSite = () => {
     const loadData = async () => {
       setIsLoading(true);
       try {
-        const response = await import(`@/data/historic_${locale}.json`);
-        const responseData = response.default.DATA;
-        console.log(responseData);
-        setData(responseData);
+        let localeData;
+        if (locale === 'ko') {
+          localeData = (await import('../../../../messages/historicSite/ko.json')).default;
+        } else if (locale === 'en') {
+          localeData = (await import('../../../../messages/historicSite/en.json')).default;
+        } else if (locale === 'zh') {
+          localeData = (await import('../../../../messages/historicSite/zh.json')).default;
+        } else {
+          localeData = (await import('../../../../messages/historicSite/ko.json')).default;
+        }
+        setData(localeData.historicSite);
       } catch (error) {
-        // console.error('Failed to load data:', error);
         setError(t('fetchError'));
         setData([]);
       } finally {
