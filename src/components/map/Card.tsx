@@ -1,6 +1,6 @@
 import { Marker } from '@/types/marker';
 
-const Card = ({ marker, src }: { marker: any; src: string }) => {
+const Card = ({ marker, src }: { marker: Marker; src: string }) => {
   const phone = marker.tel_no;
   const operating_time = marker.operating_time;
   const entr_fee = marker.entr_fee;

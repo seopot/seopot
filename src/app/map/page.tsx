@@ -15,6 +15,7 @@ const BasicMap = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const options = ['야경명소', '유적지', '전통시장'];
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [data, setData] = useState<any>(nightData);
   const [markerUrl, setMarkerUrl] = useState('/images/nightMarker.png');
 
@@ -63,6 +64,7 @@ const BasicMap = () => {
 
     const ps = new kakao.maps.services.Places();
     const bounds = new kakao.maps.LatLngBounds();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const markers: any = [];
 
     const processMarket = (index: number) => {
@@ -130,7 +132,8 @@ const BasicMap = () => {
             minLevel={10} // 클러스터 할 최소 지도 레벨
           >
             {/* 기본 마커 찍기 로직 */}
-            {data.DATA.map((item: any, index: any) => (
+            {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+            {data.DATA.map((item: any, index: number) => (
               <MapMarker
                 key={index}
                 position={{
@@ -164,23 +167,31 @@ const BasicMap = () => {
 
             {/* 전통시장 마커 따로 뺌*/}
             {isMarket &&
-              marketMarkers.map((marker: any, index) => (
-                <MapMarker
-                  key={`market-${index}`}
-                  position={marker.position}
-                  image={{
-                    src: markerUrl,
-                    size: { width: 30, height: 40 },
-                  }}
-                  onClick={() => {
-                    setSelectedMarker({
-                      title: marker.title,
-                      addr: marker.location,
-                      tel_no: marker.phone,
-                    });
-                  }}
-                />
-              ))}
+              marketMarkers.map(
+                (
+                  marker: {
+                    position: { lat: number; lng: number };
+                    title: string;
+                    location: string;
+                  },
+                  index: number,
+                ) => (
+                  <MapMarker
+                    key={`market-${index}`}
+                    position={marker.position}
+                    image={{
+                      src: markerUrl,
+                      size: { width: 30, height: 40 },
+                    }}
+                    onClick={() => {
+                      setSelectedMarker({
+                        title: marker.title,
+                        addr: marker.location,
+                      });
+                    }}
+                  />
+                ),
+              )}
           </MarkerClusterer>
 
           <span className="hidden md:block absolute bg-white border border-black rounded-md text-black left-1/3 top-44 z-20">
