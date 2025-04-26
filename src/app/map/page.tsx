@@ -82,11 +82,13 @@ const BasicMap = () => {
             lng: parseFloat(place.x),
           };
           const road_address_name = place.road_address_name;
+          const phone = place.phone || '';
 
           const markerInfo = {
             position: position,
             title: marketData.DATA[index].name,
             location: road_address_name,
+            phone: phone,
           };
 
           markers.push(markerInfo);
@@ -174,6 +176,7 @@ const BasicMap = () => {
                     setSelectedMarker({
                       title: marker.title,
                       addr: marker.location,
+                      tel_no: marker.phone,
                     });
                   }}
                 />
