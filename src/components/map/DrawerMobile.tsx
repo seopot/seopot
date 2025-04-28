@@ -16,7 +16,7 @@ type DrawerMobileProps = {
   setOpen: (open: boolean) => void;
 };
 
-const DrawerMobile = ({ marker, src, open, setOpen }: any) => {
+const DrawerMobile = ({ marker, src, open, setOpen }: DrawerMobileProps) => {
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerContent>
