@@ -18,6 +18,9 @@ const Input = ({ onSearch }: { onSearch: (query: string) => void }) => {
         ref={inputRef}
         placeholder="검색어를 입력하세요."
         className="w-full px-4 py-2 bg-lightBeige rounded-l-2xl focus:outline-none text-sm sm:text-base dark:text-navy"
+        onKeyDown={e => {
+          if (e.key === 'Enter') handleSearch();
+        }}
       />
       <button
         onClick={handleSearch}
