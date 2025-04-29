@@ -1,6 +1,7 @@
 {
   "fetchError": "加载数据失败.",
   "noSearchResults": "没有搜索结果",
+  "searchInput": "输入您的搜索词.",
   "header": {
     "map": "地图",
     "nightViewSpot": "夜景名所",
