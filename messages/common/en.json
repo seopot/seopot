@@ -1,0 +1,11 @@
+{
+  "fetchError": "Failed to fetch data.",
+  "noSearchResults": "No search results found",
+  "header": {
+    "map": "Map",
+    "nightViewSpot": "Night View Spot",
+    "market": "Traditional Market",
+    "historicSite": "Historic Site",
+    "menu": "Menu"
+  }
+}

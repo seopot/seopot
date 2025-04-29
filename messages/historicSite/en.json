@@ -1,12 +1,5 @@
 {
-  "DESCRIPTION": {
-    "CONTENTS": "소개",
-    "NUM": "구간정보 번호",
-    "LO": "경도",
-    "TITLE": "제목",
-    "LA": "위도"
-  },
-  "DATA": [
+  "historicSite": [
     {
       "contents": "It may seem like an old city park on the outside, but it is often called the People’s Park.\r\n\r\nJangchungdan Altar was built by Emperor Gojong to pay tribute to those who sacrificed their lives including Hong Gye-hun and Yi Gyeong-jik during the Eulmi Incident, referring to the brutal assassination of Empress Myeongseong by the Japanese. Later on, rituals were also performed to honor those who died during the Imogunnan, or the Im-O Military Revolt in 1882.\r\n\r\nThe Japanese created a park around the old palaces and historical sites in an attempt to vanquish the spirit of the Korean people following the March 1 Independence Movement, and this was also when the Jangchungdan Park was constructed. Then, in 1932, the Japanese even established Bangmunsa to perform rites to honor Hirobumi Ito. \r\n\r\nThere is a large garden inside the park and it contains a number of cultural heritages such as Jangchungdanbi, Supyogyo Bridge, Seungjeongjeon Hall and Gwangseonmyo as well as the March 1 Independence Movement Monument, a monument with an inscription of a poem by Manhae Han Yong-un, and statues of Yu Gwang-sun, Yi Jun and Kim Yong-hwan. These are all related to the history of Jangchungdan Park. \r\n\r\nFurthermore, this is where you can observe the Supyogyo Bridge, created as a manmade water channel in the Joseon Dynasty. It gained fame as it was featured in the hit drama “The Wild Days.” Perhaps it is because the history of Korea is deeply rooted in this place, but you can also see the Rose of Sharon, the national flower of the Republic of Korea, here. Visitors are recommended to take a leisurely walk at the Jangchungdan Park and learn about the history of Korea. ",
       "title": "Jangchungdan Park ",
@@ -89,7 +82,8 @@
       "title": "Gyeongbokgung Palace ",
       "num": 19,
       "lo": "126.966504",
-      "la": "37.592595"
+      "la": "37.592595",
+      "src": "/images/gyeongbokgung.png"
     },
     {
       "contents": "The bell is sounded 33 times at Paru (around 4 a.m.) near the break of dawn, and it is sounded 28 times at Injeong (around 10 p.m.). When the bell of Bosingak Belfry sounded at Paru and Injeong, the Seoul City Wall gates were opened and closed, and they also informed the people of the beginning and the end of a day. \r\n\r\nThe bell used to single the start of the day was hung for the first time in 1398 (7th year of King Taejo’s reign) and it was relocated to Jongno in 1413 (13th year of King Taejong’s reign). The Bosingak belfry and bell were not originally paired together. The Bosingak bell designated National Treasure No. 2 was cast in 1468 (14th year of King Sejo’s reign). It was a massive bell that was 3.18m in height and 2.28m in diameter. After it was made, it was placed at Jeongneungsa and Wongaksa temples before being moved inside Namdaemun Gate in 1536 (31th year of King Jungjong’s reign) and later in 1597 (30th year of King Seonjo’s reign), it was moved again to the Myeongnye-dong Hill. In 1619 (11th year of Gwanghaegun’s reign), it was moved to the current location. \r\n\r\nThe present-day Bosingak Belfry was also built during Gwanghaegun’s reign. It was destroyed by a fire and was rebuilt afterwards for a total of 4 times. Originally called Jonggak, it began to be called Bosingak when the sign was hung in 1895 (32nd year of Emperor Gojong’s rule). Bosingak Belfry was damaged during the Korean War and it was reconstructed in 1953 before being restored in Jongno in 1980. At present, it boasts a dignified appearance with 5 front faces and 4 side faces. ",

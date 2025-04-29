@@ -6,11 +6,13 @@ on:
       - main
       - develop
       - feature/*
+      - i18n
   pull_request:
     branches:
       - main
       - develop
       - feature/*
+      - i18n
 
 jobs:
   build:

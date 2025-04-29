@@ -3,9 +3,14 @@ import { useState, useCallback } from 'react';
 interface UseSearchProps<T> {
   items: T[];
   searchField: keyof T;
+  initialSearchTerm: string | null;
 }
 
-export const useSearch = <T extends object>({ items, searchField }: UseSearchProps<T>) => {
+export const useSearch = <T extends object>({
+  items,
+  searchField,
+  initialSearchTerm,
+}: UseSearchProps<T>) => {
   const [filteredItems, setFilteredItems] = useState<T[]>(items);
 
   const handleSearch = useCallback(

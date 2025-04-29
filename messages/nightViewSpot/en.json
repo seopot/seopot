@@ -1,24 +1,5 @@
 {
-  "DESCRIPTION": {
-    "PARKING_INFO": "주차안내",
-    "SUBWAY": "지하철",
-    "SUBJECT_CD": "분류",
-    "CONTENTS": "내용",
-    "LO": "경도",
-    "TEL_NO": "전화번호",
-    "LA": "위도",
-    "FREE_YN": "유무료구분",
-    "ENTR_FEE": "이용요금",
-    "REG_DATE": "등록일시",
-    "BUS": "버스",
-    "OPERATING_TIME": "운영시간",
-    "MOD_DATE": "수정일시",
-    "ADDR": "주소",
-    "URL": "홈페이지 URL",
-    "NUM": "번호",
-    "TITLE": "장소명"
-  },
-  "DATA": [
+  "nightViewSpot": [
     {
       "lo": "126.987867837993",
       "tel_no": "02-3455-9277, 9288",

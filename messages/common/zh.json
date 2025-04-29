@@ -1,0 +1,11 @@
+{
+  "fetchError": "加载数据失败.",
+  "noSearchResults": "没有搜索结果",
+  "header": {
+    "map": "地图",
+    "nightViewSpot": "夜景名所",
+    "market": "传统市场",
+    "historicSite": "历史遗址",
+    "menu": "菜单"
+  }
+}
