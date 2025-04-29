@@ -1,6 +1,7 @@
 {
   "fetchError": "데이터를 불러오는데 실패했습니다.",
   "noSearchResults": "검색 결과가 없습니다",
+  "searchInput": "검색어를 입력하세요.",
   "header": {
     "map": "지도",
     "nightViewSpot": "야경명소",

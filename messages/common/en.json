@@ -1,6 +1,7 @@
 {
   "fetchError": "Failed to fetch data.",
   "noSearchResults": "No search results found",
+  "searchInput": "Enter your search term.",
   "header": {
     "map": "Map",
     "nightViewSpot": "Night View Spot",
