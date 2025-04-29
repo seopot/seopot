@@ -7,14 +7,21 @@ import DrawerMobile from '@/components/map/DrawerMobile';
 import { useEffect, useState } from 'react';
 import Dropdown from '@/components/common/Dropdown';
 import nightData from '@/data/viewNightSpot_ko.json';
-import historicData from '@/data/historic.json';
 import marketData from '@/data/marketData.json';
 
+import { useParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
+
 const BasicMap = () => {
+  const { locale } = useParams();
+
+  const tm = useTranslations('map');
+
   const [selectedMarker, setSelectedMarker] = useState({});
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const options = ['야경명소', '유적지', '전통시장'];
+  const options = [tm('option.night'), tm('option.history'), tm('option.store')];
+
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [data, setData] = useState<any>(nightData);
   const [markerUrl, setMarkerUrl] = useState('/images/nightMarker.png');
@@ -24,6 +31,19 @@ const BasicMap = () => {
   const [isMarket, setIsMarket] = useState(false);
 
   useKakaoLoader();
+
+  /* ----------------------------------- 번역 ----------------------------------- */
+  useEffect(() => {
+    const loadInitialData = async () => {
+      const initialData = (await import(`../../../../messages/nightViewSpot/${locale}.json`))
+        .default;
+
+      const initialOptions = await import(`../../../../messages/map/${locale}.json`);
+      setData(initialData);
+    };
+
+    loadInitialData();
+  }, [locale]);
 
   /* --------------------------------- 모바일 확인 --------------------------------- */
 
@@ -41,20 +61,28 @@ const BasicMap = () => {
   /* --------------------------------- 드롭다운 변경 --------------------------------- */
 
   const handleSelect = async (option: string) => {
-    console.log(option);
-    if (option === '야경명소') {
+    let selectedData;
+    let markerPath;
+
+    if (option === tm('option.night')) {
       setIsMarket(false);
-      setData(nightData);
-      setMarkerUrl('/images/nightMarker.png');
-    } else if (option === '유적지') {
+      markerPath = '/images/nightMarker.png';
+      selectedData = (await import(`../../../../messages/nightViewSpot/${locale}.json`)).default;
+      console.log('selectedData: ', selectedData);
+    } else if (option === tm('option.history')) {
       setIsMarket(false);
-      setData(historicData);
-      setMarkerUrl('/images/historicMarker.png');
-    } else if (option === '전통시장') {
-      setData(marketData);
-      setIsMarket(true); // 전통시장만 따로 분류
-      setMarkerUrl('/images/marketMarker.png');
+      markerPath = '/images/historicMarker.png';
+      selectedData = (await import(`../../../../messages/historicSite/${locale}.json`)).default;
+      console.log('selectedData: ', selectedData);
+    } else if (option === tm('option.store')) {
+      setIsMarket(true);
+      markerPath = '/images/marketMarker.png';
+      // selectedData = (await import(`../../../../messages/전통시장/${locale}.json`)).default;
+      selectedData = marketData;
     }
+
+    setMarkerUrl(markerPath as string);
+    setData(selectedData);
   };
 
   /* ---------------------------------- 전통시장 ---------------------------------- */
@@ -133,6 +161,7 @@ const BasicMap = () => {
           >
             {/* 기본 마커 찍기 로직 */}
             {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
+            {console.log(data)}
             {data.DATA.map((item: any, index: number) => (
               <MapMarker
                 key={index}
@@ -148,7 +177,6 @@ const BasicMap = () => {
                   },
                 }}
                 onClick={() => {
-                  console.log(item.TITLEENG);
                   setSelectedMarker({
                     title: item.title || item.titlekor || item.name || '',
                     addr: item.addr || '',
@@ -195,7 +223,11 @@ const BasicMap = () => {
           </MarkerClusterer>
 
           <span className="hidden md:block absolute bg-white border border-black rounded-md text-black left-1/3 top-44 z-20">
-            <Dropdown options={options} defaultOption="야경명소" onSelect={handleSelect} />
+            <Dropdown
+              options={options}
+              defaultOption={tm('option.night')}
+              onSelect={handleSelect}
+            />
           </span>
         </Map>
       </section>
