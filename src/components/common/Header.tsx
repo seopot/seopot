@@ -119,7 +119,7 @@ const Header = () => {
                       }`}
                       tabIndex={0}
                     >
-                      지도
+                      {tc('map')}
                     </Link>
                     <Link
                       href="/nightViewSpot"
@@ -130,7 +130,7 @@ const Header = () => {
                       }`}
                       tabIndex={0}
                     >
-                      야경명소
+                      {tc('nightViewSpot')}
                     </Link>
                     <Link
                       href="/market"
@@ -141,7 +141,7 @@ const Header = () => {
                       }`}
                       tabIndex={0}
                     >
-                      전통시장
+                      {tc('market')}
                     </Link>
                     <Link
                       href="/historicSite"
@@ -152,7 +152,7 @@ const Header = () => {
                       }`}
                       tabIndex={0}
                     >
-                      유적지
+                      {tc('historicSite')}
                     </Link>
                     <Link
                       href="/menu"
@@ -163,7 +163,7 @@ const Header = () => {
                       }`}
                       tabIndex={0}
                     >
-                      메뉴
+                      {tc('menu')}
                     </Link>
                   </nav>
                 </div>
