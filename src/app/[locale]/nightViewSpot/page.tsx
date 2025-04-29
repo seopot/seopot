@@ -42,6 +42,20 @@ const NightViewSpot = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const { filteredItems, handleSearch } = useSearch({
+    items: data,
+    searchField: 'title',
+    initialSearchTerm: '',
+  });
+
+  const [searchTerm, setSearchTerm] = useState('');
+  const onSearch = (query: string) => {
+    setSearchTerm(query);
+    handleSearch(query);
+  };
+
+  const displayItems = searchTerm.trim() === '' ? data : filteredItems;
+
   useEffect(() => {
     const loadData = async () => {
       setIsLoading(true);
@@ -75,20 +89,12 @@ const NightViewSpot = () => {
     setIsModalOpen(false);
   };
 
-  const { filteredItems, handleSearch } = useSearch({
-    items: data,
-    searchField: 'title',
-    initialSearchTerm: '',
-  });
-
-  const displayItems = filteredItems.length > 0 || data.length === 0 ? filteredItems : data;
-
   if (error) return <div className="text-center py-8 text-red-500">{error}</div>;
 
   return (
     <div className="container mx-auto px-4 py-8">
       <div className="flex m-auto justify-center pb-4">
-        <Input onSearch={handleSearch} />
+        <Input onSearch={onSearch} />
       </div>
 
       {isLoading ? (
@@ -105,9 +111,9 @@ const NightViewSpot = () => {
             </button>
           ))}
         </div>
-      ) : (
-        <div className="text-center py-8 text-gray-500">{tc('noSearchResults')}</div>
-      )}
+      ) : data.length > 0 ? (
+        <div className="text-center py-8">{tc('noSearchResults')}</div>
+      ) : null}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <ModalContent />
