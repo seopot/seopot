@@ -24,7 +24,7 @@ const Input = ({ onSearch }: { onSearch: (query: string) => void }) => {
       />
       <button
         onClick={handleSearch}
-        className="flex justify-center items-center px-3 py-2 bg-lightBeige rounded-r-2xl hover:bg-lightBrown sm:px-4 dark:text-navy"
+        className="flex justify-center items-center px-3 py-2 bg-lightBeige rounded-r-2xl hover:bg-lightBrown sm:px-4 dark:text-navy dark:hover:bg-lightNavy dark:hover:text-white"
       >
         <Search className="w-4 h-4 sm:w-5 sm:h-5" />
       </button>
