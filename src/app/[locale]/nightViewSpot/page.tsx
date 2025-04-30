@@ -70,7 +70,7 @@ const NightViewSpot = () => {
         } else {
           localeData = (await import('../../../../messages/nightViewSpot/ko.json')).default;
         }
-        setData(localeData.nightViewSpot);
+        setData(localeData.DATA);
       } catch (error) {
         setError(t('fetchError'));
         setData([]);

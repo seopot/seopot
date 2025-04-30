@@ -1,0 +1,14 @@
+{
+  "option": {
+    "night": "Night View",
+    "history": "Historical Sites",
+    "store": "Shopping Sites"
+  },
+  "card": {
+    "addr": "Address",
+    "tel_no": "Telephone",
+    "operating_time": "Operating Hours",
+    "entr_fee": "Entrance Fee",
+    "url": "Website"
+  }
+}

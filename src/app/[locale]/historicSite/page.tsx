@@ -58,7 +58,7 @@ const HistoricSite = () => {
         } else {
           localeData = (await import('../../../../messages/historicSite/ko.json')).default;
         }
-        setData(localeData.historicSite);
+        setData(localeData.DATA);
       } catch (error) {
         setError(t('fetchError'));
         setData([]);

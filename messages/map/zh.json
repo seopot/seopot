@@ -1,0 +1,14 @@
+{
+  "option": {
+    "night": "夜景名胜",
+    "history": "历史名胜",
+    "store": "购物名胜"
+  },
+  "card": {
+    "addr": "地址",
+    "tel_no": "电话",
+    "operating_time": "营业时间",
+    "entr_fee": "门票",
+    "url": "网址"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "option": {
+    "night": "야경명소",
+    "history": "유적지",
+    "store": "전통시장"
+  },
+  "card": {
+    "addr": "주소",
+    "tel_no": "전화번호",
+    "operating_time": "운영시간",
+    "entr_fee": "가격",
+    "url": "홈페이지"
+  }
+}
