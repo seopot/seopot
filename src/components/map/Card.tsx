@@ -10,8 +10,15 @@ const Card = ({ marker, src }: { marker: Marker; src: string }) => {
   return (
     <div className="flex flex-col w-full h-full bg-white border-darkBeige-1 rounded-2xl p-6 gap-6 overflow-auto text-black">
       <strong className="text-2xl font-gMedium">{marker.title}</strong>
-      <Image src={`${src}`} alt={`${marker.title}`} className="self-center w-32 h-32 rounded-2xl" />
-
+      {/* Todo : Image width height 임시 설정 
+       width height 설정하거나, fill 속성으로 사용하기 */}
+      <Image
+        src={`${src}`}
+        width={128}
+        height={128}
+        alt={`${marker.title}`}
+        className="self-center w-32 h-32 rounded-2xl"
+      />
       <div className="flex flex-col gap-6">
         <p>
           {t('card.addr')}: {marker.addr}
