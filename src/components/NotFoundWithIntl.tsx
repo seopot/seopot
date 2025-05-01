@@ -3,18 +3,24 @@
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import Link from 'next/link';
+
+import { useRouter } from 'next/navigation';
 import { useEffect, useState } from 'react';
 
 const NotFoundWithIntl = () => {
   const [isClient, setIsClient] = useState(false);
   const tc = useTranslations('common.notFound');
+  const router = useRouter();
 
   useEffect(() => {
     setIsClient(true);
   }, []);
 
   if (!isClient) return null;
+
+  const handleGoHome = () => {
+    router.replace('/');
+  };
 
   return (
     <div className="flex flex-col justify-center items-center gap-8">
@@ -43,12 +49,12 @@ const NotFoundWithIntl = () => {
         <span>4</span>
       </div>
       <div>{tc('notFound')}</div>
-      <Link
-        href="/"
+      <button
+        onClick={handleGoHome}
         className="p-4 bg-lightBeige hover:bg-darkBeige dark:bg-lighterNavy hover:dark:bg-lightNavy rounded-xl text-xl font-gBold "
       >
         {tc('home')}
-      </Link>
+      </button>
     </div>
   );
 };
