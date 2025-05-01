@@ -25,7 +25,15 @@ const DrawerMobile = ({ marker, src, open, setOpen }: DrawerMobileProps) => {
           <DrawerTitle>{marker.title}</DrawerTitle>
         </DrawerHeader>
         <div className="flex flex-col items-center px-4 py-2 text-black">
-          <Image src={`${src}`} alt={`${marker.title}`} className="w-32 h-32 rounded-xl mb-4" />
+          {/* Todo : Image width height 임시 설정 
+          width height 설정하거나, fill 속성으로 사용하기 */}
+          <Image
+            src={`${src}`}
+            width={128}
+            height={128}
+            alt={`${marker.title}`}
+            className="self-center w-32 h-32 rounded-2xl"
+          />
           <div className="flex flex-col justify-center gap-3">
             <p>주소: {marker.addr}</p>
             <p>전화번호: {marker.tel_no}</p>
