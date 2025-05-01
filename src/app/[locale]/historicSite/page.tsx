@@ -60,6 +60,7 @@ const HistoricSite = () => {
         }
         setData(localeData.DATA);
       } catch (error) {
+        console.error(error);
         setError(t('fetchError'));
         setData([]);
       } finally {
@@ -67,7 +68,7 @@ const HistoricSite = () => {
       }
     };
     loadData();
-  }, [locale]);
+  }, [locale, t]);
 
   const openModal = () => {
     setIsModalOpen(true);
