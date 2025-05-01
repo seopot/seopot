@@ -2,6 +2,7 @@
 
 import { Marker } from '@/types/marker';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const Card = ({ marker, src }: { marker: Marker; src: string }) => {
   const t = useTranslations('map');
@@ -9,7 +10,7 @@ const Card = ({ marker, src }: { marker: Marker; src: string }) => {
   return (
     <div className="flex flex-col w-full h-full bg-white border-darkBeige-1 rounded-2xl p-6 gap-6 overflow-auto text-black">
       <strong className="text-2xl font-gMedium">{marker.title}</strong>
-      <img src={`${src}`} alt={`${marker.title}`} className="self-center w-32 h-32 rounded-2xl" />
+      <Image src={`${src}`} alt={`${marker.title}`} className="self-center w-32 h-32 rounded-2xl" />
 
       <div className="flex flex-col gap-6">
         <p>

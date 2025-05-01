@@ -9,8 +9,8 @@ interface UseSearchProps<T> {
 export const useSearch = <T extends object>({
   items,
   searchField,
-  initialSearchTerm,
-}: UseSearchProps<T>) => {
+}: // initialSearchTerm,
+UseSearchProps<T>) => {
   const [filteredItems, setFilteredItems] = useState<T[]>(items);
 
   const handleSearch = useCallback(

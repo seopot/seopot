@@ -72,6 +72,7 @@ const NightViewSpot = () => {
         }
         setData(localeData.DATA);
       } catch (error) {
+        console.error(error);
         setError(t('fetchError'));
         setData([]);
       } finally {
@@ -79,7 +80,7 @@ const NightViewSpot = () => {
       }
     };
     loadData();
-  }, [locale]);
+  }, [locale, t]);
 
   const openModal = () => {
     setIsModalOpen(true);
