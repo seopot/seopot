@@ -2,6 +2,10 @@ import Header from '@/components/common/Header';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 
+export const metadata = {
+  mainfest: '/mainfest.json',
+};
+
 export async function generateStaticParams() {
   return ['en', 'ko', 'zh'].map(locale => ({ locale }));
 }
