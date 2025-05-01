@@ -23,6 +23,12 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const handleLinkClick = () => {
+    if (isMenuOpen) {
+      handleCloseMenu();
+    }
+  };
+
   const menuRef = useOutsideClick(() => setIsMenuOpen(false));
 
   const isActive = (path: string) => {
@@ -118,6 +124,7 @@ const Header = () => {
                           : ''
                       }`}
                       tabIndex={0}
+                      onClick={handleLinkClick}
                     >
                       {tc('map')}
                     </Link>
@@ -129,6 +136,7 @@ const Header = () => {
                           : ''
                       }`}
                       tabIndex={0}
+                      onClick={handleLinkClick}
                     >
                       {tc('nightViewSpot')}
                     </Link>
@@ -140,6 +148,7 @@ const Header = () => {
                           : ''
                       }`}
                       tabIndex={0}
+                      onClick={handleLinkClick}
                     >
                       {tc('market')}
                     </Link>
@@ -151,6 +160,7 @@ const Header = () => {
                           : ''
                       }`}
                       tabIndex={0}
+                      onClick={handleLinkClick}
                     >
                       {tc('historicSite')}
                     </Link>
@@ -162,6 +172,7 @@ const Header = () => {
                           : ''
                       }`}
                       tabIndex={0}
+                      onClick={handleLinkClick}
                     >
                       {tc('menu')}
                     </Link>
