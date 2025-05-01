@@ -17,7 +17,7 @@ const NotFoundWithIntl = () => {
   if (!isClient) return null;
 
   return (
-    <div className="flex flex-col justify-center items-center gap-8 mt-20">
+    <div className="flex flex-col justify-center items-center gap-8">
       <div className="flex items-center gap-4 text-4xl sm:text-5xl">
         <span>4</span>
         <motion.div

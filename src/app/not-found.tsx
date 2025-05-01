@@ -1,4 +1,3 @@
-import Header from '@/components/common/Header';
 import NotFoundWithIntl from '@/components/NotFoundWithIntl';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -13,10 +12,11 @@ const NotFound = async ({ params }: { params: Promise<{ locale: string }> }) => 
   const messages = await getMessages({ locale });
 
   return (
-    <NextIntlClientProvider locale={locale} messages={messages}>
-      <Header />
-      <NotFoundWithIntl />
-    </NextIntlClientProvider>
+    <div className="w-full h-screen flex justify-center items-center">
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <NotFoundWithIntl />
+      </NextIntlClientProvider>
+    </div>
   );
 };
 
