@@ -8,5 +8,9 @@
     "market": "Traditional Market",
     "historicSite": "Historic Site",
     "menu": "Menu"
+  },
+  "notFound": {
+    "home": "Go back to home",
+    "notFound": "Page not found"
   }
 }
