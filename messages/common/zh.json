@@ -8,5 +8,9 @@
     "market": "传统市场",
     "historicSite": "历史遗址",
     "menu": "菜单"
+  },
+  "notFound": {
+    "home": "返回首页",
+    "notFound": "页面未找到"
   }
 }
