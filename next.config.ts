@@ -2,7 +2,12 @@ import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 import withPWA from 'next-pwa';
 
-const nextConfig: NextConfig = {};
+const nextConfig: NextConfig = {
+  experimental: {
+    // @ts-expect-error: experimental config not in official type
+    missingSuspenseWithCSRBailout: false,
+  },
+};
 
 const withNextIntl = createNextIntlPlugin();
 
