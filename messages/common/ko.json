@@ -8,5 +8,9 @@
     "market": "전통시장",
     "historicSite": "유적지",
     "menu": "메뉴"
+  },
+  "notFound": {
+    "home": "홈으로 돌아가기",
+    "notFound": "페이지를 찾을 수 없습니다"
   }
 }
