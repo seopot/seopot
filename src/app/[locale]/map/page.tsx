@@ -261,6 +261,14 @@ const BasicMap = () => {
           </span>
         </div>
       </section>
+      <div className="block md:hidden">
+        <DrawerMobile
+          marker={selectedMarker}
+          src={`/images/seoul_logo.svg`}
+          open={isOpen}
+          setOpen={setIsOpen}
+        />
+      </div>
     </>
   );
 };
