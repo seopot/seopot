@@ -167,106 +167,100 @@ const BasicMap = () => {
     <>
       <section className="flex w-full h-[calc(92vh-80px)] p-8 pt-0 gap-8">
         <h2 className="sr-only">지도</h2>
+
         <div className="hidden md:block flex-1 min-w-[25vw]">
           <Card marker={selectedMarker} src={`/images/seoul_logo.svg`} />
         </div>
-
-        <Map
-          id="map"
-          center={{
-            lat: 37.56663499354556,
-            lng: 126.97865231281921,
-          }}
-          style={{
-            width: '100%',
-            height: '100%',
-            borderRadius: '0.9375rem',
-            zIndex: 10,
-          }}
-          level={3}
-          onCreate={setMap}
-        >
-          <MarkerClusterer
-            averageCenter={true} // 클러스터에 포함된 마커들의 평균 위치를 클러스터 마커 위치로 설정
-            minLevel={10} // 클러스터 할 최소 지도 레벨
+        <div className="relative flex-[2] w-full h-full">
+          <Map
+            id="map"
+            center={{
+              lat: 37.56663499354556,
+              lng: 126.97865231281921,
+            }}
+            style={{
+              width: '100%',
+              height: '100%',
+              borderRadius: '0.9375rem',
+              zIndex: 10,
+            }}
+            level={3}
+            onCreate={setMap}
           >
-            {data.DATA.map((item: ViewSpotData, index: number) => (
-              <MapMarker
-                key={index}
-                position={{
-                  lat: parseFloat(item.la || item.latitude || '0'),
-                  lng: parseFloat(item.lo || item.longitude || '0'),
-                }}
-                image={{
-                  src: markerUrl,
-                  size: {
-                    width: 30,
-                    height: 40,
-                  },
-                }}
-                onClick={() => {
-                  setSelectedMarker({
-                    title: item.title || item.titlekor || item.name || '',
-                    addr: item.addr || '',
-                    tel_no: item.tel_no || '',
-                    operating_time: item.operating_time || '',
-                    entr_fee: item.entr_fee || '',
-                    url: item.url || '',
-                  });
+            <MarkerClusterer
+              averageCenter={true} // 클러스터에 포함된 마커들의 평균 위치를 클러스터 마커 위치로 설정
+              minLevel={10} // 클러스터 할 최소 지도 레벨
+            >
+              {data.DATA.map((item: ViewSpotData, index: number) => (
+                <MapMarker
+                  key={index}
+                  position={{
+                    lat: parseFloat(item.la || item.latitude || '0'),
+                    lng: parseFloat(item.lo || item.longitude || '0'),
+                  }}
+                  image={{
+                    src: markerUrl,
+                    size: {
+                      width: 30,
+                      height: 40,
+                    },
+                  }}
+                  onClick={() => {
+                    setSelectedMarker({
+                      title: item.title || item.titlekor || item.name || '',
+                      addr: item.addr || '',
+                      tel_no: item.tel_no || '',
+                      operating_time: item.operating_time || '',
+                      entr_fee: item.entr_fee || '',
+                      url: item.url || '',
+                    });
 
-                  if (isMobile) {
-                    setIsOpen(true);
-                  }
-                }}
-              />
-            ))}
+                    if (isMobile) {
+                      setIsOpen(true);
+                    }
+                  }}
+                />
+              ))}
 
-            {/* 전통시장 마커 따로 뺌*/}
-            {isMarket &&
-              marketMarkers.map(
-                (
-                  marker: {
-                    position: { lat: number; lng: number };
-                    title: string;
-                    location: string;
-                  },
-                  index: number,
-                ) => (
-                  <MapMarker
-                    key={`market-${index}`}
-                    position={marker.position}
-                    image={{
-                      src: markerUrl,
-                      size: { width: 30, height: 40 },
-                    }}
-                    onClick={() => {
-                      setSelectedMarker({
-                        title: marker.title,
-                        addr: marker.location,
-                      });
-                    }}
-                  />
-                ),
-              )}
-          </MarkerClusterer>
+              {/* 전통시장 마커 따로 뺌*/}
+              {isMarket &&
+                marketMarkers.map(
+                  (
+                    marker: {
+                      position: { lat: number; lng: number };
+                      title: string;
+                      location: string;
+                    },
+                    index: number,
+                  ) => (
+                    <MapMarker
+                      key={`market-${index}`}
+                      position={marker.position}
+                      image={{
+                        src: markerUrl,
+                        size: { width: 30, height: 40 },
+                      }}
+                      onClick={() => {
+                        setSelectedMarker({
+                          title: marker.title,
+                          addr: marker.location,
+                        });
+                      }}
+                    />
+                  ),
+                )}
+            </MarkerClusterer>
+          </Map>
 
-          <span className="hidden md:block absolute bg-white border border-black rounded-md text-black left-1/3 top-44 z-20">
+          <span className="md:block absolute bg-white border border-black rounded-md text-black left-4 top-4 z-20">
             <Dropdown
               options={options}
               defaultOption={tm('option.night')}
               onSelect={handleSelect}
             />
           </span>
-        </Map>
+        </div>
       </section>
-      <div className="block md:hidden">
-        <DrawerMobile
-          marker={selectedMarker}
-          src={`/images/seoul_logo.svg`}
-          open={isOpen}
-          setOpen={setIsOpen}
-        />
-      </div>{' '}
     </>
   );
 };
