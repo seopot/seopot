@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 declare module 'next-pwa' {
   import { NextConfig } from 'next';
 
