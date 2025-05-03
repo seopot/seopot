@@ -1,6 +1,7 @@
 'use client';
 
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import Lottie from 'react-lottie-player';
+import lottieData from '../../../public/images/loading.json';
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
         <p className="">프로젝트 간단 소개</p>
       </div>
       <div className="absolute bottom-50% lg:right-0 w-[300px] h-[300px] z-0 lg:rotate-90">
-        <DotLottieReact src="/images/loading.json" loop autoplay className="lg:rotate-180" />
+        <Lottie loop animationData={lottieData} play className="lg:rotate-180" />
       </div>
     </main>
   );
