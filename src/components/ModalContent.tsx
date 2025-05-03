@@ -8,12 +8,15 @@ import {
   TrainFront,
 } from 'lucide-react';
 import { SpotData } from '@/types/spotData';
+import { useTranslations } from 'next-intl';
 
 type ModalContentProps = {
   spot: SpotData | null;
 };
 
 const ModalContent = ({ spot }: ModalContentProps) => {
+  const t = useTranslations('common.modal');
+
   if (!spot) return null;
 
   return (
@@ -38,7 +41,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
             <div className="flex items-start gap-2">
               <div className="flex items-center gap-2">
                 <Calendar />
-                <span>운영시간: </span>
+                <span>{t('time')}: </span>
               </div>
               <span className="flex-1">{spot.operating_time}</span>
             </div>
@@ -47,7 +50,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
             <div className="flex items-start gap-2">
               <div className="flex items-center gap-2">
                 <Phone />
-                <span>문의처: </span>
+                <span>{t('tel')}: </span>
               </div>
               <span className="flex-1">{spot.tel_no}</span>
             </div>
@@ -56,7 +59,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
             <div className="flex items-start gap-2">
               <div className="flex items-center gap-2">
                 <CircleDollarSign />
-                <span>요금: </span>
+                <span>{t('price')}: </span>
               </div>
               <span className="flex-1">{spot.entr_fee}</span>
             </div>
@@ -65,7 +68,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
             <div className="flex items-start gap-2">
               <div className="flex items-center gap-2">
                 <SquareArrowOutUpRight />
-                <span>홈페이지/SNS: </span>
+                <span>{t('homepage')}: </span>
               </div>
               <a
                 className="flex-1 text-blue-600 underline"
@@ -79,13 +82,13 @@ const ModalContent = ({ spot }: ModalContentProps) => {
           )}
         </div>
         <div className="flex flex-col gap-6">
-          <h2 className="text-xl font-gBold">찾아오는 길</h2>
+          <h2 className="text-xl font-gBold">{t('direction')}</h2>
           <div className="space-y-4">
             {spot.addr && (
               <div className="flex items-start gap-2">
                 <div className="flex items-center gap-2">
                   <MapPinned />
-                  <span>주소: </span>
+                  <span>{t('address')}: </span>
                 </div>
                 <span className="flex-1">{spot.addr}</span>
               </div>
@@ -94,7 +97,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
               <div className="flex items-start gap-2">
                 <div className="flex items-center gap-2">
                   <TrainFront />
-                  <span>지하철: </span>
+                  <span>{t('subway')}: </span>
                 </div>
                 <span className="flex-1">{spot.subway}</span>
               </div>
@@ -103,7 +106,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
               <div className="flex items-start gap-2">
                 <div className="flex items-center gap-2">
                   <BusFront />
-                  <span>버스:</span>
+                  <span>{t('bus')}:</span>
                 </div>
                 <span className="flex-1">{spot.bus}</span>
               </div>
@@ -125,13 +128,13 @@ const ModalContent = ({ spot }: ModalContentProps) => {
             <div className="w-full h-[18rem] bg-yellow rounded-lg" />
           )}
           <div className="flex flex-col gap-6">
-            <h2 className="text-xl font-gBold">찾아오는 길</h2>
+            <h2 className="text-xl font-gBold">{t('direction')}</h2>
             <div className="space-y-4">
               {spot.addr && (
                 <div className="flex items-start gap-2">
                   <div className="flex items-center gap-2">
                     <MapPinned />
-                    <span>주소: </span>
+                    <span>{t('address')}: </span>
                   </div>
                   <span className="flex-1">{spot.addr}</span>
                 </div>
@@ -140,7 +143,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
                 <div className="flex items-start gap-2">
                   <div className="flex items-center gap-2">
                     <TrainFront />
-                    <span>지하철: </span>
+                    <span>{t('subway')}: </span>
                   </div>
                   <span className="flex-1">{spot.subway}</span>
                 </div>
@@ -149,7 +152,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
                 <div className="flex items-start gap-2">
                   <div className="flex items-center gap-2">
                     <BusFront />
-                    <span>버스:</span>
+                    <span>{t('bus')}:</span>
                   </div>
                   <span className="flex-1">{spot.bus}</span>
                 </div>
@@ -167,7 +170,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
               <div className="flex items-start gap-2">
                 <div className="flex items-center gap-2">
                   <Calendar />
-                  <span>운영시간: </span>
+                  <span>{t('time')}: </span>
                 </div>
                 <span className="flex-1">{spot.operating_time}</span>
               </div>
@@ -176,7 +179,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
               <div className="flex items-start gap-2">
                 <div className="flex items-center gap-2">
                   <Phone />
-                  <span>문의처: </span>
+                  <span>{t('tel')}: </span>
                 </div>
                 <span className="flex-1">{spot.tel_no}</span>
               </div>
@@ -185,7 +188,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
               <div className="flex items-start gap-2">
                 <div className="flex items-center gap-2">
                   <CircleDollarSign />
-                  <span>요금: </span>
+                  <span>{t('price')}: </span>
                 </div>
                 <span className="flex-1">{spot.entr_fee}</span>
               </div>
@@ -194,7 +197,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
               <div className="flex items-start gap-2">
                 <div className="flex items-center gap-2">
                   <SquareArrowOutUpRight />
-                  <span>홈페이지/SNS: </span>
+                  <span>{t('homepage')}: </span>
                 </div>
                 <a
                   className="flex-1 text-blue-600 underline"
