@@ -12,5 +12,15 @@
   "notFound": {
     "home": "返回首页",
     "notFound": "页面未找到"
+  },
+  "modal": {
+    "address": "地址",
+    "subway": "地铁",
+    "bus": "公交",
+    "time": "营业时间",
+    "tel": "联系方式",
+    "price": "价格",
+    "direction": "路线指引",
+    "homepage": "主页/SNS"
   }
 }

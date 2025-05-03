@@ -12,5 +12,15 @@
   "notFound": {
     "home": "Go back to home",
     "notFound": "Page not found"
+  },
+  "modal": {
+    "address": "Address",
+    "subway": "Subway",
+    "bus": "Bus",
+    "time": "Operating Hours",
+    "tel": "Contact",
+    "price": "Price",
+    "direction": "Directions",
+    "homepage": "Website/SNS"
   }
 }
