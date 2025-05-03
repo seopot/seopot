@@ -24,9 +24,9 @@ const ModalContent = ({ spot }: ModalContentProps) => {
       {/* 모바일 레이아웃 */}
       <section className="flex flex-col gap-6 md:hidden">
         <h1 className="text-2xl font-gBold">{spot.title}</h1>
-        {spot.image_url ? (
+        {spot.src ? (
           <img
-            src={spot.image_url}
+            src={spot.src}
             alt={spot.title || ''}
             className="w-full h-[18rem] object-cover rounded-lg"
           />
@@ -118,9 +118,9 @@ const ModalContent = ({ spot }: ModalContentProps) => {
       {/* 데스크탑 레이아웃 */}
       <section className="hidden md:grid md:grid-cols-2 gap-6">
         <div className="flex flex-col space-y-4">
-          {spot.image_url ? (
+          {spot.src ? (
             <img
-              src={spot.image_url}
+              src={spot.src}
               alt={spot.title || ''}
               className="w-full h-[18rem] object-cover rounded-lg"
             />
