@@ -12,5 +12,15 @@
   "notFound": {
     "home": "홈으로 돌아가기",
     "notFound": "페이지를 찾을 수 없습니다"
+  },
+  "modal": {
+    "address": "주소",
+    "subway": "지하철",
+    "bus": "버스",
+    "time": "운영시간",
+    "tel": "문의처",
+    "price": "요금",
+    "direction": "찾아오는 길",
+    "homepage": "홈페이지/SNS"
   }
 }

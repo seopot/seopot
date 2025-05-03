@@ -1,0 +1,21 @@
+export type SpotData = {
+  num: number | null;
+  title: string | null;
+  contents?: string | null;
+  la?: string | null;
+  lo?: string | null;
+  src?: string | null;
+  tel_no?: string | null;
+  bus?: string | null;
+  operating_time?: string | null;
+  addr?: string | null;
+  subject_cd?: string | null;
+  reg_date?: number | null;
+  url?: string | null;
+  free_yn?: string | null;
+  entr_fee?: string | null;
+  subway?: string | null;
+  mod_date?: number | null;
+  parking_info?: string | null;
+  image_url?: string | null;
+};
