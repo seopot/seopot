@@ -20,6 +20,8 @@ export const metadata: Metadata = {
   },
 };
 
-export default function HomePage() {
+const HomePage = () => {
   return <HomeClient />;
-}
+};
+
+export default HomePage;
