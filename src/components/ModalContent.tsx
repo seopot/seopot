@@ -82,7 +82,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
           )}
         </div>
         <div className="flex flex-col gap-6">
-          <h2 className="text-xl font-gBold">{t('direction')}</h2>
+          {spot.addr && <h2 className="text-xl font-gBold">{t('direction')}</h2>}
           <div className="space-y-4">
             {spot.addr && (
               <div className="flex items-start gap-2">
@@ -128,7 +128,7 @@ const ModalContent = ({ spot }: ModalContentProps) => {
             <div className="w-full h-[18rem] bg-yellow rounded-lg" />
           )}
           <div className="flex flex-col gap-6">
-            <h2 className="text-xl font-gBold">{t('direction')}</h2>
+            {spot.addr && <h2 className="text-xl font-gBold">{t('direction')}</h2>}
             <div className="space-y-4">
               {spot.addr && (
                 <div className="flex items-start gap-2">
