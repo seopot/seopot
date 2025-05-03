@@ -9,27 +9,7 @@ import ModalContent from '@/components/ModalContent';
 import SkeletonGrid from '@/components/common/SkeletonGrid';
 import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
-
-type SpotData = {
-  lo: string;
-  la: string;
-  tel_no: string | null;
-  bus: string | null;
-  contents: string | null;
-  operating_time: string | null;
-  addr: string | null;
-  subject_cd: string | null;
-  reg_date: number | null;
-  url: string | null;
-  free_yn: string | null;
-  entr_fee: string | null;
-  num: number | null;
-  title: string | null;
-  subway: string | null;
-  mod_date: number | null;
-  parking_info: string | null;
-  image_url?: string;
-};
+import { SpotData } from '@/types/spotData';
 
 const NightViewSpot = () => {
   const t = useTranslations('view');
@@ -39,6 +19,7 @@ const NightViewSpot = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
   const [data, setData] = useState<SpotData[]>([]);
+  const [selectedSpot, setSelectedSpot] = useState<SpotData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -82,8 +63,9 @@ const NightViewSpot = () => {
     loadData();
   }, [locale, t]);
 
-  const openModal = () => {
+  const openModal = (spot: SpotData) => {
     setIsModalOpen(true);
+    setSelectedSpot(spot);
   };
 
   const closeModal = () => {
@@ -105,7 +87,7 @@ const NightViewSpot = () => {
           {displayItems.map(spot => (
             <button
               key={spot.num}
-              onClick={() => openModal()}
+              onClick={() => openModal(spot)}
               className="transition-transform hover:scale-105 focus:outline-none"
             >
               <ItemCard imgSrc={spot.image_url || undefined} text={spot.title || ' '} />
@@ -117,7 +99,7 @@ const NightViewSpot = () => {
       ) : null}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
-        <ModalContent />
+        <ModalContent spot={selectedSpot} />
       </Modal>
     </div>
   );

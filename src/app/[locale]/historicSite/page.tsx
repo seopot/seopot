@@ -9,15 +9,7 @@ import ModalContent from '@/components/ModalContent';
 import SkeletonGrid from '@/components/common/SkeletonGrid';
 import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
-
-type SpotData = {
-  num: number;
-  title: string;
-  contents?: string;
-  la?: string;
-  lo?: string;
-  src?: string;
-};
+import { SpotData } from '@/types/spotData';
 
 const HistoricSite = () => {
   const t = useTranslations('historic');
@@ -27,6 +19,7 @@ const HistoricSite = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
   const [data, setData] = useState<SpotData[]>([]);
+  const [selectedSpot, setSelectedSpot] = useState<SpotData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -70,8 +63,9 @@ const HistoricSite = () => {
     loadData();
   }, [locale, t]);
 
-  const openModal = () => {
+  const openModal = (spot: SpotData) => {
     setIsModalOpen(true);
+    setSelectedSpot(spot);
   };
 
   const closeModal = () => {
@@ -93,10 +87,10 @@ const HistoricSite = () => {
           {displayItems.map(spot => (
             <button
               key={spot.num}
-              onClick={() => openModal()}
+              onClick={() => openModal(spot)}
               className="transition-transform hover:scale-105 focus:outline-none"
             >
-              <ItemCard text={spot.title || ' '} imgSrc={spot.src} />
+              <ItemCard text={spot.title || ' '} imgSrc={spot.src || undefined} />
             </button>
           ))}
         </div>
@@ -105,7 +99,7 @@ const HistoricSite = () => {
       ) : null}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
-        <ModalContent />
+        <ModalContent spot={selectedSpot} />
       </Modal>
     </div>
   );
