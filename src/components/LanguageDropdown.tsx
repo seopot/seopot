@@ -43,6 +43,7 @@ const LanguageDropdown: React.FC<LanguageDropdownProps> = () => {
         options={languageOptions.map(option => option.display)}
         defaultOption={currentLanguage}
         onSelect={handleLanguageSelect}
+        variant="language"
       />
     );
   }

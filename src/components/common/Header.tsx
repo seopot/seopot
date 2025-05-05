@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Globe, Menu, ChevronRight, Sun, Moon } from 'lucide-react';
+import { Menu, ChevronRight, Sun, Moon } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import CornerPattern from './CornerPattern';
 import useOutsideClick from '@/hooks/useOutsideClick';
@@ -105,7 +105,6 @@ const Header = () => {
             </button>
           )}
           <div className="flex items-center gap-2" tabIndex={0}>
-            <Globe />
             <LanguageDropdown />
           </div>
           <button
