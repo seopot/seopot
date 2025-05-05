@@ -1,17 +1,20 @@
 'use client';
 
 import Link from 'next/link';
-import { Globe, Menu, ChevronRight } from 'lucide-react';
-import { useState } from 'react';
+import { Globe, Menu, ChevronRight, Sun, Moon } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import CornerPattern from './CornerPattern';
 import useOutsideClick from '@/hooks/useOutsideClick';
 import LanguageDropdown from '../LanguageDropdown';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import { useTheme } from 'next-themes';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
+  const { theme, setTheme } = useTheme();
 
   const tc = useTranslations('common.header');
 
@@ -28,6 +31,10 @@ const Header = () => {
       handleCloseMenu();
     }
   };
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const menuRef = useOutsideClick(() => setIsMenuOpen(false));
 
@@ -88,6 +95,15 @@ const Header = () => {
         </nav>
 
         <div className="flex gap-4 text-sm md:text-base">
+          {isMounted && (
+            <button
+              onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+              aria-label={theme === 'dark' ? '라이트 모드로 전환' : '다크 모드로 전환'}
+              tabIndex={0}
+            >
+              {theme === 'dark' ? <Sun /> : <Moon />}
+            </button>
+          )}
           <div className="flex items-center gap-2" tabIndex={0}>
             <Globe />
             <LanguageDropdown />
