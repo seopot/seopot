@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import ItemCard from '@/components/common/ItemCard';
 import Input from '@/components/common/Input';
 import { useSearch } from '@/hooks/useSearch';
@@ -44,11 +44,11 @@ const Market = () => {
   const observer = useRef<IntersectionObserver | null>(null);
   const lastItemRef = useRef<HTMLDivElement | null>(null);
 
-  const loadMoreItems = () => {
+  const loadMoreItems = useCallback(() => {
     if (isLoading || !hasMore) return;
     setDisplayCount(prev => prev + 40);
     setHasMore(data.length > displayCount + 40);
-  };
+  }, [isLoading, hasMore, data.length, displayCount]);
 
   useEffect(() => {
     if (isLoading) return;
@@ -72,7 +72,7 @@ const Market = () => {
         observer.current.disconnect();
       }
     };
-  }, [isLoading, hasMore, displayCount]);
+  }, [isLoading, hasMore, displayCount, loadMoreItems]);
 
   useEffect(() => {
     const loadData = async () => {
