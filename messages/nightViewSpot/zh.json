@@ -74,7 +74,8 @@
       "subway": "地铁4号线，惠化站4号出口，步行前往",
       "mod_date": 1719477146000,
       "la": "37.579412935392185",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/changyeonggung.png"
     },
     {
       "lo": "127.078770241307",
@@ -112,7 +113,8 @@
       "subway": "地铁1号线，钟路3街站6号出口，步行前往",
       "mod_date": 1733897926000,
       "la": "37.57950279094907",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/changdeokgung.png"
     },
     {
       "lo": "126.928686496763",
@@ -340,7 +342,8 @@
       "subway": "地铁1号线或2号线市厅站2号出口，步行前往",
       "mod_date": 1719477160000,
       "la": "37.5599277853801",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/sym.png"
     },
     {
       "lo": "126.897273034482",
@@ -454,7 +457,8 @@
       "subway": "地铁3号线景福宫站5号出口步行前往",
       "mod_date": 1730353274000,
       "la": "37.5759040910202",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/gyeongbokgung.png"
     },
     {
       "lo": "126.968148438254",
@@ -492,7 +496,8 @@
       "subway": "地铁1号线、2号线 市厅站 2号出口 步行",
       "mod_date": 1733897427000,
       "la": "37.5656250952955",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/deoksugung.png"
     },
     {
       "lo": "126.997949287136",

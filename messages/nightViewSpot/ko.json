@@ -74,12 +74,13 @@
       "subway": "지하철 4호선 혜화역 4번 출구 도보 이용",
       "mod_date": 1719477146000,
       "la": "37.579412935392185",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/changyeonggung.png"
     },
     {
       "lo": "127.078770241307",
       "tel_no": "02-450-9311",
-      "bus": "‘세종대학교’ 정류소 하차",
+      "bus": "‘세종대학교' 정류소 하차",
       "contents": "<p class=\"0\">서울어린이대공원 능동문 앞에 위치한 서울상상나라와 원형광장은</p>\r\n<p class=\"0\">아이들을 위한 시설로서 주간엔 놀이를 통해 체험하고 배울 수 있는 공간으로 활용되며 외부에 위치한 원형광장에선 원형벤치 안과 밖을 뛰놀며 즐기며 쉴 수 있는 공간으로 조성되어 있다<span lang=\"EN-US\">.</span></p>\r\n<p class=\"0\"><!-- [if !supportEmptyParas]-->&nbsp;<!--[endif]--></p>\r\n<p class=\"0\">저녁 밤이 찾아오면 공원 나들이객을 위한 새로운 모습으로 변모한다<span lang=\"EN-US\">. </span></p>\r\n<p class=\"0\">능동문을 지나 공원에 발을 딛는 순간 밤하늘을 수놓은 별자리 테마의 거대한 조명 벽화를 마주치게 되는데<span lang=\"EN-US\">, </span>공원을 방문한 아이들도<span lang=\"EN-US\">, </span>연인들도</p>\r\n<p class=\"0\">편히 원형 벤치에 앉아 한결 더 공원의 매력을 느껴볼 수 있을 것이다<span lang=\"EN-US\">.</span></p>\r\n<p class=\"0\"><!-- [if !supportEmptyParas]-->&nbsp;<!--[endif]--></p>\r\n<p class=\"0\">외벽을 수놓을 경관조명은 일몰시부터 <span lang=\"EN-US\">22</span>시까지 운영될 계획이다<span lang=\"EN-US\">.</span></p>",
       "operating_time": "5:00~22:00 (연중무휴)",
       "addr": "서울특별시 광진구 능동로 216",
@@ -112,7 +113,8 @@
       "subway": "지하철 1호선 종로3가역 6번 출구 도보 이용",
       "mod_date": 1733897926000,
       "la": "37.57950279094907",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/changdeokgung.png"
     },
     {
       "lo": "126.928686496763",
@@ -340,7 +342,8 @@
       "subway": "지하철 1, 2호선 시청역 2번 출구 도보 이용",
       "mod_date": 1719477160000,
       "la": "37.5599277853801",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/sym.png"
     },
     {
       "lo": "126.897273034482",
@@ -384,7 +387,7 @@
       "lo": "126.976787992565",
       "tel_no": "02-120",
       "bus": "세종문화회관, KT광화문지사 정류장 하차 도보 이용",
-      "contents": "<div><span style=\"font-size: 14pt;\">광화문광장은 조선시대 육조 관청이 있었던 역사의 중심지로, 다양한 전시와 시민참여 프로그램을 체험할 수 있습니다.</span><span style=\"font-size: 14pt;\">북악산과 경복궁의 야경, 광장 내 녹지 조명, 주변 미디어 파사드를&nbsp;관람할 수 있는&nbsp;도심 속 야경 명소입니다.</span></div>\r\n<p>&nbsp;</p>\r\n<p><span style=\"font-size: 14pt;\">- 광장 내 유구 24시간 전시</span></p>\r\n<p><span style=\"font-size: 14pt;\">-&nbsp;물놀이 분수&nbsp;운영(4월~5월, 9월~10월 10:00~19:50,&nbsp;6월~8월 10:00~20:50)</span></p>\r\n<p><span style=\"font-size: 14pt;\">- AI 해설사&nbsp;운영 중(5개 국어 지원, <span style=\"color: #0935f6;\"><strong><a style=\"color: #0935f6;\" href=\"https://gwanghwamun.seoul.go.kr/qrContents/aiVoice/kr/aiDocent.do\" target=\"_blank\" rel=\"noopener\">광화문 AI 해설사 (seoul.go.kr)</a></strong></span>)</span></p>\r\n<p><span style=\"font-size: 14pt;\">- 야간 도보해설관광 프로그램 운영 중(서울관광재단, 외국어 지원)</span></p>",
+      "contents": "<div><span style=\"font-size: 14pt;\">광화문광장은 조선시대 육조 관청이 있었던 역사의 중심지로, 다양한 전시와 시민참여 프로그램을 체험할 수 있습니다.</span><span style=\"font-size: 14pt;\">북악산과 경복궁의 야경, 광장 내 녹지 조명, 주변 미디어 파사드를&nbsp;관람할 수 있는&nbsp;도심 속 야경 명소입니다.</span></div>\r\n<p>&nbsp;</p>\r\n<p><span style=\"font-size: 14pt;\">- 광장 내 유구 24시간 전시</span></p>\r\n<p><span style=\"font-size: 14pt;\">-&nbsp;물놀이 분수&nbsp;운영(4월~5월, 9월~10월 10:00~19:50,&nbsp;6월~8월 10:00~20:50)</span></p>\r\n<p><span style=\"font-size: 14pt;\">- AI 해설사&nbsp;운영 중(5개 국어 지원, <span style=\"color: #0935f6;\"><strong><a style=\"color: #0935f6;\" href=\"https://gwanghwamun.seoul.go.kr/qrContents/aiVoice/kr/aiDocent.do\" target=\"_blank\" rel=\"noopener\">광화문 AI 해설사 (seoul.go.kr)</a></strong></span>)</span></p>\r\n<p><span style=\"font-size: 14pt;\">- 야간 도보해설광 프로그램 운영 중(서울관광재단, 외국어 지원)</span></p>",
       "operating_time": "연중무휴",
       "addr": "서울특별시 종로구 세종대로 172",
       "subject_cd": "공원/광장",
@@ -454,7 +457,8 @@
       "subway": "지하철 3호선 경복궁 5번 출구 도보 이용",
       "mod_date": 1730353274000,
       "la": "37.5759040910202",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/gyeongbokgung.png"
     },
     {
       "lo": "126.968148438254",
@@ -492,7 +496,8 @@
       "subway": "지하철 1, 2호선 시청역 2번 출구 도보 이용",
       "mod_date": 1733897427000,
       "la": "37.5656250952955",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/deoksugung.png"
     },
     {
       "lo": "126.997949287136",
@@ -516,7 +521,7 @@
     {
       "lo": "127.078770241307",
       "tel_no": "02-450-9311",
-      "bus": "‘어린이대공원후문아차산역’ 혹은 ‘세종대학교’ 정류소 하차",
+      "bus": "‘어린이대공원후문아차산역' 혹은 '세종대학교' 정류소 하차",
       "contents": "<p class=\"0\"><span lang=\"EN-US\">1. </span>서울어린이대공원 팔각당 오름광장</p>\r\n<p class=\"0\">서울어린이대공원 팔각당 계단광장은 서울어린이대공원에서 가장 높은 곳이다<span lang=\"EN-US\">. </span>주변 고도제한으로 인해<span lang=\"EN-US\">, </span>조금만 올라가도 탁 트인 공원과 도심의 야경을 즐길 수 있다<span lang=\"EN-US\">. </span>야간에는 간접조명이 더해져 한층 낭만적이고 감성적인 분위기를 자아낸다<span lang=\"EN-US\">. </span></p>\r\n<p class=\"0\"><!-- [if !supportEmptyParas]-->&nbsp;<!--[endif]--></p>\r\n<p class=\"0\"><span lang=\"EN-US\">2. </span>서울어린이대공원 꿈나래정원</p>\r\n<p class=\"0\">꿈마루 건물을 지나 조금 더 걷다보면 이색 조형물들과 함께 색다른 매력을 뿜어내는 무장애통합정원 <span lang=\"EN-US\">&lsquo;</span>꿈나래정원<span lang=\"EN-US\">&rsquo;</span>을 만날 수 있다<span lang=\"EN-US\">. </span>넓고 편리한 바닥포장<span lang=\"EN-US\">, </span>휴식할 수 있는 탁자와 벤츠가 있는 곳으로 천천히 거닐며 밤의 정취를 느끼기 좋다<span lang=\"EN-US\">.</span></p>\r\n<p class=\"0\"><!-- [if !supportEmptyParas]-->&nbsp;<!--[endif]--></p>\r\n<p class=\"0\"><span lang=\"EN-US\">3. </span>서울어린이대공원 미세먼지 저감숲</p>\r\n<p class=\"0\">롯데홈쇼핑<span lang=\"EN-US\">, </span>환경재단과 협업으로 미세먼지 저감 효과가 있는 나무 <span lang=\"EN-US\">1000</span>그루를 조성한 피크닉 공간<span lang=\"EN-US\">. </span>특히 밤에는 플라스틱 뚜껑을 업사이클링해서 만든 지구본에 조명이 더해져 공원이 대표 야간 포토존이 된다<span lang=\"EN-US\">.</span></p>",
       "operating_time": "5:00~22:00 (연중무휴)",
       "addr": "서울특별시 광진구 능동로 216",
@@ -801,7 +806,7 @@
     {
       "lo": "127.078770241307",
       "tel_no": "02-450-9311",
-      "bus": "‘어린이대공원후문아차산역’ 정류장에 하차",
+      "bus": "‘어린이대공원후문아차산역' 정류장에 하차",
       "contents": "<p class=\"0\"><span style=\"font-size: 14pt;\">서울어린이대공원 후문 진입로에서 아차산역 광장까지 약 <span lang=\"EN-US\">240m </span>구간에 <span lang=\"EN-US\">&lsquo;</span>문화가 흐르는 후문 선형공원<span lang=\"EN-US\">&rsquo;이 조성되었다.</span></span></p>\r\n<p class=\"0\"><span style=\"font-size: 14pt;\">일반 산책로였던 이 구간이 <span lang=\"EN-US\">&lsquo;</span>문화의 거리<span lang=\"EN-US\">&rsquo;</span>로 다시 태어나<span lang=\"EN-US\">, </span>버스킹 공간을 상시로 운영하고<span lang=\"EN-US\">, </span>주야간 다양한 문화콘텐츠를 제공할 계획이다<span lang=\"EN-US\">. </span>특히 야간에는 수목조명 및 부간접조명<span lang=\"EN-US\">, </span>그림자조명을 활용하여 경관을 조성<span lang=\"EN-US\">, </span>밤거리의 정취와 분위기를 물씬 느낄 수 있는 공간으로 변신하여 낮과는 다른 새로운 매력을 느낄 수 있다<span lang=\"EN-US\">. 2024년 </span><span lang=\"EN-US\">5</span>월 조성된 어린이대공원 <span lang=\"EN-US\">&lsquo;</span>후문 선형공원<span lang=\"EN-US\">&rsquo;</span>은 서울시민에게 주야간 편안한 휴식<span lang=\"EN-US\">&middot;</span>산책 공간이자 문화매력공간으로 다가갈 것이다<span lang=\"EN-US\">.</span></span></p>",
       "operating_time": "05:00~22:00 (연중무휴)",
       "addr": "서울특별시 광진구 능동로 216",
@@ -915,7 +920,7 @@
     {
       "lo": "127.093089721731",
       "tel_no": "02-2116-0552",
-      "bus": "‘경춘선숲길.화랑대역공원’ 버스정류장 하차 (간선버스 202 / 지선버스 1155, 2212 / 일반버스 115 / 마을버스 82A, 82B)",
+      "bus": "‘경춘선숲길.화랑대역공원' 버스정류장 하차 (간선버스 202 / 지선버스 1155, 2212 / 일반버스 115 / 마을버스 82A, 82B)",
       "contents": "<p class=\"0\"><span style=\"font-size: 14pt;\">○ 화랑대철도공원은 서울의 마지막 간이역이었던 화랑대역을 중심으로<span lang=\"EN-US\">, 2010</span>년 운행이 중단된 경춘선 철로 구간을 볼거리<span lang=\"EN-US\">, </span>즐길거리 가득한 문화공원으로 재탄생시킨 역사<span lang=\"EN-US\">&middot;</span>문화적 가치를 가진 도심 속 힐링타운입니다<span lang=\"EN-US\">.(</span>총 면적 <span lang=\"EN-US\">40,462</span>㎡<span lang=\"EN-US\">)</span></span></p>\r\n<p class=\"0\">&nbsp;</p>\r\n<p class=\"0\"><span style=\"font-size: 14pt;\">○ 일몰시간이 가까워져 오면 화려한 야간조명을 선보이는 노원불빛정원으로 탈바꿈하여<span lang=\"EN-US\">, </span>형형색색의 불빛터널<span lang=\"EN-US\">, </span>레이저빔을 이용한 환상의 기차역<span lang=\"EN-US\">, </span>마치 허공에 영상이 떠 있는 듯 연출되는 미디어 트레인<span lang=\"EN-US\">, </span>대형 크리스마스트리를 연상케 하는 아바타트리 등이 선보입니다<span lang=\"EN-US\">.</span></span></p>\r\n<p class=\"0\">&nbsp;</p>\r\n<p class=\"0\"><span style=\"font-size: 14pt;\">○ 낮에는 옛 철로 위에 전시된 실물 기차를 포함하여<span lang=\"EN-US\">, </span>기차를 테마로 한 이색 문화시설들과 자연풍광의 조화를 즐기고<span lang=\"EN-US\">, </span>밤에는 쏟아져내리는 환상적인 빛조명 속에서 인생샷을 남겨보세요<span lang=\"EN-US\">.</span></span></p>\r\n<p class=\"0\">&nbsp;</p>\r\n<p class=\"0\"><span style=\"font-size: 14pt;\">○ 매년 <span lang=\"EN-US\">5</span>월에는 공원 일원에서 노원구 대표 축제인 <span lang=\"EN-US\">&lsquo;</span>노원수제맥주축제'가 개최됩니다.</span></p>\r\n<p class=\"0\">&nbsp;</p>\r\n<p class=\"0\"><span style=\"font-size: 14pt;\"><span lang=\"EN-US\">○ 2023</span>년에는 문화체육관광부 선정 <span lang=\"EN-US\">&lsquo;</span>지역문화매력 <span lang=\"EN-US\">100</span>선<span lang=\"EN-US\">(</span>로컬<span lang=\"EN-US\">100)&rsquo;</span>에 이름을 올리며<span lang=\"EN-US\">, </span>기존 세대에게는 추억과 낭만을<span lang=\"EN-US\">, </span>새로운 세대에게는 호기심과 즐거움을 선사할 수 있는 복합문화명소로 평가받고 있습니다<span lang=\"EN-US\">.</span></span></p>\r\n<p class=\"0\">&nbsp;</p>\r\n<p class=\"0\"><span style=\"font-size: 14pt;\"><span lang=\"EN-US\">※ 화랑대철도공원 내 각 문화시설별 운영시간 상이<br />&nbsp; &nbsp; 우천, 태풍, 혹한 등 기상 악화시 휴무 <br /><br /></span></span></p>",
       "operating_time": "화~일요일, 일몰전 30분~22:00 ※ 월요일 휴무 ",
       "addr": "서울특별시 노원구 화랑로 608",
@@ -934,7 +939,7 @@
     {
       "lo": "127.078770241307",
       "tel_no": "02-450-9311",
-      "bus": "‘세종대학교’ 정류소 하차",
+      "bus": "‘세종대학교' 정류소 하차",
       "contents": "<p class=\"0\">서울어린이대공원의 대표 핫플레이스인 음악분수<span lang=\"EN-US\">. </span>시원한 물줄기와 음악이 더해져 보고만 있어도 마음이 시원해지는 곳이다<span lang=\"EN-US\">. </span>특히 야간에는 다채로운 조명과 어우러져서 더욱 낭만적인 분위기를 자아낸다<span lang=\"EN-US\">. </span>뉴진스<span lang=\"EN-US\">, BTS, </span>콜드플레이 등 유명 대중가요부터 어린이들의 <span lang=\"EN-US\">&lsquo;</span>최애<span lang=\"EN-US\">&rsquo; </span>노래 <span lang=\"EN-US\">&lsquo;</span>아기상어<span lang=\"EN-US\">&rsquo;, &lsquo;</span>곰세마리<span lang=\"EN-US\">&rsquo;, &lsquo;</span>올챙이송<span lang=\"EN-US\">&rsquo; </span>등 다양한 동요까지<span lang=\"EN-US\">, </span>음악에 맞춰 춤추는 분수쇼를 만나볼 수 있다<span lang=\"EN-US\">. </span>매해 하절기에는 <span lang=\"EN-US\">&lsquo;</span>한여름밤 뮤직피크닉<span lang=\"EN-US\">&rsquo;</span>을 개최하여 음악분수를 배경으로 진행되는 오케스트라<span lang=\"EN-US\">, </span>버스킹 등 문화공을 만나볼 수 있다<span lang=\"EN-US\">.</span></p>\r\n<p class=\"0\"><!-- [if !supportEmptyParas]-->&nbsp;<!--[endif]--></p>\r\n<p class=\"0\">분수는 <span lang=\"EN-US\">4</span>월부터 <span lang=\"EN-US\">10</span>월까지 가동되며<span lang=\"EN-US\">, </span>매일 <span lang=\"EN-US\">12</span>시<span lang=\"EN-US\">, 14</span>시<span lang=\"EN-US\">, 16</span>시<span lang=\"EN-US\">, 16</span>시<span lang=\"EN-US\">, 17</span>시<span lang=\"EN-US\">, 18</span>시<span lang=\"EN-US\">, 19</span>시에 <span lang=\"EN-US\">30</span>분<span lang=\"EN-US\">(</span>음악분수 <span lang=\"EN-US\">20</span>분<span lang=\"EN-US\">, </span>일반분수 <span lang=\"EN-US\">10</span>분<span lang=\"EN-US\">) </span>가동된다<span lang=\"EN-US\">. </span>매주 화요일은 청소 및 정기점검으로 미운영한다<span lang=\"EN-US\">. </span></p>",
       "operating_time": "5:00~22:00 (연중무휴)",
       "addr": "서울특별시 광진구 능동로 216",
