@@ -90,7 +90,7 @@ const NightViewSpot = () => {
               onClick={() => openModal(spot)}
               className="transition-transform hover:scale-105 focus:outline-none"
             >
-              <ItemCard imgSrc={spot.image_url || undefined} text={spot.title || ' '} />
+              <ItemCard text={spot.title || ' '} imgSrc={spot.src || undefined} />
             </button>
           ))}
         </div>
