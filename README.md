@@ -14,3 +14,8 @@
 | 삼청각             | [<삼청각>삼청각](http://www.samcheonggak.or.kr/about/)                                                                         |
 | 운현궁             | [<운현궁>국가유산청](https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=1331102570000&pageNo=1_1_1_1)             |
 | 보신각             | [<보신각>국가유산청](https://www.heritage.go.kr/heri/cul/culSelectDetail.do?pageNo=1_1_1_1&sngl=Y&ccbaCpno=2331100100000)      |
+| 세검정             | [<세검정>국가유산청](https://www.heritage.go.kr/heri/cul/culSelectDetail.do?ccbaCpno=2331100040000&pageNo=1_1_1_1)             |
+| 서대문 독립공원    | [<서대문 독립공원>서대문구청](https://www.sdm.go.kr/culture/attraction/sub2030.do)                                             |
+| 경교장             | [<경교장>국가유산청](https://www.heritage.go.kr/heri/cul/culSelectDetail.do?pageNo=1_1_2_0&ccbaCpno=1331104650000)             |
+| 배제학당역사박물관 | [<배제학당역사박물관>한국민족문화대백과사전](https://encykorea.aks.ac.kr/Article/E0069863)                                     |
+| 구 러시아공사관    | [<구 러시아공사관>한국민족문화대백과사전](https://encykorea.aks.ac.kr/Article/E0005711)                                        |
