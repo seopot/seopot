@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import ItemCard from '@/components/common/ItemCard';
 import Input from '@/components/common/Input';
 import { useSearch } from '@/hooks/useSearch';
@@ -23,6 +23,9 @@ const Market = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  const [displayCount, setDisplayCount] = useState<number>(30);
+  const [hasMore, setHasMore] = useState<boolean>(true);
+
   const { filteredItems, handleSearch } = useSearch({
     items: data,
     searchField: 'title',
@@ -35,7 +38,41 @@ const Market = () => {
     handleSearch(query);
   };
 
-  const displayItems = searchTerm.trim() === '' ? data : filteredItems;
+  const displayItems =
+    searchTerm.trim() === '' ? data.slice(0, displayCount) : filteredItems.slice(0, displayCount);
+
+  const observer = useRef<IntersectionObserver | null>(null);
+  const lastItemRef = useRef<HTMLDivElement | null>(null);
+
+  const loadMoreItems = () => {
+    if (isLoading || !hasMore) return;
+    setDisplayCount(prev => prev + 40);
+    setHasMore(data.length > displayCount + 40);
+  };
+
+  useEffect(() => {
+    if (isLoading) return;
+
+    if (observer.current) {
+      observer.current.disconnect();
+    }
+
+    observer.current = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting && hasMore) {
+        loadMoreItems();
+      }
+    });
+
+    if (lastItemRef.current) {
+      observer.current.observe(lastItemRef.current);
+    }
+
+    return () => {
+      if (observer.current) {
+        observer.current.disconnect();
+      }
+    };
+  }, [isLoading, hasMore, displayCount]);
 
   useEffect(() => {
     const loadData = async () => {
@@ -84,19 +121,31 @@ const Market = () => {
         <SkeletonGrid count={12} />
       ) : displayItems.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {displayItems.map(spot => (
-            <button
-              key={spot.num}
-              onClick={() => openModal(spot)}
-              className="transition-transform hover:scale-105 focus:outline-none"
-            >
-              <ItemCard imgSrc={spot.image_url || undefined} text={spot.title || ' '} />
-            </button>
+          {displayItems.map((spot, index) => (
+            <div key={spot.num} ref={index === displayItems.length - 1 ? lastItemRef : null}>
+              <button
+                onClick={() => openModal(spot)}
+                className="transition-transform hover:scale-105 focus:outline-none w-full"
+              >
+                <ItemCard imgSrc={spot.image_url || undefined} text={spot.title || ' '} />
+              </button>
+            </div>
           ))}
         </div>
       ) : data.length > 0 ? (
         <div className="text-center py-8">{tc('noSearchResults')}</div>
       ) : null}
+
+      {hasMore && !isLoading && (
+        <div className="flex justify-center mt-8">
+          <div ref={lastItemRef} className="h-10"></div>
+        </div>
+      )}
+      {isLoading && displayCount > 40 && (
+        <div className="flex justify-center mt-8">
+          <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-gray-900"></div>
+        </div>
+      )}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
         <ModalContent spot={selectedSpot} />
