@@ -1,0 +1,1798 @@
+{
+  "DATA": [
+    {
+      "num": 1,
+      "title": "Gwangjang Market",
+      "addr": "88 Changgyeonggung-ro, Jongno-gu, Seoul (Gwangjang Market)"
+    },
+    {
+      "num": 2,
+      "title": "Gwangjang Traditional Market",
+      "addr": "Around 88 Changgyeonggung-ro, Jongno-gu, Seoul (Gwangjang Traditional Market)"
+    },
+    {
+      "num": 3,
+      "title": "Nakwon Music Mall",
+      "addr": "428 Samil-daero, Jongno-gu, Seoul (Nakwon Mall)"
+    },
+    {
+      "num": 4,
+      "title": "Dongdaemun Stationery & Toy Street",
+      "addr": "Area around 36 Jongno 52-gil, Jongno-gu, Seoul"
+    },
+    {
+      "num": 5,
+      "title": "Dongdaemun Mall Building A",
+      "addr": "295 Cheonggyecheon-ro, Jongno-gu, Seoul (Building A)"
+    },
+    {
+      "num": 6,
+      "title": "Dongdaemun Mall Building B",
+      "addr": "307 Cheonggyecheon-ro, Jongno-gu, Seoul (Building B)"
+    },
+    {
+      "num": 7,
+      "title": "Dongdaemun Mall Building C",
+      "addr": "319 Cheonggyecheon-ro, Jongno-gu, Seoul (Building C)"
+    },
+    {
+      "num": 8,
+      "title": "Dongdaemun Mall Building D (Ilsin Power Building)",
+      "addr": "331 Cheonggyecheon-ro, Jongno-gu, Seoul (Building D)"
+    },
+    { "num": 9, "title": "Dongdaemun General Market", "addr": "266 Jongno, Jongno-gu, Seoul" },
+    {
+      "num": 10,
+      "title": "Dongdaemun General Market Building D",
+      "addr": "266 Jongno, Jongno-gu, Seoul (Building D)"
+    },
+    {
+      "num": 11,
+      "title": "Dongdaemun General Market New Building",
+      "addr": "272 Jongno, Jongno-gu, Seoul (New Building)"
+    },
+    {
+      "num": 12,
+      "title": "Dongdaemun Underground Shopping Center",
+      "addr": "308 Yulgok-ro (underground), Jongno-gu, Seoul"
+    },
+    { "num": 13, "title": "Dongmyo Market", "addr": "40 Jongno 58-gil, Jongno-gu, Seoul" },
+    { "num": 14, "title": "Dongmun Market", "addr": "14 Jongno 44-gil, Jongno-gu, Seoul" },
+    {
+      "num": 15,
+      "title": "Majongyo Underground Shopping Center",
+      "addr": "398 Dongho-ro (underground), Jongno-gu, Seoul"
+    },
+    {
+      "num": 16,
+      "title": "Boryeong Pharmacy Alley",
+      "addr": "22 Jongno 31-gil, Jongno-gu, Seoul (surrounding area)"
+    },
+    {
+      "num": 17,
+      "title": "Bukchon Gyedong-gil Alley Commercial Area",
+      "addr": "Around 52-12 Gyedong-gil, Jongno-gu, Seoul"
+    },
+    {
+      "num": 18,
+      "title": "Samcheong Jeongdok-gil Alley Commercial Area",
+      "addr": "Around 52 Yulgok-ro 1-gil, Jongno-gu, Seoul"
+    },
+    {
+      "num": 19,
+      "title": "Sewoon Shopping Mall Building A",
+      "addr": "159 Cheonggyecheon-ro, Jongno-gu, Seoul (Sewoon Mall A)"
+    },
+    {
+      "num": 20,
+      "title": "Sejong Village Food Culture Street",
+      "addr": "Jahamun-ro 1-gil area, Jongno-gu, Seoul"
+    },
+    {
+      "num": 21,
+      "title": "Sinseol General Market",
+      "addr": "51 Nangye-ro 27-gil, Jongno-gu, Seoul"
+    },
+    {
+      "num": 22,
+      "title": "Jonggak Underground Shopping Center",
+      "addr": "73 Jongno (underground), Jongno-gu, Seoul"
+    },
+    {
+      "num": 23,
+      "title": "Jongno 4-ga Underground Shopping Center",
+      "addr": "81 Changgyeonggung-ro (underground), Jongno-gu, Seoul"
+    },
+    {
+      "num": 24,
+      "title": "Jongno Sinjin Market",
+      "addr": "Around 16 Jongno 38-gil, Jongno-gu, Seoul"
+    },
+    {
+      "num": 25,
+      "title": "Jong-O Underground Shopping Center",
+      "addr": "200 Jongno (underground), Jongno-gu, Seoul"
+    },
+    {
+      "num": 26,
+      "title": "Changsin Alley Market",
+      "addr": "Around 18 Jongno 51-gil, Jongno-gu, Seoul"
+    },
+    {
+      "num": 27,
+      "title": "Chungshin Market",
+      "addr": "Area around Yulgok-ro 22-gil, Jongno-gu, Seoul"
+    },
+    { "num": 28, "title": "Tongin Market", "addr": "18 Jahamun-ro 15-gil, Jongno-gu, Seoul" },
+    {
+      "num": 29,
+      "title": "Hanil Shopping Arcade",
+      "addr": "229 Cheonggyecheon-ro, Jongno-gu, Seoul"
+    },
+    { "num": 30, "title": "Team204", "addr": "30 Majang-ro, Jung-gu, Seoul" },
+    { "num": 31, "title": "Gwanghui Fashion Mall", "addr": "21 Majang-ro 1-gil, Jung-gu, Seoul" },
+    {
+      "num": 32,
+      "title": "Namdaemun-ro Underground Shopping Center",
+      "addr": "14 Namdaemun-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 33,
+      "title": "Namdaemun Market",
+      "addr": "Area around 21 Namdaemun Market 4-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 34,
+      "title": "Nam Pyeonghwa Market",
+      "addr": "282-10 Jangchungdan-ro, Jung-gu, Seoul"
+    },
+    { "num": 35, "title": "Daerim Shopping Mall", "addr": "157 Eulji-ro, Jung-gu, Seoul" },
+    {
+      "num": 36,
+      "title": "Dong Pyeonghwa Market",
+      "addr": "318 Cheonggyecheon-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 37,
+      "title": "Donghwa-dong Alley Commercial Area",
+      "addr": "Around 46 Dasan-ro 42na-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 38,
+      "title": "Donghwa Shopping Arcade",
+      "addr": "34 Jangchungdan-ro 13-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 39,
+      "title": "Myeongdong Namsangol Alley Commercial Area",
+      "addr": "Around 18 Toegye-ro 20-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 40,
+      "title": "Myeongdong Station Underground Shopping Center",
+      "addr": "124 Toegye-ro (underground), Jung-gu, Seoul"
+    },
+    {
+      "num": 41,
+      "title": "Myeongdong Underground Shopping Center",
+      "addr": "72 Namdaemun-ro (underground), Jung-gu, Seoul"
+    },
+    { "num": 42, "title": "Bangsan Market", "addr": "18-1 Eulji-ro 33-gil, Jung-gu, Seoul" },
+    { "num": 43, "title": "Bangsan General Market", "addr": "20 Dongho-ro 37-gil, Jung-gu, Seoul" },
+    {
+      "num": 44,
+      "title": "Baekhak Market",
+      "addr": "Area around 22 Toegye-ro 86-gil, Jung-gu, Seoul"
+    },
+    { "num": 45, "title": "Bellpost (formerly Area Six)", "addr": "19 Majang-ro, Jung-gu, Seoul" },
+    {
+      "num": 46,
+      "title": "Samik Fashion Town",
+      "addr": "7 Namdaemun Market 8-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 47,
+      "title": "Seoul Jungang Market",
+      "addr": "Area around 36 Toegye-ro 85-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 48,
+      "title": "Sogong Underground Shopping Mall",
+      "addr": "102 Sogong-ro (underground), Jung-gu, Seoul"
+    },
+    { "num": 49, "title": "Sungnyemun Import Market", "addr": "3 Sowol-ro, Jung-gu, Seoul" },
+    {
+      "num": 50,
+      "title": "City Hall Square Underground Shopping Center",
+      "addr": "12 Eulji-ro (underground), Jung-gu, Seoul"
+    },
+    {
+      "num": 51,
+      "title": "Sindang Heritage Food Alley Commercial Area",
+      "addr": "Area around 221 Dasan-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 52,
+      "title": "Sindang 5-gil Alley Commercial Area",
+      "addr": "Area around 21 Toegye-ro 88-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 53,
+      "title": "Sinjungbu Market",
+      "addr": "Area around 24 Dongho-ro 33-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 54,
+      "title": "Sinjungang Market",
+      "addr": "3rd Floor, Eoul Shelter, 36 Toegye-ro 85-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 55,
+      "title": "Sinpyeonghwa Fashion Town",
+      "addr": "298 Cheonggyecheon-ro, Jung-gu, Seoul"
+    },
+    { "num": 56, "title": "Art Plaza", "addr": "28 Majang-ro 1-gil, Jung-gu, Seoul" },
+    {
+      "num": 57,
+      "title": "Yaksu Market Alley Commercial Area",
+      "addr": "Around Dongho-ro 7-gil to Dasan-ro 10-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 58,
+      "title": "Euljiro Underground Passage Shopping Center",
+      "addr": "88, 131, 218 Eulji-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 59,
+      "title": "Eulji Entrance Underground Shopping Center",
+      "addr": "58 Eulji-ro (underground), Jung-gu, Seoul"
+    },
+    {
+      "num": 60,
+      "title": "Inhyeon Market",
+      "addr": "Area around 45 Toegye-ro 41-gil, Jung-gu, Seoul"
+    },
+    { "num": 61, "title": "Jayu Shopping Arcade", "addr": "36 Namdaemun-ro, Jung-gu, Seoul" },
+    {
+      "num": 62,
+      "title": "Jangchung Namsoryeong-gil Alley Commercial Area",
+      "addr": "From 27-3 Dongho-ro 24-gil to 32 Jangchungdan-ro 7-gil, Jung-gu, Seoul"
+    },
+    { "num": 63, "title": "Jeil Pyeonghwa Market", "addr": "13 Majang-ro, Jung-gu, Seoul" },
+    {
+      "num": 64,
+      "title": "Jungbu Market",
+      "addr": "Area around 35 Eulji-ro 36-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 65,
+      "title": "Cheonggye 5-ga Shopping Center",
+      "addr": "390-3 Dongho-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 66,
+      "title": "Cheonggye 6-ga Underground Shopping Center",
+      "addr": "280 Jangchungdan-ro (underground), Jung-gu, Seoul"
+    },
+    {
+      "num": 67,
+      "title": "Cheonggye Shopping Center",
+      "addr": "160 Cheonggyecheon-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 68,
+      "title": "Cheonggyecheon Tool Market",
+      "addr": "Around 124 Cheonggyecheon-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 69,
+      "title": "Cheongpyeonghwa Market",
+      "addr": "334 Cheonggyecheon-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 70,
+      "title": "Chungmuro Alley Commercial Area",
+      "addr": "Around 27-1 Chungmuro 2-gil, Jung-gu, Seoul"
+    },
+    {
+      "num": 71,
+      "title": "Chungjeongno Exit 5-6 Alley Commercial Area",
+      "addr": "Around 12 Seosomun-ro, Jung-gu, Seoul"
+    },
+    { "num": 72, "title": "Techno Arcade", "addr": "17 Majang-ro 1-ga-gil, Jung-gu, Seoul" },
+    {
+      "num": 73,
+      "title": "Tongil Shopping Center",
+      "addr": "260-14 Cheonggyecheon-ro, Jung-gu, Seoul"
+    },
+    { "num": 74, "title": "Pyeonghwa Market", "addr": "274 Cheonggyecheon-ro, Jung-gu, Seoul" },
+    {
+      "num": 75,
+      "title": "Pildong Alley Commercial Area",
+      "addr": "Around 19 Pildong-ro, Jung-gu, Seoul"
+    },
+    {
+      "num": 76,
+      "title": "Hwanghak-dong Kitchen Furniture Street",
+      "addr": "From 64 Majang-ro to 189 Nangye-ro, Jung-gu, Seoul"
+    },
+    { "num": 77, "title": "Hwanghak Market", "addr": "Around Toegye-ro 87-gil, Jung-gu, Seoul" },
+    {
+      "num": 78,
+      "title": "Hoehyeon Underground Shopping Center",
+      "addr": "58 Sogong-ro (underground), Jung-gu, Seoul"
+    },
+    { "num": 79, "title": "Manri Market", "addr": "270 Hyochangwon-ro, Yongsan-gu, Seoul" },
+    { "num": 80, "title": "Shinheung Market", "addr": "95-9 Shinheung-ro, Yongsan-gu, Seoul" },
+    {
+      "num": 81,
+      "title": "Yongsan Yongmun Market",
+      "addr": "13 Hyochangwon-ro 40-gil, Yongsan-gu, Seoul"
+    },
+    {
+      "num": 82,
+      "title": "Ichon General Market",
+      "addr": "16-9 Ichon-ro 75-gil, Yongsan-gu, Seoul"
+    },
+    { "num": 83, "title": "Itaewon Market", "addr": "6 Itaewon-ro 14-gil, Yongsan-gu, Seoul" },
+    { "num": 84, "title": "Hangang Shopping Center", "addr": "224 Ichon-ro, Yongsan-gu, Seoul" },
+    { "num": 85, "title": "Huam Market", "addr": "77 Hangang-daero 104-gil, Yongsan-gu, Seoul" },
+    {
+      "num": 86,
+      "title": "Geumnam Market",
+      "addr": "2nd Floor, 32 Geumhosan 2-gil, Seongdong-gu, Seoul"
+    },
+    { "num": 87, "title": "Ttukdo Market", "addr": "32-15 Seongsu 2(i)-ro, Seongdong-gu, Seoul" },
+    {
+      "num": 88,
+      "title": "Ttukseom Station Shopping Area",
+      "addr": "Next to Exit 3, 35 Achasan-ro, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 89,
+      "title": "Majang Meat Market",
+      "addr": "4th Floor, 68 Majang-ro 35-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 90,
+      "title": "Sageun Salgoji Alley Commercial Area",
+      "addr": "Around 55 Sageun-dong-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 91,
+      "title": "Seongdong Yongdap Shopping Arcade Market",
+      "addr": "59 Yongdapjungang-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 92,
+      "title": "Seongsu Station Alley Commercial Area",
+      "addr": "B101, Korea IT Center, 26 Seongsuil-ro 12-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 93,
+      "title": "Songjeong Cherry Blossom Alley Commercial Area",
+      "addr": "Around 38 Gwangnaru-ro 11-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 94,
+      "title": "Singeumho Station Alley Commercial Area",
+      "addr": "B1, 149 Geumho-ro, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 95,
+      "title": "Wangsimni Doseon-dong Shopping Area",
+      "addr": "3–4F, 32 Muhak-ro 2-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 96,
+      "title": "Wangsimni Muhakbong Shopping Area",
+      "addr": "Unit 102, 6 Muhakbong 16-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 97,
+      "title": "In Front of Hanyang University Shopping Area",
+      "addr": "6F, 28 Majoro 1-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 98,
+      "title": "Haengdang Market Shopping Area",
+      "addr": "20 Muhakbong 16-gil, Seongdong-gu, Seoul"
+    },
+    {
+      "num": 99,
+      "title": "Geonridan-gil Alley Commercial Area",
+      "addr": "1F, 54 Neungdong-ro 13-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 100,
+      "title": "Gwangseong Market",
+      "addr": "30 Neungdong-ro 47-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 101,
+      "title": "Norunsan Alley Market",
+      "addr": "6 Ttukseom-ro 25-gil, Gwangjin-gu, Seoul"
+    },
+    { "num": 102, "title": "Norunsan Market", "addr": "491 Ttukseom-ro, Gwangjin-gu, Seoul" },
+    {
+      "num": 103,
+      "title": "Myeonggok Market Alley Commercial Area",
+      "addr": "368 Dapsimni-ro, Gwangjin-gu, Seoul"
+    },
+    { "num": 104, "title": "Shinseong Market", "addr": "2F, 10 Yeonghwasa-ro, Gwangjin-gu, Seoul" },
+    {
+      "num": 105,
+      "title": "Shinseong Traditional Market",
+      "addr": "2F, 16 Yeonghwasa-ro, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 106,
+      "title": "Yeongdonggyo Alley Market",
+      "addr": "51 Dongil-ro 10-gil (Jayang-dong), Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 107,
+      "title": "Jayang 15th Street Alley Commercial Area",
+      "addr": "1F, 69 Jayang-ro 15-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 108,
+      "title": "Jayang Traditional Market",
+      "addr": "59 Jayang-ro 13-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 109,
+      "title": "Jayang General Market",
+      "addr": "20 Jayang Beonyeong-ro 6-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 110,
+      "title": "Jayang Hangang Traditional Market",
+      "addr": "18 Ttukseom-ro 30-gil, Gwangjin-gu, Seoul"
+    },
+    { "num": 111, "title": "Joyang Market", "addr": "39 Achasan-ro 30-gil, Gwangjin-gu, Seoul" },
+    {
+      "num": 112,
+      "title": "Junggok Jeil Alley Market",
+      "addr": "14 Gingorang-ro 11-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 113,
+      "title": "Junggok Jeil Market",
+      "addr": "11 Gingorang-ro 11-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 114,
+      "title": "Hanareum Market",
+      "addr": "39 Neungdong-ro 13-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 115,
+      "title": "Hwayang Jeil Alley Market",
+      "addr": "55 Achasan-ro 29-gil, Gwangjin-gu, Seoul"
+    },
+    {
+      "num": 116,
+      "title": "Gyeongdong Gwangseong Arcade",
+      "addr": "464 Gosanja-ro, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 117,
+      "title": "Gyeongdong Market",
+      "addr": "3 Gosanja-ro 36-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 118,
+      "title": "Dapsimni Construction Materials Market",
+      "addr": "49 Gomiseul-ro, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 119,
+      "title": "Dapsimni Market",
+      "addr": "4-1 Dapsimni-ro 51-gil, Dongdaemun-gu, Seoul (Merchants' Association)"
+    },
+    {
+      "num": 120,
+      "title": "Dapsimni Hyundai Market",
+      "addr": "38 Jeonnong-ro 4-gil, Dongdaemun-gu, Seoul"
+    },
+    { "num": 121, "title": "Dongbu Market", "addr": "281 Cheonho-daero, Dongdaemun-gu, Seoul" },
+    { "num": 122, "title": "Dongseo Market", "addr": "13 Wangsan-ro 33-gil, Dongdaemun-gu, Seoul" },
+    {
+      "num": 123,
+      "title": "Seoul Yangnyeong Market",
+      "addr": "20 Yangnyeongjungang-ro, Dongdaemun-gu, Seoul (Yangnyeongsi Association)"
+    },
+    {
+      "num": 124,
+      "title": "Sinseol-dong Deullak Street Alley Commercial Area",
+      "addr": "10 Hajeong-ro 3-gil, Dongdaemun-gu, Seoul"
+    },
+    { "num": 125, "title": "Yongdu Market", "addr": "12 Muhak-ro 37-gil, Dongdaemun-gu, Seoul" },
+    { "num": 126, "title": "Igyeong Market", "addr": "53 Huigyeong-ro, Dongdaemun-gu, Seoul" },
+    {
+      "num": 127,
+      "title": "Igyeong Traditional Market",
+      "addr": "13 Hyeongdae Station-ro 12-gil, Dongdaemun-gu, Seoul"
+    },
+    { "num": 128, "title": "Imun Jeil Market", "addr": "200 Imun-ro, Dongdaemun-gu, Seoul" },
+    {
+      "num": 129,
+      "title": "Jangan Masil Alley Commercial Area",
+      "addr": "64 Dapsimni-ro 66-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 130,
+      "title": "Janghanpyeong Station Food Alley Commercial Area",
+      "addr": "27 Cheonho-daero 85-gil, Dongdaemun-gu, Seoul"
+    },
+    { "num": 131, "title": "Jeongok Market", "addr": "190 Hancheon-ro, Dongdaemun-gu, Seoul" },
+    {
+      "num": 132,
+      "title": "Jeonnong Rotary Market",
+      "addr": "7 Jeonnong-ro 15-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 133,
+      "title": "Korea Univ. Front Village Alley Commercial Area",
+      "addr": "6 Anam-ro 22-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 134,
+      "title": "Cheongnyangni Agricultural and Fishery Market",
+      "addr": "22 Gyeongdong Market-ro, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 135,
+      "title": "Cheongnyangni Fish Market",
+      "addr": "48-1 Gosanja-ro 34-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 136,
+      "title": "Cheongnyangni Traditional Market",
+      "addr": "49-3 Gyeongdong Market-ro 2-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 137,
+      "title": "Cheongnyangni General Market",
+      "addr": "68-3 Hongneung-ro 1-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 138,
+      "title": "Cheongnyangni Fruit and Vegetable Market",
+      "addr": "6 Wangsan-ro 33-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 139,
+      "title": "Cheongnyang General Wholesale Market",
+      "addr": "92-2 Yangnyeongsi-ro, Dongdaemun-gu, Seoul"
+    },
+    { "num": 140, "title": "Hoegi Market", "addr": "11 Hoegi-ro 25-gil, Dongdaemun-gu, Seoul" },
+    {
+      "num": 141,
+      "title": "Hoegi Station Alley-type Shopping District",
+      "addr": "12-3 Hoegiro 28-gil, Dongdaemun-gu, Seoul"
+    },
+    {
+      "num": 142,
+      "title": "Gyeomjae Hansin-gil Alley-type Shopping District",
+      "addr": "9 Gyeomjae-ro 3-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 143,
+      "title": "Dongseong Tower Plaza",
+      "addr": "221 Bonghwasan-ro, Jungnang-gu, Seoul"
+    },
+    { "num": 144, "title": "Dongwon Market", "addr": "45 Myeonmok-ro 74-gil, Jungnang-gu, Seoul" },
+    {
+      "num": 145,
+      "title": "Dongwon Traditional Market Shopping District",
+      "addr": "67 Myeonmok-ro 78-gil, Room 101, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 146,
+      "title": "Dongwon Traditional General Market",
+      "addr": "27-3 Sangbong-ro 11-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 147,
+      "title": "Myeonmok Market (Alley-type)",
+      "addr": "84 Sagajeong-ro 50-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 148,
+      "title": "Myeonmok Market (Camelia Shopping Center)",
+      "addr": "11 Myeonmok-ro 39-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 149,
+      "title": "Mokdong Goblin Market Alley-type Shopping District",
+      "addr": "60 Gongneung-ro, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 150,
+      "title": "Bongwoo Market Alley-type Shopping District",
+      "addr": "19 Bongujae-ro 14-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 151,
+      "title": "Sagajeong 51-gil Alley-type Shopping District",
+      "addr": "38 Sagajeong-ro 51-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 152,
+      "title": "Sagajeong Market",
+      "addr": "16 Myeonmok-ro 44-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 153,
+      "title": "Sangbong Food Alley-type Shopping District",
+      "addr": "Bongujae-ro 33-gil Area, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 154,
+      "title": "Sinnae-gil Alley-type Shopping District",
+      "addr": "26 Sinnae-ro 14-gil, Jungnang-gu, Seoul"
+    },
+    { "num": 155, "title": "Shin-A Town", "addr": "194 Bonghwasan-ro, Jungnang-gu, Seoul" },
+    {
+      "num": 156,
+      "title": "Woorim Alley Market",
+      "addr": "52-4 Mangwoo-ro 62-gil, Jungnang-gu, Seoul"
+    },
+    { "num": 157, "title": "Yuyeong Market", "addr": "96 Bongujae-ro 70-gil, Jungnang-gu, Seoul" },
+    {
+      "num": 158,
+      "title": "Rose Light Street Alley-type Shopping District",
+      "addr": "7 Dongil-ro 163-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 159,
+      "title": "Jangmi Jeil Market",
+      "addr": "43 Dongil-ro 143-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 160,
+      "title": "Jungnanggyo General Shopping Mall",
+      "addr": "23 Mangwoo-ro 32-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 161,
+      "title": "Jungnang East Market",
+      "addr": "31-5 Dongil-ro 109-gil, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 162,
+      "title": "Taereung Alley-type Shopping District",
+      "addr": "Jungnangyeok-ro Area, Jungnang-gu, Seoul"
+    },
+    {
+      "num": 163,
+      "title": "Taereung Enterpia",
+      "addr": "35 Dongil-ro 129-gil, Jungnang-gu, Seoul"
+    },
+    { "num": 164, "title": "Gireum Market", "addr": "227 Dongsomun-ro, Seongbuk-gu, Seoul" },
+    {
+      "num": 165,
+      "title": "Dream Forest Janggok Alley-type Shopping District",
+      "addr": "Dolgoti-ro 39-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 166,
+      "title": "Donam Market",
+      "addr": "18 Dongsomun-ro 18-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 167,
+      "title": "Dolgoji Market",
+      "addr": "22 Hancheon-ro 73-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 168,
+      "title": "Bamnamu-gol Market",
+      "addr": "79 Opaesan-ro, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 169,
+      "title": "Baebatgol Alley-type Shopping District",
+      "addr": "Baebatgol Alley-type Shopping District, Jeongneung-ro 10-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 170,
+      "title": "Seokgye Food Culture Street",
+      "addr": "71 Hancheon-ro 78-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 171,
+      "title": "Seongbukcheon Alley-type Shopping District",
+      "addr": "Seongbukcheon Alley-type Shopping District, Dongsomun-ro 2-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 172,
+      "title": "Wolgok Dalbit Five-way Intersection Alley-type Shopping District",
+      "addr": "Around 113 Jangwol-ro 1-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 173,
+      "title": "Jangwi Traditional Market",
+      "addr": "46-1 Jangwi-ro 38-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 174,
+      "title": "Jeongneung Seokyeongdae-gil Alley-type Shopping District",
+      "addr": "Jeongneung Seokyeongdae-gil Alley-type Shopping District, Bogukmun-ro 16-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 175,
+      "title": "Jeongneung Market",
+      "addr": "18-19 Bogukmun-ro 11-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 176,
+      "title": "Jeongneung Arirang Market",
+      "addr": "32 Jeongneung-ro 26ga-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 177,
+      "title": "Jongam Bukbawi-gil Alley-type Shopping District",
+      "addr": "Jongam Bukbawi-gil Alley-type Shopping District, Jongam-ro 21-gil, Seongbuk-gu, Seoul"
+    },
+    {
+      "num": 178,
+      "title": "Gangbuk Northern Alley Market",
+      "addr": "Around 27 Hancheon-ro 123-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 179,
+      "title": "Gangbuk Northern Market",
+      "addr": "26 Hancheon-ro 123-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 180,
+      "title": "Dongbuk Plaza",
+      "addr": "233 Solsaem-ro, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 181,
+      "title": "Miso Merchants Association Alley-type Shopping District",
+      "addr": "Around 2 Dobong-ro 10ra-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 182,
+      "title": "Bangcheon Alley Market",
+      "addr": "Around 9 Wolgye-ro 7na-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 183,
+      "title": "Baeknyeon Market",
+      "addr": "Around 26 Hancheon-ro 144-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 184,
+      "title": "Samyang Market Alley-type Shopping District",
+      "addr": "Around 45 Solmae-ro, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 185,
+      "title": "Solsaem Market Alley-type Shopping District",
+      "addr": "Around 4 Solsaem-ro 50-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 186,
+      "title": "Suyu Northern Market",
+      "addr": "19 Samyang-ro 91ga-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 187,
+      "title": "Suyu Market",
+      "addr": "18 Dobong-ro 67-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 188,
+      "title": "Suyu Traditional Market",
+      "addr": "Around 26 Dobong-ro 71-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 189,
+      "title": "Suyu Traditional Market",
+      "addr": "Around 16 Dobong-ro 69-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 190,
+      "title": "Suyu Central Alley Market",
+      "addr": "Around 48 Nohae-ro 17-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 191,
+      "title": "Suyu Jungang Market",
+      "addr": "Nohae-ro 17-gil 21, Gangbuk-gu"
+    },
+    {
+      "num": 192,
+      "title": "Suyu Plaza",
+      "addr": "261 Dobong-ro, Gangbuk-gu"
+    },
+    {
+      "num": 193,
+      "title": "Sungin Market",
+      "addr": "Around 45 Dobong-ro, Gangbuk-gu"
+    },
+    {
+      "num": 194,
+      "title": "Eojini Alley Market",
+      "addr": "23 Insu-bong-ro 56-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 195,
+      "title": "Opaesan-ro Alley-type Shopping District",
+      "addr": "Around 25 Opaesan-ro 30-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 196,
+      "title": "Ui Alley Market",
+      "addr": "Around 26 Hancheon-ro 162-gil, Gangbuk-gu, Seoul"
+    },
+    {
+      "num": 197,
+      "title": "Ui Market",
+      "addr": "Around 68 Nohae-ro 23-gil, Gangbuk-gu"
+    },
+    {
+      "num": 198,
+      "title": "Jangmiwon Alley Market",
+      "addr": "Around 9 Samyang-ro 123-gil, Gangbuk-gu"
+    },
+    {
+      "num": 199,
+      "title": "Dobongsan Old Trail Alley-type Shopping District",
+      "addr": "86 Dobong-ro 181-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 200,
+      "title": "Banghak-dong Goblin Market",
+      "addr": "85-7 Dodang-ro, Dobong-gu, Seoul"
+    },
+    {
+      "num": 201,
+      "title": "Baegun Market",
+      "addr": "40 Samyang-ro 154-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 202,
+      "title": "Sin Dobong Market",
+      "addr": "60 Dodang-ro 27-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 203,
+      "title": "Ssangridan-gil Shopping District",
+      "addr": "22 Dobong-ro 114-gil, 19 Dobong-ro 112-gil, 21 Dobong-ro 110na-gil, 27 Dobong-ro 110na-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 204,
+      "title": "Ssangmun Market",
+      "addr": "23 Dobong-ro 113-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 205,
+      "title": "Ssangmun Station Surrounding Shopping District",
+      "addr": "Nohae-ro 60-gil and Dobong-ro 109-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 206,
+      "title": "Oh! Dobong Street Shopping District",
+      "addr": "6 Dobong-ro 156-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 207,
+      "title": "Chang-dong Alley Market",
+      "addr": "17 Deokrung-ro 54ga-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 208,
+      "title": "Chang-dong Sinchang Market",
+      "addr": "18-7 Deokrung-ro 59ma-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 209,
+      "title": "Chang-dong Station Shopping District",
+      "addr": "12 Madeul-ro 11ga-gil, 21 Nohae-ro 69-gil, 71 Madeul-ro 11-gil, Dobong-gu, Seoul"
+    },
+    {
+      "num": 210,
+      "title": "Gongneung Goblin Market",
+      "addr": "53 Dongil-ro 180-gil, Nowon-gu, Seoul"
+    },
+    {
+      "num": 211,
+      "title": "Gongneung Railway Alley-type Shopping District",
+      "addr": "Around 77-21 Dongil-ro 186-gil, Nowon-gu"
+    },
+    {
+      "num": 212,
+      "title": "Sanggye Station Front Complex Shopping Center",
+      "addr": "396 Hangeulbiseok-ro, Nowon-gu, Seoul"
+    },
+    {
+      "num": 213,
+      "title": "Sanggye Jugong Complex 15 Shopping District",
+      "addr": "26 Dongil-ro 227-gil, Nowon-gu, Seoul"
+    },
+    {
+      "num": 214,
+      "title": "Sanggye Jugong Complex 1 Building A Shopping District",
+      "addr": "459-37 Deokrung-ro, Nowon-gu, Seoul"
+    },
+    {
+      "num": 215,
+      "title": "Sanggye Central Market",
+      "addr": "33 Sanggye-ro 23na-gil, Nowon-gu, Seoul"
+    },
+    {
+      "num": 216,
+      "title": "Junggye C&M Shopping Complex",
+      "addr": "34, Dongil-ro 204ga-gil, Nowon-gu, Seoul (C&M Complex Building)"
+    },
+    {
+      "num": 217,
+      "title": "Junggye-dong Siyoung 2 Complex Rainbow Shopping Mall",
+      "addr": "1280, Dongil-ro, Nowon-gu, Seoul (A, B Complex of Junggye Green Apartment)"
+    },
+    {
+      "num": 218,
+      "title": "Junggye-dong Siyoung B Shopping Mall",
+      "addr": "1279, Dongil-ro, Nowon-gu, Seoul (A, B Complex of Junggye Green Apartment)"
+    },
+    {
+      "num": 219,
+      "title": "Daerim Alley Market",
+      "addr": "27-1, Eungam-ro 4-gil, Eunpyeong-gu, Seoul"
+    },
+    { "num": 220, "title": "Daerim Market", "addr": "22, Eungam-ro 4-gil, Eunpyeong-gu, Seoul" },
+    { "num": 221, "title": "Daejo Market", "addr": "8, Bulgwang-ro, Eunpyeong-gu, Seoul" },
+    {
+      "num": 222,
+      "title": "Bulgwang Food Alley Shopping District",
+      "addr": "4-1, Tongil-ro 66-gil, Eunpyeong-gu, Seoul"
+    },
+    {
+      "num": 223,
+      "title": "Bulgwangcheon Walkway Alley Shopping District",
+      "addr": "3, Eungam-ro 9-gil, Eunpyeong-gu, Seoul"
+    },
+    { "num": 224, "title": "Suil Market", "addr": "5-1, Susaek-ro 16-gil, Eunpyeong-gu, Seoul" },
+    {
+      "num": 225,
+      "title": "Shin Eungam Market",
+      "addr": "3-1, Eungam-ro 22-gil, Eunpyeong-gu, Seoul"
+    },
+    {
+      "num": 226,
+      "title": "Yangji Market",
+      "addr": "20~26-3, Eungam-ro 4-gil, Eunpyeong-gu, Seoul"
+    },
+    {
+      "num": 227,
+      "title": "Yeonseo Market",
+      "addr": "850, Bulgwang-dong, 2nd Floor, Eunpyeong-gu, Seoul"
+    },
+    {
+      "num": 228,
+      "title": "Yeonsinnae Shopping District",
+      "addr": "11-12, Yeonseo-ro 29-gil, 2nd Floor, Eunpyeong-gu, Seoul"
+    },
+    { "num": 229, "title": "Eungam Market", "addr": "252, Eungam-ro, Eunpyeong-gu, Seoul" },
+    {
+      "num": 230,
+      "title": "Eungam Five-Way Intersection Shopping District",
+      "addr": "6-15, Eungam-ro 9-gil, Eunpyeong-gu, Seoul"
+    },
+    { "num": 231, "title": "Jeil Market", "addr": "731, Tongil-ro, Eunpyeong-gu, Seoul" },
+    {
+      "num": 232,
+      "title": "Jeungsan General Market",
+      "addr": "12, Jeungsan-ro 3-gil, Eunpyeong-gu, Seoul"
+    },
+    {
+      "num": 233,
+      "title": "Posumal Alley Shopping District",
+      "addr": "4, Eunpyeong-ro 10-gil, Eunpyeong-gu, Seoul"
+    },
+    {
+      "num": 234,
+      "title": "Police Agency Alley Shopping District",
+      "addr": "Around 107-23, Tongil-ro, Seodaemun-gu, Seoul"
+    },
+    {
+      "num": 235,
+      "title": "Nami-dong Shopping District",
+      "addr": "329-7~346-3, Namgajwa-dong, Moraenae-ro, Seodaemun-gu, Seoul"
+    },
+    {
+      "num": 236,
+      "title": "Baekryeon Market",
+      "addr": "53-87, Gajaeul-ro 6-gil, Seodaemun-gu, Seoul"
+    },
+    {
+      "num": 237,
+      "title": "Yeonhui Saregaga",
+      "addr": "23, Yeonhui Mat-ro, Seodaemun-gu, Seoul (Saregaga Shopping Center)"
+    },
+    {
+      "num": 238,
+      "title": "Yeongcheon Market",
+      "addr": "27, Yeongcheon Market-gil, Seodaemun-gu, Seoul"
+    },
+    { "num": 239, "title": "Yujin Shopping Mall", "addr": "484, Tongil-ro, Seodaemun-gu, Seoul" },
+    { "num": 240, "title": "Inwang Market", "addr": "18, Inwang Market-gil, Seodaemun-gu, Seoul" },
+    {
+      "num": 241,
+      "title": "Pobangteo Market",
+      "addr": "46 Pobangteo-gil, Seodaemun-gu, Seoul"
+    },
+    {
+      "num": 242,
+      "title": "Hongje Alley-type Shopping District",
+      "addr": "5 Tongil-ro 40an-gil, Seodaemun-gu, Seoul"
+    },
+    {
+      "num": 243,
+      "title": "Gongdeok Market",
+      "addr": "Building B, 19 Mallijae-ro, Mapo-gu, Seoul"
+    },
+    {
+      "num": 244,
+      "title": "Dohwa-dong Shopping District",
+      "addr": "Dohwa-gil and Saechang-ro 2-gil area, Mapo-gu, Seoul"
+    },
+    {
+      "num": 245,
+      "title": "Dongjin Market",
+      "addr": "198 Seongmisan-ro, Mapo-gu, Seoul"
+    },
+    {
+      "num": 246,
+      "title": "Mapo Agricultural and Marine Products Market",
+      "addr": "235 World Cup-ro, Mapo-gu, Seoul"
+    },
+    {
+      "num": 247,
+      "title": "Mapo Market",
+      "addr": "16 Mapo-daero 6-gil, Building A and C, 23 Mallijae-ro, Mapo-gu, Seoul"
+    },
+    {
+      "num": 248,
+      "title": "Mangwon-dong World Cup Market",
+      "addr": "Mangwon-ro 7-gil area, Mapo-gu, Seoul"
+    },
+    {
+      "num": 249,
+      "title": "Mangwon Market",
+      "addr": "Mangwon-ro 8-gil area, Mapo-gu, Seoul"
+    },
+    {
+      "num": 250,
+      "title": "Bangwollae-gil Alley-type Shopping District",
+      "addr": "53 Bangwollae-ro, Mapo-gu, Seoul (Bangwollae-ro 53~80)"
+    },
+    {
+      "num": 251,
+      "title": "Sangam-dong Shopping District",
+      "addr": "33 World Cup Buk-ro 44-gil, Mapo-gu, Seoul"
+    },
+    {
+      "num": 252,
+      "title": "Seogyo Market",
+      "addr": "20 Hongik-ro 3-gil, Mapo-gu, Seoul"
+    },
+    {
+      "num": 253,
+      "title": "Sinsu Market",
+      "addr": "17 Tojeong-ro 17-gil, Mapo-gu, Seoul"
+    },
+    {
+      "num": 254,
+      "title": "Ahyeon Market",
+      "addr": "Ahyeon Market area, 70 Mapo-daero 21-gil, Mapo-gu, Seoul"
+    },
+    {
+      "num": 255,
+      "title": "Yeonnam-dong Alley-type Shopping District",
+      "addr": "1st Floor, 268 Donggyo-ro, Mapo-gu, Seoul"
+    },
+    {
+      "num": 256,
+      "title": "Youngjin Market",
+      "addr": "21 Donggyo-ro 12-gil, Mapo-gu, Seoul"
+    },
+    {
+      "num": 257,
+      "title": "Yonggang-dong Shopping District",
+      "addr": "Yonggang-dong area, 315 Tojeong-ro, Mapo-gu, Seoul"
+    },
+    {
+      "num": 258,
+      "title": "Hapjeong Market",
+      "addr": "5 Yanghwajin-gil, Mapo-gu, Seoul"
+    },
+    {
+      "num": 259,
+      "title": "Hongdae Walking Street Shopping District",
+      "addr": "Hongdae Walking Street area, 109~155 Eoulmadang-ro, Mapo-gu, Seoul"
+    },
+    {
+      "num": 260,
+      "title": "Hongdae Red Road Alley-type Shopping District",
+      "addr": "8-3 Jandari-ro area, Mapo-gu, Seoul"
+    },
+    {
+      "num": 261,
+      "title": "Hongdae Small Business Shopping District",
+      "addr": "37 Hongik-ro 3-gil, Mapo-gu, Seoul"
+    },
+    {
+      "num": 262,
+      "title": "Gyeongchang Market",
+      "addr": "31 Omok-ro 9-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 263,
+      "title": "Mok 2-dong Market",
+      "addr": "3 Mokdong Jungangbuk-ro 16-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 264,
+      "title": "Mok 3-dong Alley-type Shopping District",
+      "addr": "38 Mokdong Jungangbuk-ro, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 265,
+      "title": "Mokdong Kkaebi Market",
+      "addr": "5 Mokdong Jungangbuk-ro 6-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 266,
+      "title": "Mokdong Rodeo Alley-type Shopping District",
+      "addr": "19, Mokdong-ro 25-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 267,
+      "title": "Moksarang Market",
+      "addr": "8, Mokdongjungangnam-ro 7-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 268,
+      "title": "Seoseoul Alley-type Shopping District",
+      "addr": "15, Gomdallae-ro 13-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 269,
+      "title": "Singok Market Alley-type Shopping District",
+      "addr": "33-2, Nambusunhwan-ro 79-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 270,
+      "title": "Singok General Market",
+      "addr": "5, Sinwol-ro 16-gil, Yangcheon-gu, Seoul"
+    },
+    { "num": 271, "title": "Sinyoung Market", "addr": "161-5, Woljeong-ro, Yangcheon-gu, Seoul" },
+    {
+      "num": 272,
+      "title": "Sinwol 3-dong Market Alley-type Shopping District",
+      "addr": "1-1, Nambusunhwan-ro 40ga-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 273,
+      "title": "Sinwol 6-dong Alley Market",
+      "addr": "7, Sinwol-ro 16-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 274,
+      "title": "Sinwol 7-dong Alley Market",
+      "addr": "3, Jiyang-ro 10-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 275,
+      "title": "Sinjeong 1-dong Alley Market",
+      "addr": "28, Jungang-ro 34-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 276,
+      "title": "Sinjeong Jeil Market",
+      "addr": "30, Jungang-ro 34-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 277,
+      "title": "Omokgyo Central Market",
+      "addr": "45, Sinmok-ro 4-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 278,
+      "title": "Omoknae-gil Alley-type Shopping District",
+      "addr": "41, Sinmok-ro 6-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 279,
+      "title": "Woosung Shopping Center",
+      "addr": "78, Jiyang-ro, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 280,
+      "title": "Woljeong-ro Market",
+      "addr": "3, Woljeong-ro 29-gil, Yangcheon-gu, Seoul"
+    },
+    {
+      "num": 281,
+      "title": "Gangseo-gu Office Food Alley-type Shopping District",
+      "addr": "354-10, Hwagok-ro, Gangseo-gu, Seoul"
+    },
+    { "num": 282, "title": "Gangseo Fisheries Market", "addr": "24, Balsan-ro, Gangseo-gu, Seoul" },
+    {
+      "num": 283,
+      "title": "Gangseo Happy Road Alley-type Shopping District",
+      "addr": "29, Hwagok-ro 31-gil, Gangseo-gu, Seoul"
+    },
+    {
+      "num": 284,
+      "title": "Gonghang-daero Alley-type Shopping District",
+      "addr": "42, Gonghang-daero 61-gil, Gangseo-gu, Seoul"
+    },
+    { "num": 285, "title": "Kkachisan Market", "addr": "14, Gangseo-ro 12-gil, Gangseo-gu, Seoul" },
+    {
+      "num": 286,
+      "title": "Nambu Alley Market",
+      "addr": "62-4, Deungchon-ro 5-gil, Gangseo-gu, Seoul"
+    },
+    {
+      "num": 287,
+      "title": "Bangsin Traditional Market",
+      "addr": "124-1, Banghwa-dong-ro, Gangseo-gu, Seoul"
+    },
+    {
+      "num": 288,
+      "title": "Bongjesan-gil Alley-type Shopping District",
+      "addr": "6, Deungchon-ro 39-gil, Gangseo-gu, Seoul"
+    },
+    {
+      "num": 289,
+      "title": "Songhwa Mural Market",
+      "addr": "Gangseo-ro 45na-gil, Gangseo-gu, Seoul"
+    },
+    {
+      "num": 290,
+      "title": "Hwagokbon-dong Market",
+      "addr": "18, Hwagok-ro 32-gil, Gangseo-gu, Seoul"
+    },
+    {
+      "num": 291,
+      "title": "Hwagok Central Market",
+      "addr": "66, Woljeong-ro 30-gil, Gangseo-gu, Seoul"
+    },
+    { "num": 292, "title": "Garibong Market", "addr": "15, Uma-gil, Guro-gu, Seoul" },
+    {
+      "num": 293,
+      "title": "Gaebong Entrance Alley-type Shopping District",
+      "addr": "14~55, Gyeongin-ro 35-gil, Guro-gu, Seoul"
+    },
+    {
+      "num": 294,
+      "title": "Gaebong Central Alley-type Shopping District",
+      "addr": "7~37, Gaebong-ro 17-gil, Guro-gu, Seoul"
+    },
+    {
+      "num": 295,
+      "title": "Gaebong Central Market",
+      "addr": "34, Gaebong-ro 17-gil, Guro-gu, Seoul"
+    },
+    { "num": 296, "title": "Gaebong Plaza", "addr": "19, Gocheok-ro 40-gil, Guro-gu, Seoul" },
+    {
+      "num": 297,
+      "title": "Gocheok Alley Market Shopping District",
+      "addr": "21, Jungang-ro 10-gil, Guro-gu, Seoul"
+    },
+    {
+      "num": 298,
+      "title": "Gocheok Neighborhood Market",
+      "addr": "98-9, Gyeongin-ro 33-gil, Guro-gu, Seoul"
+    },
+    { "num": 299, "title": "Gocheok Plaza", "addr": "7, Jungang-ro 10-gil, Guro-gu, Seoul" },
+    { "num": 300, "title": "Guro Market", "addr": "20-27, Gurodong-ro 22-gil, Guro-gu, Seoul" },
+    {
+      "num": 301,
+      "title": "Ground Gocheok Alley-type Shopping District",
+      "addr": "6, Gyeongin-ro 47-gil, Guro-gu, Seoul"
+    },
+    { "num": 302, "title": "Namguro Market", "addr": "16-7, Gurodong-ro 28-gil, Guro-gu, Seoul" },
+    {
+      "num": 303,
+      "title": "Oryu Beodeul Market Alley-type Shopping District",
+      "addr": "6, Oryu-ro 8-gil, Guro-gu, Seoul"
+    },
+    { "num": 304, "title": "Oryu Market", "addr": "14-1, Gyeongin-ro 19ga-gil, Guro-gu, Seoul" },
+    {
+      "num": 305,
+      "title": "Daemyung Yeoulbit Street Market",
+      "addr": "70, Siheung-daero 52-gil, Seoul"
+    },
+    {
+      "num": 306,
+      "title": "Doksan-dong Matnaneun Street Shopping District",
+      "addr": "398, Siheung-daero ~ 247, Doksan-ro, Seoul"
+    },
+    { "num": 307, "title": "Doksan-dong Cattle Market", "addr": "1209, Beoman-ro, Seoul" },
+    {
+      "num": 308,
+      "title": "Court Complex Road Shopping District",
+      "addr": "136, Doksan-ro, Geumcheon-gu, Seoul"
+    },
+    {
+      "num": 309,
+      "title": "Starlight Nammun Market",
+      "addr": "17, Siheung-daero 144-gil, Geumcheon-gu, Seoul"
+    },
+    {
+      "num": 310,
+      "title": "Silk Road Hyundai Market",
+      "addr": "7, Doksan-ro 41-gil, Geumcheon-gu, Seoul"
+    },
+    {
+      "num": 311,
+      "title": "Beautiful Byeoljang Street",
+      "addr": "24, Geumha-ro 24-gil, Geumcheon-gu, Seoul"
+    },
+    {
+      "num": 312,
+      "title": "Ginkgo Tree Market",
+      "addr": "1~35, Geumha-ro 25-gil, Geumcheon-gu, Seoul"
+    },
+    {
+      "num": 313,
+      "title": "Jeonghun Hanmaeum Alley Market",
+      "addr": "Doksan-ro 64-gil, 65-gil area, Geumcheon-gu, Seoul"
+    },
+    {
+      "num": 314,
+      "title": "Cheonridan-gil",
+      "addr": "37, Siheung-daero 63-gil, Geumcheon-gu, Seoul"
+    },
+    {
+      "num": 315,
+      "title": "Namseoul Shopping Center",
+      "addr": "11, Yeongjung-ro 14-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 316,
+      "title": "Daerim Central Alley-type Shopping District",
+      "addr": "29, Digital-ro 37-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 317,
+      "title": "Daerim Central Market",
+      "addr": "21, Digital-ro 37na-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 318,
+      "title": "Daeshin Market",
+      "addr": "7, Doshin-ro 60-gil, Yeongdeungpo-gu, Seoul"
+    },
+    { "num": 319, "title": "Dorim Market", "addr": "50, Doyeong-ro, Yeongdeungpo-gu, Seoul" },
+    {
+      "num": 320,
+      "title": "Dongnam Shopping Center",
+      "addr": "4, Yeongdeungpo-ro 37-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 321,
+      "title": "Rotary Shopping Center",
+      "addr": "219, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul"
+    },
+    { "num": 322, "title": "Samgu Market", "addr": "219, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul" },
+    {
+      "num": 323,
+      "title": "Saetgang Duri Alley-type Shopping District",
+      "addr": "1, Doshin-ro 64-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 324,
+      "title": "Seonyudo Station Alley-type Shopping District",
+      "addr": "34, Seonyu-ro 47-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 325,
+      "title": "Seonyuro-un Alley-type Shopping District",
+      "addr": "13, Yangpyeong-ro 22-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 326,
+      "title": "Sindong Market",
+      "addr": "12, Gamasan-ro 69ga-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 327,
+      "title": "Yeongdeungpo Rotary Underground Shopping Center",
+      "addr": "B20, Yeongjung-ro, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 328,
+      "title": "Yeongdeungpo Market Machinery Tools Shopping Center",
+      "addr": "48, Yeongjung-ro 14-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 329,
+      "title": "Yeongdeungpo Market Underground Shopping Center",
+      "addr": "B221, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 330,
+      "title": "Yeongdeungpo Station Underground Shopping Center",
+      "addr": "B843, Gyeongin-ro, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 331,
+      "title": "Yeongdeungpo Distribution Shopping Center",
+      "addr": "109, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 332,
+      "title": "Yeongdeungpo Traditional Market",
+      "addr": "16-1, Yeongdeungpo-ro 45-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 333,
+      "title": "Yeongdeungpo Fruit & Vegetable Market",
+      "addr": "14, Yeongsin-ro 39-gil, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 334,
+      "title": "Yeongsin Shopping Center",
+      "addr": "225, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul"
+    },
+    {
+      "num": 335,
+      "title": "Yeongil Market",
+      "addr": "27, Mullae-ro 30-gil, Yeongdeungpo-gu, Seoul"
+    },
+    { "num": 336, "title": "Uri Market", "addr": "16-1, Dorim-ro 64-gil, Yeongdeungpo-gu, Seoul" },
+    {
+      "num": 337,
+      "title": "Jeil Shopping Center",
+      "addr": "225, Yeongdeungpo-ro, Yeongdeungpo-gu, Seoul"
+    },
+    { "num": 338, "title": "Gangnam Market", "addr": "357, Sangdo-ro, Dongjak-gu, Seoul" },
+    {
+      "num": 339,
+      "title": "Namsung Sagye Market (Namsung Market)",
+      "addr": "129, Dongjak-daero, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 340,
+      "title": "Namsung Station Alley Market",
+      "addr": "19, Sadang-ro 16ga-gil, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 341,
+      "title": "Noryangjin Fisheries Market Alley-type Shopping District",
+      "addr": "674, Nodeul-ro, Dongjak-gu, Seoul (Noryangjin Wholesale Fish Market)"
+    },
+    {
+      "num": 342,
+      "title": "Noryangjin Central Market",
+      "addr": "9, Manyang-ro 16-gil, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 343,
+      "title": "Manyang-ro Shopping District",
+      "addr": "92, Manyang-ro, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 344,
+      "title": "Boramae Daol-gil Alley-type Shopping District",
+      "addr": "5, Yeouidaebang-ro 24ga-gil, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 345,
+      "title": "Bong-dong Injeong Market",
+      "addr": "177, Maebong-ro, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 346,
+      "title": "Sadang 1-dong Food Alley Shopping District",
+      "addr": "14, Dongjak-daero 3-gil, Dongjak-gu, Seoul"
+    },
+    { "num": 347, "title": "Sadang Market", "addr": "244, Sadang-ro, Dongjak-gu, Seoul" },
+    {
+      "num": 348,
+      "title": "Sangdo Goblin Alley-type Shopping District",
+      "addr": "Sangdo-ro 22-gil area, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 349,
+      "title": "Sangdo Yaksu Alley-type Shopping District",
+      "addr": "10, Yangnyeong-ro 26-gil, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 350,
+      "title": "Sangdo Traditional Market",
+      "addr": "62, Sangdo-ro 37-gil area, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 351,
+      "title": "Seongdae Market",
+      "addr": "102, Sangdo-ro, Dongjak-gu, Seoul (Seongdae Building Market)"
+    },
+    {
+      "num": 352,
+      "title": "Seongdae Traditional Market",
+      "addr": "41, Guksabong 1-gil, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 353,
+      "title": "New Noryangjin Market",
+      "addr": "123-6, Jangseungbaegi-ro, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 354,
+      "title": "Sindaebang 1-dong Alley Commercial Zone",
+      "addr": "658, Siheung-daero ~ 54, Sindaebang-gil, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 355,
+      "title": "Isu Miro Alley-type Shopping District",
+      "addr": "5, Dongjak-daero 27ga-gil area, Dongjak-gu, Seoul"
+    },
+    {
+      "num": 356,
+      "title": "Heukseok Market",
+      "addr": "19, Seodallo 12-gil area, Dongjak-gu, Seoul"
+    },
+    { "num": 357, "title": "Gangnam Alley Market", "addr": "15, Jowon-ro 6-gil, Gwanak-gu, Seoul" },
+    {
+      "num": 358,
+      "title": "Gwanak Sinsa Market",
+      "addr": "89, Gwanchon-ro 19-gil, Gwanak-gu, Seoul"
+    },
+    { "num": 359, "title": "Gwanak General Market", "addr": "23, Sinwon-ro, Gwanak-gu, Seoul" },
+    { "num": 360, "title": "Gwanak Jungbu Market", "addr": "222, Gwanak-ro, Gwanak-gu, Seoul" },
+    {
+      "num": 361,
+      "title": "Nanggok Alley-type Shopping District",
+      "addr": "12, Nanggok-ro 24-gil, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 362,
+      "title": "Namhyeon-dong Artist Village Alley-type Shopping District",
+      "addr": "78, Namhyeon 3-gil and surrounding 64 lots, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 363,
+      "title": "Nokdu Alley-type Shopping District",
+      "addr": "20, Sillim-ro 11-gil, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 364,
+      "title": "Nokdu S-Valley Alley-type Shopping District",
+      "addr": "76, Hoam-ro 22-gil, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 365,
+      "title": "Miseong-dong Goblin Market",
+      "addr": "1, Miseong 3-gil, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 366,
+      "title": "Bongridan-gil Alley-type Shopping District",
+      "addr": "56, Janggunbong 1-gil, Gwanak-gu, Seoul"
+    },
+    { "num": 367, "title": "Bongil Market", "addr": "28, Euncheon-ro, Gwanak-gu, Seoul" },
+    {
+      "num": 368,
+      "title": "Bongcheon Moonlight-gil Alley-type Shopping District",
+      "addr": "1739-8, Nambusunhwan-ro and 26 other lots, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 369,
+      "title": "Bongcheon Jeil General Market",
+      "addr": "29, Cheongnyong 2-gil, Gwanak-gu, Seoul"
+    },
+    { "num": 370, "title": "Bongcheon Central Market", "addr": "211, Gwanak-ro, Gwanak-gu, Seoul" },
+    {
+      "num": 371,
+      "title": "Bongcheon Hyundai Market",
+      "addr": "49, Yangnyeong-ro, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 372,
+      "title": "Samseong-dong Market",
+      "addr": "28-1, Wonsin 1-gil, Sillim-dong, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 373,
+      "title": "Seorim Happy Alley-type Shopping District",
+      "addr": "Near 208, Sillim-ro, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 374,
+      "title": "Seowon-dong Shopping District",
+      "addr": "329, Sillim-ro, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 375,
+      "title": "Sillim General Market",
+      "addr": "63, Nambusunhwan-ro 157-gil, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 376,
+      "title": "Sillim Central Market",
+      "addr": "27, Jowon-ro 16-gil, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 377,
+      "title": "Sillim Hyundai General Shopping Mall",
+      "addr": "3-20, Sillim-ro 29-gil, Gwanak-gu, Seoul"
+    },
+    { "num": 378, "title": "Shin Sillim Market", "addr": "34, Wonsin 2-gil, Gwanak-gu, Seoul" },
+    { "num": 379, "title": "Sinwon Market", "addr": "20-3, Sinwon-ro 3-gil, Gwanak-gu, Seoul" },
+    { "num": 380, "title": "Woorim Market", "addr": "19, Nanggok-ro 26-gil, Gwanak-gu, Seoul" },
+    {
+      "num": 381,
+      "title": "Wondang General Market",
+      "addr": "35, Nambusunhwan-ro 248-gil, Gwanak-gu, Seoul"
+    },
+    { "num": 382, "title": "Inheon Market", "addr": "24, Inheon 6-gil, Gwanak-gu, Seoul" },
+    {
+      "num": 383,
+      "title": "Jowon-dong Penguin Market",
+      "addr": "27, Jowon-ro 16-gil, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 384,
+      "title": "Haengundam-gil Alley-type Shopping District",
+      "addr": "16, Nambusunhwan-ro 233-gil, Gwanak-gu, Seoul"
+    },
+    {
+      "num": 385,
+      "title": "Gangnam Terminal Underground Shopping Center (Goto Mall)",
+      "addr": "B200, Sinbanpo-ro, Seocho-gu, Seoul"
+    },
+    {
+      "num": 386,
+      "title": "Express Bus Terminal Station Underground Shopping District (Enter-6 Gangnam)",
+      "addr": "B188, Sinbanpo-ro, Seocho-gu, Seoul"
+    },
+    {
+      "num": 387,
+      "title": "Nambu General Market",
+      "addr": "17, Bangbae Jungang-ro 27-gil, Seocho-gu, Seoul"
+    },
+    {
+      "num": 388,
+      "title": "Maljukgeori Alley-type Shopping District",
+      "addr": "49, Nambusunhwan-ro 356-gil, Seocho-gu, Seoul (Kosa Mart)"
+    },
+    {
+      "num": 389,
+      "title": "Seocho Shopping Alley-type Market",
+      "addr": "90-7, Gomurae-ro, Seocho-gu, Seoul"
+    },
+    {
+      "num": 390,
+      "title": "Yangjae Market",
+      "addr": "15, Nambusunhwan-ro 356-gil, Seocho-gu, Seoul (Yangjae General Market)"
+    },
+    {
+      "num": 391,
+      "title": "Gangnam Gaepo Market",
+      "addr": "Samwoo Building #305, 11, Gaepo-ro 82-gil, Gangnam-gu, Seoul"
+    },
+    { "num": 392, "title": "Gangnam Market", "addr": "357, Sangdo-ro, Dongjak-gu, Seoul" },
+    {
+      "num": 393,
+      "title": "Gangnam Eonju-ro Shopping Center",
+      "addr": "5-4, Eonju-ro 98-gil, Gangnam-gu, Seoul"
+    },
+    {
+      "num": 394,
+      "title": "Gangnam Station Underground Shopping Center",
+      "addr": "B396, Gangnam-daero, Gangnam-gu, Seoul"
+    },
+    {
+      "num": 395,
+      "title": "Nonhyeon General Market",
+      "addr": "33, Bongeunsa-ro 33-gil, Gangnam-gu, Seoul (Approved Redevelopment Area)"
+    },
+    {
+      "num": 396,
+      "title": "Dogok Market",
+      "addr": "#402, Commercial Bldg, 19, Seolleung-ro 69-gil, Gangnam-gu, Seoul"
+    },
+    { "num": 397, "title": "Sinsa Market", "addr": "72-1, Apgujeong-ro 29-gil, Gangnam-gu, Seoul" },
+    {
+      "num": 398,
+      "title": "Yeongdong Traditional Market",
+      "addr": "20, Gangnam-daero 128-gil, Gangnam-gu, Seoul"
+    },
+    {
+      "num": 399,
+      "title": "Eunma Complex Shopping Center",
+      "addr": "212, Samseong-ro, Gangnam-gu, Seoul"
+    },
+    {
+      "num": 400,
+      "title": "Cheongdam Samik Market",
+      "addr": "26, Hakdong-ro 101-gil, Gangnam-gu, Seoul"
+    },
+    {
+      "num": 401,
+      "title": "Garakgol Alley-type Shopping District",
+      "addr": "12-16, Songi-ro 20-gil, Songpa-gu, Seoul"
+    },
+    {
+      "num": 402,
+      "title": "Garak Mall Alley-type Shopping District",
+      "addr": "932, Yangjae-daero, Songpa-gu, Seoul (Sales Bldg)"
+    },
+    {
+      "num": 403,
+      "title": "Macheon Market Management Co., Ltd.",
+      "addr": "23, Macheon-ro 45-gil, Songpa-gu, Seoul"
+    },
+    {
+      "num": 404,
+      "title": "Macheon Central Market",
+      "addr": "16, Macheon-ro 45-gil, Songpa-gu, Seoul (2nd Floor)"
+    },
+    {
+      "num": 405,
+      "title": "Munjeong Rodeo Street Shopping District",
+      "addr": "10, Dongnam-ro 4-gil, Songpa-gu, Seoul"
+    },
+    { "num": 406, "title": "Bangi Market", "addr": "243, Garak-ro, Songpa-gu, Seoul" },
+    {
+      "num": 407,
+      "title": "Saemaeul Market",
+      "addr": "3-9, Seokchonhosu-ro 12-gil, Songpa-gu, Seoul"
+    },
+    { "num": 408, "title": "Seokchon Market", "addr": "52, Songpa-daero 37-gil, Songpa-gu, Seoul" },
+    { "num": 409, "title": "Pungnap Market", "addr": "15-1, Baramdeuri-gil, Songpa-gu, Seoul" },
+    {
+      "num": 410,
+      "title": "Godeok Alley-type Shopping District",
+      "addr": "18, Godeok-ro 83-gil, Gangdong-gu, Seoul"
+    },
+    {
+      "num": 411,
+      "title": "Gobun-dari Traditional Market",
+      "addr": "Gucheonmyeon-ro 34-gil, Gangdong-gu, Seoul"
+    },
+    {
+      "num": 412,
+      "title": "Gildong Bokjori Market",
+      "addr": "37, Cheonjung-ro 52-gil, Gangdong-gu, Seoul"
+    },
+    {
+      "num": 413,
+      "title": "Dunchon Station Traditional Market",
+      "addr": "Pungseong-ro 58-gil & Yangjae-daero 91-gil, Gangdong-gu, Seoul"
+    },
+    {
+      "num": 414,
+      "title": "Myeongil Traditional Market",
+      "addr": "Yangjae-daero 138-gil & Sangam-ro 47-gil, Gangdong-gu, Seoul"
+    },
+    {
+      "num": 415,
+      "title": "Seongnae Traditional Market",
+      "addr": "Cheonho-daero 162-gil, Gangdong-gu, Seoul"
+    },
+    {
+      "num": 416,
+      "title": "Amsa General Market",
+      "addr": "Sangam-ro 11-gil & Godeok-ro 10-gil, Gangdong-gu, Seoul"
+    },
+    { "num": 417, "title": "Jewelry Street", "addr": "83, Seongnae-ro, Gangdong-gu, Seoul" },
+    {
+      "num": 418,
+      "title": "Cheonho Rodeo Street Shopping District",
+      "addr": "40, Cheonho-daero 157-gil, Gangdong-gu, Seoul"
+    }
+  ]
+}
