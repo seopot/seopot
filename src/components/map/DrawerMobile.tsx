@@ -28,18 +28,18 @@ const DrawerMobile = ({ marker, src, open, setOpen }: DrawerMobileProps) => {
           {/* Todo : Image width height 임시 설정 
           width height 설정하거나, fill 속성으로 사용하기 */}
           <Image
-            src={`${src}`}
+            src={src}
             width={128}
             height={128}
             alt={`${marker.title}`}
             className="self-center w-32 h-32 rounded-2xl"
           />
           <div className="flex flex-col justify-center gap-3">
-            <p>주소: {marker.addr}</p>
-            <p>전화번호: {marker.tel_no}</p>
-            <p>운영시간: {marker.operating_time}</p>
-            <p>가격: {marker.entr_fee}</p>
-            <p>홈페이지: {marker.url}</p>
+            {marker.addr && <p>주소: {marker.addr}</p>}
+            {marker.tel_no && <p>전화번호: {marker.tel_no}</p>}
+            {marker.operating_time && <p>운영시간: {marker.operating_time}</p>}
+            {marker.entr_fee && <p>가격: {marker.entr_fee}</p>}
+            {marker.url && <p>홈페이지: {marker.url}</p>}
           </div>
         </div>
         <DrawerFooter>

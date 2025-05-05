@@ -32,6 +32,7 @@ type ViewSpotData = {
   operating_time?: string;
   entr_fee?: string;
   url?: string;
+  src?: string;
 };
 
 type MarkerInfo = {
@@ -49,7 +50,15 @@ const BasicMap = () => {
 
   const tm = useTranslations('map');
 
-  const [selectedMarker, setSelectedMarker] = useState({});
+  const [selectedMarker, setSelectedMarker] = useState<{
+    title?: string;
+    addr?: string;
+    tel_no?: string;
+    operating_time?: string;
+    entr_fee?: string;
+    url?: string;
+    src?: string;
+  }>({});
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const options = [tm('option.night'), tm('option.history'), tm('option.store')];
@@ -169,7 +178,7 @@ const BasicMap = () => {
         <h2 className="sr-only">지도</h2>
 
         <div className="hidden md:block flex-1 min-w-[25vw]">
-          <Card marker={selectedMarker} src={`/images/seoul_logo.svg`} />
+          <Card marker={selectedMarker} src={selectedMarker.src || `/images/seoul_logo.svg`} />
         </div>
         <div className="relative flex-[2] w-full h-full">
           <Map
@@ -213,6 +222,7 @@ const BasicMap = () => {
                       operating_time: item.operating_time || '',
                       entr_fee: item.entr_fee || '',
                       url: item.url || '',
+                      src: item.src || '',
                     });
 
                     if (isMobile) {
@@ -264,7 +274,7 @@ const BasicMap = () => {
       <div className="block md:hidden">
         <DrawerMobile
           marker={selectedMarker}
-          src={`/images/seoul_logo.svg`}
+          src={selectedMarker.src || `/images/seoul_logo.svg`}
           open={isOpen}
           setOpen={setIsOpen}
         />
