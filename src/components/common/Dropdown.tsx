@@ -41,7 +41,7 @@ const Dropdown: React.FC<DropdownProps> = ({
       </button>
 
       {isDropdownOpen && (
-        <ul className="absolute top-full -left-4 mt-1 bg-lightBeige text-navy py-1 w-auto whitespace-nowrap z-30">
+        <ul className="absolute top-full mt-1 bg-lightBeige text-navy py-1 w-auto whitespace-nowrap z-30">
           {options.map(option => (
             <li key={option}>
               <button
