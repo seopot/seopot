@@ -74,7 +74,8 @@
       "subway": "Subway Line 4, Hyehwa Station Exit 4, walk from there",
       "mod_date": 1719477146000,
       "la": "37.579412935392185",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/changyeonggung.png"
     },
     {
       "lo": "127.078770241307",
@@ -112,7 +113,8 @@
       "subway": "Line 1, Jongno 3-ga Station, Exit 6, walk",
       "mod_date": 1733897926000,
       "la": "37.57950279094907",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/changdeokgung.png"
     },
     {
       "lo": "126.928686496763",
@@ -340,7 +342,8 @@
       "subway": "Exit 2 at City Hall Station, Line 1 or 2, and walk",
       "mod_date": 1719477160000,
       "la": "37.5599277853801",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/sym.png"
     },
     {
       "lo": "126.897273034482",
@@ -454,7 +457,8 @@
       "subway": "Gyeongbokgung Station, Line 3, Exit 5, walk",
       "mod_date": 1730353274000,
       "la": "37.5759040910202",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/gyeongbokgung.png"
     },
     {
       "lo": "126.968148438254",
@@ -492,7 +496,8 @@
       "subway": "Seoul Subway Lines 1 and 2, City Hall Station, Exit 2, walk",
       "mod_date": 1733897427000,
       "la": "37.5656250952955",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/deoksugung.png"
     },
     {
       "lo": "126.997949287136",
