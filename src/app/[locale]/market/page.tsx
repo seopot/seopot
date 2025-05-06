@@ -5,7 +5,7 @@ import ItemCard from '@/components/common/ItemCard';
 import Input from '@/components/common/Input';
 import { useSearch } from '@/hooks/useSearch';
 import Modal from '@/components/common/Modal';
-import ModalContent from '@/components/ModalContent';
+import ModalContentMarket from '@/components/ModalContentMarket';
 import SkeletonGrid from '@/components/common/SkeletonGrid';
 import { useTranslations } from 'next-intl';
 import { useParams } from 'next/navigation';
@@ -148,7 +148,7 @@ const Market = () => {
       )}
 
       <Modal isOpen={isModalOpen} onClose={closeModal}>
-        <ModalContent spot={selectedSpot} />
+        <ModalContentMarket spot={selectedSpot} />
       </Modal>
     </div>
   );

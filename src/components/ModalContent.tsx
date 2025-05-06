@@ -10,7 +10,7 @@ import {
 import { SpotData } from '@/types/spotData';
 import { useTranslations } from 'next-intl';
 
-type ModalContentProps = {
+export type ModalContentProps = {
   spot: SpotData | null;
 };
 
