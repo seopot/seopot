@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: '서팟 | Seopot',
   description: '서울의 야경, 유적지, 전통시장을 한눈에! 여행자를 위한 서울 명소 안내 서비스',
   manifest: '/manifest.json',
+  icons: {
+    icon: '/images/seopot_logo.png',
+  },
   openGraph: {
     images: [
       {
