@@ -55,7 +55,7 @@ const Header = () => {
       <div className="w-full h-24 lg:h-0 pt-0 lg:pt-[8%] bg-tile bg-cover drop-shadow-[0px_4px_12px_rgba(248,252,255,0.8)]" />
       <header className="flex flex-row justify-between items-center gap-20 px-4 md:px-8 pb-4 md:pb-8 text-lg md:text-xl">
         <Link href="/" tabIndex={0}>
-          프로젝트 이름
+          서팟
         </Link>
 
         <nav
@@ -95,14 +95,14 @@ const Header = () => {
               }`}
             ></span>
           </Link>
-          <Link href="/menu" className="group relative" tabIndex={0}>
+          {/* <Link href="/menu" className="group relative" tabIndex={0}>
             {tc('menu')}
             <span
               className={`absolute -bottom-1 left-1/2 transform -translate-x-1/2 h-1 bg-blue transition-all duration-300 ${
                 isActive('/menu') ? 'w-full' : 'w-0 group-hover:w-full'
               }`}
             ></span>
-          </Link>
+          </Link> */}
         </nav>
 
         <div className="flex gap-4 text-sm md:text-base">
@@ -198,7 +198,7 @@ const Header = () => {
                     >
                       {tc('historicSite')}
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/menu"
                       className={`${
                         isActive('/menu')
@@ -209,7 +209,7 @@ const Header = () => {
                       onClick={handleLinkClick}
                     >
                       {tc('menu')}
-                    </Link>
+                    </Link> */}
                   </nav>
                 </div>
                 <div className="w-full p-4 sm:p-5 bg-brown">
