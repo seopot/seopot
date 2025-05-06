@@ -1,23 +1,21 @@
 {
-  "name": "Seoul My Soul",
-  "short_name": "Seoul My Soul",
-  "description": "서울의 야경명소, 전통시장, 유적지를 소개하는 웹 앱입니다.",
+  "name": "서팟 | Seopot",
+  "short_name": "서팟",
+  "description": "서울의 야경, 유적지, 전통시장을 한눈에! 여행자를 위한 서울 명소 안내 서비스",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "background_color": "#fefaf1",
+  "theme_color": "#fefaf1",
   "icons": [
     {
-      "src": "/images/seoul_logo.png",
+      "src": "/images/seopot_logo.jpg",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
-      "src": "/images/seoul_logo.png",
+      "src": "/images/seopot_logo.jpg",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     }
   ]
 }
