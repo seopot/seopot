@@ -9,6 +9,7 @@ import LanguageDropdown from '../LanguageDropdown';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,7 +56,10 @@ const Header = () => {
       <div className="w-full h-24 lg:h-0 pt-0 lg:pt-[8%] bg-tile bg-cover drop-shadow-[0px_4px_12px_rgba(248,252,255,0.8)]" />
       <header className="flex flex-row justify-between items-center gap-20 px-4 md:px-8 pb-4 md:pb-8 text-lg md:text-xl">
         <Link href="/" tabIndex={0}>
-          서팟
+          <div className="flex justify-center items-center gap-1">
+            <Image src="/images/seopot.png" alt="서팟" width={25} height={25} />
+            서팟
+          </div>
         </Link>
 
         <nav
