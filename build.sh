@@ -1,5 +1,5 @@
 #!/bin/sh
 cd ../
 mkdir output
-cp -R ./seoul-my-soul/* ./output
-cp -R ./output ./seoul-my-soul/
+cp -R ./seopot/* ./output
+cp -R ./output ./seopot/
