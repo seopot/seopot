@@ -1,13 +1,21 @@
 import useOutsideClick from '@/hooks/useOutsideClick';
+import clsx from 'clsx';
+import { Globe } from 'lucide-react';
 import { useState } from 'react';
 
 type DropdownProps = {
   options: string[];
   defaultOption?: string;
   onSelect?: (option: string) => void;
+  variant?: 'default' | 'language';
 };
 
-const Dropdown: React.FC<DropdownProps> = ({ options, defaultOption, onSelect }) => {
+const Dropdown: React.FC<DropdownProps> = ({
+  options,
+  defaultOption,
+  onSelect,
+  variant = 'default',
+}) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState<boolean>(false);
   const [selectedOption, setSelectedOption] = useState(defaultOption || options[0]);
 
@@ -23,13 +31,17 @@ const Dropdown: React.FC<DropdownProps> = ({ options, defaultOption, onSelect })
     <article className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsDropdownOpen(!isDropdownOpen)}
-        className="flex items-center gap-2 w-[4.5rem] justify-center"
+        className={clsx(
+          'flex items-center  gap-2',
+          variant === 'default' ? 'justify-center px-2' : 'w-[6rem] justify-start',
+        )}
       >
-        <span className="truncate">{selectedOption}</span>
+        {variant === 'language' && <Globe />}
+        <span className="flex justify-center items-center">{selectedOption}</span>
       </button>
 
       {isDropdownOpen && (
-        <ul className="absolute top-full -left-4 lg:-left-8 mt-1 bg-lightBeige text-navy py-1 w-[6rem] z-30">
+        <ul className="absolute top-full mt-1 bg-lightBeige text-navy py-1 w-auto whitespace-nowrap z-30">
           {options.map(option => (
             <li key={option}>
               <button

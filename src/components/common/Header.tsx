@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { Globe, Menu, ChevronRight, Sun, Moon } from 'lucide-react';
+import { Menu, ChevronRight, Sun, Moon } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import CornerPattern from './CornerPattern';
 import useOutsideClick from '@/hooks/useOutsideClick';
@@ -15,6 +15,13 @@ const Header = () => {
   const [isMounted, setIsMounted] = useState(false);
   const pathname = usePathname();
   const { theme, setTheme } = useTheme();
+
+  const [locale, setLocale] = useState('ko');
+
+  useEffect(() => {
+    const stored = localStorage.getItem('language') || 'ko';
+    setLocale(stored);
+  }, []);
 
   const tc = useTranslations('common.header');
 
@@ -51,7 +58,11 @@ const Header = () => {
           프로젝트 이름
         </Link>
 
-        <nav className="hidden lg:flex flex-row gap-16 text-lg">
+        <nav
+          className={`hidden ${locale === 'en' ? 'xl:flex' : 'lg:flex'} flex-row gap-16 ${
+            locale === 'en' ? 'text-base' : 'text-lg'
+          }`}
+        >
           <Link href="/map" className="group relative" tabIndex={0}>
             {tc('map')}
             <span
@@ -105,13 +116,14 @@ const Header = () => {
             </button>
           )}
           <div className="flex items-center gap-2" tabIndex={0}>
-            <Globe />
             <LanguageDropdown />
           </div>
           <button
             tabIndex={0}
             onClick={handleOpenMenu}
-            className="lg:hidden flex items-center justify-center"
+            className={`${
+              locale === 'en' ? 'xl:hidden' : 'lg:hidden'
+            } flex items-center justify-center`}
           >
             <Menu />
           </button>
@@ -119,10 +131,16 @@ const Header = () => {
 
         {isMenuOpen && (
           <>
-            <div className="lg:hidden fixed top-0 left-0 w-screen h-screen bg-black opacity-20 z-40" />
+            <div
+              className={`${
+                locale === 'en' ? 'xl:hidden' : 'lg:hidden'
+              } fixed top-0 left-0 w-screen h-screen bg-black opacity-20 z-40`}
+            />
             <div
               ref={menuRef}
-              className="fixed top-0 right-0 w-[80%] max-w-96 h-full p-8 border-2 border-darkerBrown bg-darkBrown transform lg:hidden z-50"
+              className={`fixed top-0 right-0 w-[80%] max-w-96 h-full p-8 border-2 border-darkerBrown bg-darkBrown transform ${
+                locale === 'en' ? 'xl:hidden' : 'lg:hidden'
+              } z-50`}
             >
               <button tabIndex={0} onClick={handleCloseMenu} className="absolute top-1/2 left-0 ">
                 <ChevronRight className="w-8 h-8 text-navy" />
