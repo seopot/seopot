@@ -27,9 +27,9 @@
 ---
 
 ## 주요 기능
-| 지도 | 관광지 찾기 |
-| :------: | :------: |
-| <img src="https://github.com/user-attachments/assets/1a4806f4-4e63-4f8b-a21e-9f94d80b19d2" height=400 width=500/> | <img src="https://github.com/user-attachments/assets/4251d91f-872b-41d7-bd26-14aedafe3375" height=400 width=500/> |
+| 지도 | 관광지 찾기 | 다국어 지원 | 테마 설정 | PWA 지원 |
+| :------: | :------: | :------: | :------: | :------: |
+| <img src="https://github.com/user-attachments/assets/1a4806f4-4e63-4f8b-a21e-9f94d80b19d2" height=400 width=500/> | <img src="https://github.com/user-attachments/assets/4251d91f-872b-41d7-bd26-14aedafe3375" height=400 width=500/> | | | |
 
 
 
