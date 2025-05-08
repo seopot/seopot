@@ -17,7 +17,8 @@
       "subway": "Subway Line 4, Hoehyeon Station Exit 3, walk from there",
       "mod_date": 1719215999000,
       "la": "37.5511225714939",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/namsan.jpeg"
     },
     {
       "lo": "127.006677513121",
@@ -36,7 +37,8 @@
       "subway": "Subway Line 3, Dongguk Univ. Station Exit 5 (direct access to gymnasium)",
       "mod_date": 1733897502000,
       "la": "37.5586406607183",
-      "parking_info": "Use the north-side parking lot of the gymnasium  * No general parking available during events"
+      "parking_info": "Use the north-side parking lot of the gymnasium  * No general parking available during events",
+      "src": "/images/jangchung.webp"
     },
     {
       "lo": "126.958588093172",
@@ -55,7 +57,8 @@
       "subway": "Line 9 Nodeul Station Exit 3, 20 minutes on foot",
       "mod_date": 1733897575000,
       "la": "37.5118003827004",
-      "parking_info": "5-minute walk from Yongyangbongjeojeong Park Parking Lot"
+      "parking_info": "5-minute walk from Yongyangbongjeojeong Park Parking Lot",
+      "src": "/images/yongyang.jpeg"
     },
     {
       "lo": "126.99522255388881",
@@ -94,7 +97,8 @@
       "subway": "Line 7, Children's Grand Park Station, Exit 1",
       "mod_date": 1733897722000,
       "la": "37.5520117940291",
-      "parking_info": "Operating hours: 05:00 - 22:00"
+      "parking_info": "Operating hours: 05:00 - 22:00",
+      "src": "/images/sangsang.png"
     },
     {
       "lo": "126.99103378705136",
@@ -133,7 +137,8 @@
       "subway": "Line 5, Yeouinaru Station, Exit 1 or 2, walk",
       "mod_date": 1719378483000,
       "la": "37.5312466908117",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/mulbik.jpeg"
     },
     {
       "lo": "127.065983191885",
@@ -152,7 +157,8 @@
       "subway": "Line 2, Jayan (Ttukseom Han River Park) Station, Exit 3",
       "mod_date": 1719477120000,
       "la": "37.5308773153076",
-      "parking_info": "Ttukseom Han River Park Parking Lot"
+      "parking_info": "Ttukseom Han River Park Parking Lot",
+      "src": "/images/ttuksum.jpeg"
     },
     {
       "lo": "126.97871950992457",
@@ -171,7 +177,8 @@
       "subway": "From Subway Line 5, Gwanghwamun Station, Exit 5, walk about 60 meters / From Subway Line 1 or 2, City Hall Station, Exit 4, walk about 300 meters",
       "mod_date": 1719879545000,
       "la": "37.56915554121704",
-      "parking_info": "There is no dedicated parking lot at Cheonggye Plaza. Please use public transportation or nearby parking lots."
+      "parking_info": "There is no dedicated parking lot at Cheonggye Plaza. Please use public transportation or nearby parking lots.",
+      "src": "/images/cunggue.jpeg"
     },
     {
       "lo": "127.03489368057885",
@@ -190,7 +197,8 @@
       "subway": "(North side) Subway Line 2, Ttukseom Station, Exit 8, walk / (South side) Subway Line 3, Apgujeong Station, Exit 1, walk",
       "mod_date": 1719477077000,
       "la": "37.53617802719353",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/sungsu.jpeg"
     },
     {
       "lo": "126.935734355376",
@@ -209,7 +217,8 @@
       "subway": "(North side) Subway Line 5, Mapo Station, Exits 1, 4, 15-minute walk / (South side) Subway Line 5, Yeouinaru Station, Exit 2, 17-minute walk",
       "mod_date": 1733898539000,
       "la": "37.5324287051867",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/mapo.jpeg"
     },
     {
       "lo": "126.88981563725",
@@ -228,7 +237,8 @@
       "subway": "Subway Line 6, Mapo-gu Office Station, Exits 7 and 6, then walk",
       "mod_date": 1733898665000,
       "la": "37.5599345342961",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/nangi.jpeg"
     },
     {
       "lo": "126.970850893942",
@@ -247,7 +257,8 @@
       "subway": "Line 4, Gyeongui-Jungang Line Ichon Station, Exit 4, 500m walk",
       "mod_date": 1733898689000,
       "la": "37.517820588578",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/ichun.jpeg"
     },
     {
       "lo": "126.98043243063",
@@ -266,7 +277,8 @@
       "subway": "Line 4, Myeongdong Station, Exit 4, walk",
       "mod_date": 1733898815000,
       "la": "37.5550484830696",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/backbum.jpeg"
     },
     {
       "lo": "126.949411135441",
@@ -285,7 +297,8 @@
       "subway": "Line 1, Noryangjin Station, Exit 2, 10-minute walk / Line 9, Nodeul Station, Exit 1, 10-minute walk",
       "mod_date": 1719381613000,
       "la": "37.5134579901091",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/sauk.jpeg"
     },
     {
       "lo": "126.884431803276",
@@ -304,7 +317,8 @@
       "subway": "(North side) Exit 2, 3 at World Cup Stadium Station, Line 6, walk / (South side) Exit 1 at Sinmokdong Station, Line 9, Exit 2 at Yeomchang Station, walk",
       "mod_date": 1733898868000,
       "la": "37.5573505544798",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/worldcup.jpeg"
     },
     {
       "lo": "126.895031420115",
@@ -323,7 +337,8 @@
       "subway": "Exit 2 and 3 at World Cup Stadium Station, Line 6, walk 10 minutes",
       "mod_date": 1730197178000,
       "la": "37.5703466887615",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/bichuk.jpeg"
     },
     {
       "lo": "126.975359779271",
@@ -362,7 +377,8 @@
       "subway": null,
       "mod_date": 1730353177000,
       "la": "37.5682884450841",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/worldcup2.jpeg"
     },
     {
       "lo": "126.958036465507",
@@ -381,7 +397,8 @@
       "subway": "Exit 1 at Yongsan Station (Line 1) or Exit 3 at Sinyongsan Station (Line 4), take a bus to Nodeul Island. Walk 700m from Exit 2 at Nodeul Station (Line 9) towards Han River Bridge.",
       "mod_date": 1719798613000,
       "la": "37.5176638307111",
-      "parking_info": "Paid parking (69 spots on the west side, 21 on the east side). Parking inquiries: 02-2105-2415. Public transportation is recommended due to limited parking."
+      "parking_info": "Paid parking (69 spots on the west side, 21 on the east side). Parking inquiries: 02-2105-2415. Public transportation is recommended due to limited parking.",
+      "src": "/images/nodle.jpeg"
     },
     {
       "lo": "126.976787992565",
@@ -400,7 +417,8 @@
       "subway": "Walk from Exit 7 of Gwanghwamun Station, Line 5",
       "mod_date": 1733898939000,
       "la": "37.5716228232824",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/gwanghwa.jpeg"
     },
     {
       "lo": "126.886318397942",
@@ -419,7 +437,8 @@
       "subway": "2 km walk from Exit 1 of World Cup Stadium Station (Line 6)",
       "mod_date": 1733897374000,
       "la": "37.5690794796181",
-      "parking_info": "Operating hours 09:00 - 22:00 (free entry after hours)"
+      "parking_info": "Operating hours 09:00 - 22:00 (free entry after hours)",
+      "src": "/images/hanel.jpeg"
     },
     {
       "lo": "127.00984769474137",
@@ -438,7 +457,8 @@
       "subway": "Dongdaemun History & Culture Park Station, Exit 1, 2",
       "mod_date": 1719379510000,
       "la": "37.56769968798189",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/ddp.jpeg"
     },
     {
       "lo": "126.976842133821",
@@ -477,7 +497,8 @@
       "subway": null,
       "mod_date": 1744875415000,
       "la": "37.5566331857979",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/seoulMedia.jpeg"
     },
     {
       "lo": "126.97469099468877",
@@ -516,7 +537,8 @@
       "subway": "Subway Line 3, 7, 9 - Express Bus Terminal Station, Exit 8-1, 8-2, walk to the destination",
       "mod_date": 1733897469000,
       "la": "37.5145518124606",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/banpo.jpeg"
     },
     {
       "lo": "127.078770241307",
@@ -535,7 +557,8 @@
       "subway": "Line 5 Achasan Station Exit 4, Line 7 Children's Grand Park Station Exit 1",
       "mod_date": 1733897539000,
       "la": "37.5520117940291",
-      "parking_info": "Operating hours: 5:00 AM - 10:00 PM"
+      "parking_info": "Operating hours: 5:00 AM - 10:00 PM",
+      "src": "/images/palgakdang.jpeg"
     },
     {
       "lo": "127.105516076607",
@@ -554,7 +577,8 @@
       "subway": "(North) 21-minute walk from Gangbyeon Station Exit 1 / (South) 37-minute walk from Gangdong-gu Office Station Exit 4",
       "mod_date": 1733897605000,
       "la": "37.535968547207",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/oylempic.jpeg"
     },
     {
       "lo": "126.995962256954",
@@ -573,7 +597,8 @@
       "subway": "Walk from Exit 8-1 of Subway Lines 3, 7, and 9",
       "mod_date": 1733897634000,
       "la": "37.5124362037118",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/sevite.jpeg"
     },
     {
       "lo": "126.893953718935",
@@ -592,7 +617,8 @@
       "subway": "Get on the Mapo 09 bus at the bus stop in front of Exit 1 of Mangwon Station (Line 6), get off at 'Hangang Park Entrance' bus stop, then walk for 7 minutes",
       "mod_date": 1733897674000,
       "la": "37.5557880616618",
-      "parking_info": "Operating hours 06:00 AM - 12:00 AM (Paid parking), Inquiries 070-7778-6678"
+      "parking_info": "Operating hours 06:00 AM - 12:00 AM (Paid parking), Inquiries 070-7778-6678",
+      "src": "/images/seoulham.jpeg"
     },
     {
       "lo": "127.008253028696",
@@ -611,7 +637,8 @@
       "subway": "10-minute walk from Exit 2 of Hyehwa Station (Line 4)",
       "mod_date": 1743559852000,
       "la": "37.579840084989",
-      "parking_info": "Open year-round (26 general parking spaces, 1 for disabled)"
+      "parking_info": "Open year-round (26 general parking spaces, 1 for disabled)",
+      "src": "/images/naksan.jpeg"
     },
     {
       "lo": "126.976168275947",
@@ -630,7 +657,8 @@
       "subway": "10-minute walk from Exit 7 of Gwanghwamun Station (Line 5)",
       "mod_date": 1744262204000,
       "la": "37.5718478584908",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/attelea.jpeg"
     },
     {
       "lo": "126.90710358297696",
@@ -649,7 +677,8 @@
       "subway": "(North end) 30-minute walk from Exit 7 of Hapjeong Station (Line 2), (South end) 10-minute walk from Exit 4 of Dangsan Station (Lines 2, 9)",
       "mod_date": 1719378693000,
       "la": "37.54021916440686",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/dangsan.jpg"
     },
     {
       "lo": "126.976168275947",
@@ -668,7 +697,8 @@
       "subway": "3-minute walk from Exit 1 and 8 of Gwanghwamun Station (Line 5)",
       "mod_date": 1733897811000,
       "la": "37.5718478584908",
-      "parking_info": "Sejongno Parking Lot"
+      "parking_info": "Sejongno Parking Lot",
+      "src": "/images/sejong.jpeg"
     },
     {
       "lo": "126.962182447512",
@@ -687,7 +717,8 @@
       "subway": "(North side) 15-minute walk from Exit 2 and 3 of Sin-Yongsan Station (Line 4) / (South side) 10-minute walk from Exit 2 and 3 of Nodeul Station (Line 9)",
       "mod_date": 1733897841000,
       "la": "37.5276608637794",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/hangang.jpeg"
     },
     {
       "lo": "126.98138294783693",
@@ -706,7 +737,8 @@
       "subway": "(North side) 20 minutes walk from Ichon Station, Subway Line 4, Exit 3-1 / (South side) 10 minutes walk from Dongjak Station, Subway Line 4, Exit 2",
       "mod_date": 1733897869000,
       "la": "37.51007066016623",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/dongjak.jpeg"
     },
     {
       "lo": "126.973699316136",
@@ -725,7 +757,8 @@
       "subway": "5 minutes walk from City Hall Station, Subway Line 1, 2, Exits 1, 10, 11, 12",
       "mod_date": 1733898724000,
       "la": "37.5641060692766",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/seoulart.jpeg"
     },
     {
       "lo": "126.83284283132",
@@ -744,7 +777,8 @@
       "subway": "10-minute walk from Yangcheonhyangyo Station (Subway Line 9) Exit 8 / Magoknaroo Station (Subway Line 9, Airport Railroad) Exits 3, 4 for Open Forest",
       "mod_date": 1744280752000,
       "la": "37.5722444079878",
-      "parking_info": "Operating hours: 08:00 - 22:00 (Free access after operating hours)"
+      "parking_info": "Operating hours: 08:00 - 22:00 (Free access after operating hours)",
+      "src": "/images/flower.jpeg"
     },
     {
       "lo": "126.97602682975977",
@@ -763,7 +797,8 @@
       "subway": "5-minute walk from City Hall Station (Subway Line 1, 2) Exit 2",
       "mod_date": 1742893677000,
       "la": "37.564976656898445",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/rock.jpeg"
     },
     {
       "lo": "127.112687934633",
@@ -782,7 +817,8 @@
       "subway": "15-minute walk from Gwangnaru Station (Subway Line 5), 15-minute walk from Cheonho Station (Subway Line 5)",
       "mod_date": 1733898316000,
       "la": "37.5451462595072",
-      "parking_info": null
+      "parking_info": null,
+      "src": "/images/gwangjingu.jpeg"
     },
     {
       "lo": "126.867088741096",
