@@ -17,10 +17,10 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: '/images/seoul_logo.png',
+        url: '/images/preview.png',
         width: 1200,
         height: 630,
-        alt: '홈페이지 오픈그래프 이미지',
+        alt: '서팟 이미지',
       },
     ],
     type: 'website',
