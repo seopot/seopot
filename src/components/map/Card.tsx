@@ -21,9 +21,11 @@ const Card = ({ marker, src }: { marker: Marker; src: string }) => {
       />
 
       <div className="flex flex-col gap-6">
-        <p>
-          {t('card.addr')}: {marker.addr}
-        </p>
+        {marker.tel_no && (
+          <p>
+            {t('card.addr')}: {marker.addr}
+          </p>
+        )}
         {marker.tel_no && (
           <p>
             {t('card.tel_no')}: {marker.tel_no}
@@ -47,6 +49,7 @@ const Card = ({ marker, src }: { marker: Marker; src: string }) => {
             </a>
           </p>
         )}
+        {marker.content && <p>{marker.content}</p>}
       </div>
     </div>
   );

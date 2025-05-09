@@ -1,4 +1,5 @@
 export type Marker = {
+  content?: string;
   title?: string;
   addr?: string;
   tel_no?: string;

@@ -33,6 +33,7 @@ type ViewSpotData = {
   entr_fee?: string;
   url?: string;
   src?: string;
+  content?: string;
 };
 
 type MarkerInfo = {
@@ -58,6 +59,7 @@ const BasicMap = () => {
     entr_fee?: string;
     url?: string;
     src?: string;
+    content?: string;
   }>({});
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -223,6 +225,7 @@ const BasicMap = () => {
                       entr_fee: item.entr_fee || '',
                       url: item.url || '',
                       src: item.src || '',
+                      content: item.content || '',
                     });
 
                     if (isMobile) {
